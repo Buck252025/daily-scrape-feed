@@ -1,17 +1,17 @@
 # Daily Scrape — July 12, 2026
 
 ## Top Story
-OpenAI's GPT-5.6 rollout exposed a critical product/UX gap—the new model stratification (Luna/Terra/Sol with Max/Ultra effort levels) created 30+ configuration combinations that confused users, burned through credits faster than expected, and forced OpenAI into public course-corrections including multiple usage resets and a commitment to restore familiar navigation. For AI integration consultants, this signals that raw model capability doesn't win adoption; UX clarity and transparent pricing tiers do—and your clients' end-users will revolt if you deploy models with buried cost complexity.
+OpenAI's GPT-5.6 rollout exposed a critical lesson in AI product strategy: overwhelming users with 30+ configuration options and confusing UX caused usage burndown and immediate public backlash, forcing OpenAI to course-correct with multiple resets and navigation overhauls. For consultants selling AI adoption, this signals that model capability alone doesn't drive adoption—simplicity and clear mental models do, and your clients will abandon tools that require engineering-level decisions just to run a prompt.
 
 ## What People Are Saying
-- OpenAI staff acknowledged that 5.5→5.6 effort settings are "not directly comparable," yet shipping without an "Auto" routing option left power users confused and defaulting to overly expensive configurations—this is the exact friction point SMB owners will hit when rolling out AI to their teams.
-- Per AINews, GPT-5.6 shows uneven real-world token efficiency despite strong benchmark gains (tied for #1 in Code Arena Frontend but ~2× cheaper on listed pricing than Claude Fable 5), meaning benchmarks won't match your actual deployment costs—a critical selling point gap.
-- Hacker News engagement on "Stop Telling Me to Ask an LLM" (186 points, 108 comments) and "AI Boosts Research Careers but Flattens Scientific Discovery" (103 points, 79 comments) reveals growing skepticism about AI-as-solution-to-everything; your positioning needs to address when NOT to use LLMs, not just when to.
+- The AI community is split on GPT-5.6's Luna/Terra/Sol stratification and Max/Ultra effort levels: users praise the control but are frustrated by configuration complexity and the absence of an "Auto" routing option (per @rasbt and @Yuchenj_UW on X), with practical guidance converging around "start lower than you did on 5.5" because effort settings aren't directly comparable to 5.5.
+- Hacker News shows growing skepticism about the "ask an LLM" mantra (187 points, 108 comments on "Stop Telling Me to Ask an LLM"), and simultaneous concern that AI is flattening scientific discovery rather than broadening it (104 points, 84 comments on the IEEE piece)—signaling that your buyer audience is moving past novelty and asking harder questions about ROI and unintended consequences.
+- Claude Code's new /checkup feature (@boris_cherny, Threads) is quietly solving a real builder pain point—context bloat and configuration debt—suggesting that the winning AI tools will be those that manage complexity *for* users rather than delegating it to them.
 
 ## Updates
-- GPT-5.6 introduced explicit model/compute ladders (Luna/Terra/Sol + Max/Ultra modes) designed to give users finer control but shipped with confusing defaults and missing guidance, forcing OpenAI to reset usage limits and commit to UI/navigation fixes.
-- OpenAI split ChatGPT into Work / Codex variants, which community feedback flagged as confusing positioning; chats and projects became harder to find, signaling that product fragmentation creates support friction for consultants integrating these tools into client workflows.
-- No major new LLM releases or benchmark announcements in this window (per AINews: "a quiet day"), but negative sentiment is consolidating around instruction-following issues and jailbreakability concerns in GPT-5.6.
+- GPT-5.6 launched with model stratification (Luna/Terra/Sol) and dual effort modes (Max/Ultra for agentic workflows), but UX regressions (confusing Work/Codex split, buried chats/projects) triggered immediate user complaints and OpenAI's rare public course-correction with multiple usage-limit resets and roadmap commitments to restore familiar navigation.
+- Claude Code introduced /checkup command to auto-clean unused skills, dedup local configs, break up monolithic CLAUDE.md files, and pre-approve read-only commands—directly addressing context window bloat and configuration debt for power users.
+- No major headline announcements; per AINews, 7/09-7/10 was "a quiet day" across 544 Twitter accounts and 12 subreddits, with the signal dominated by internal product iteration and community-driven course-correction rather than new launches.
 
 ## From the Wire
 **not much happened today** — [read the full issue at news.smol.ai](https://news.smol.ai/issues/26-07-10-not-much/)
@@ -22,9 +22,30 @@ _Curated by AINews, which monitors 500+ X accounts and the major AI subreddits. 
 
 ## Hacker News Today
 - [Mesh LLM: distributed AI computing on iroh](https://www.iroh.computer/blog/mesh-llm) — 323 pts &middot; [74 comments](https://news.ycombinator.com/item?id=48876505)
-- [Stop Telling Me to Ask an LLM](https://blog.yaelwrites.com/stop-telling-me-to-ask-an-llm/) — 186 pts &middot; [108 comments](https://news.ycombinator.com/item?id=48876441)
-- [AI Boosts Research Careers but Flattens Scientific Discovery](https://spectrum.ieee.org/ai-science-research-flattens-discovery) — 103 pts &middot; [79 comments](https://news.ycombinator.com/item?id=48881043)
+- [Stop Telling Me to Ask an LLM](https://blog.yaelwrites.com/stop-telling-me-to-ask-an-llm/) — 187 pts &middot; [108 comments](https://news.ycombinator.com/item?id=48876441)
+- [AI Boosts Research Careers but Flattens Scientific Discovery](https://spectrum.ieee.org/ai-science-research-flattens-discovery) — 104 pts &middot; [84 comments](https://news.ycombinator.com/item?id=48881043)
 - [I used to love Claude, but the latest models are slowly ruining it](https://www.androidauthority.com/claude-latest-models-pushback-bad-3683521/) — 48 pts &middot; [61 comments](https://news.ycombinator.com/item?id=48875494)
+
+## On Threads
+**@boris_cherny** — Jul 8
+
+> New in Claude Code: /checkup
+> 
+> Run /checkup to:
+> 
+> 1. Clean up unused skills/MCPs/plugins and save context
+> 2. Dedup your local CLAUDE.md against the checked in CLAUDE.md
+> 3. Break up root CLAUDE.md into nested CLAUDE.md's + skills
+> 4. Turn off slow hooks
+> 5. Update your Claude Code to the latest version
+> 6. Enable auto mode by default
+> 7. Pre-approve frequently denied read-only commands
+> 
+> .. And a few other goodies.
+> 
+> /checkup confirms with you before making any changes. Enjoy!
+
+[View on Threads](https://www.threads.com/@boris_cherny/post/DajNgi_EXbe)
 
 ## New YouTube Videos
 - [Dan Martell] "Husband's Emotional Tribute to His Wife" — posted 3h ago
@@ -94,4 +115,4 @@ _No Reddit data collected._
 _No Twitter data collected._
 
 ---
-*Daily Scrape — 2026-07-12T18:18:57.131Z*
+*Daily Scrape — 2026-07-12T18:28:54.189Z*
