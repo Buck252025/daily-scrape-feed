@@ -1,22 +1,26 @@
 # Daily Scrape — July 12, 2026
 
 ## Top Story
-The AI productivity debate is inverting: while founders obsess over whether LLMs can replace human thinking, developers and researchers are quietly rejecting the "ask an LLM" default. Hacker News's second-hottest AI story right now is "Stop Telling Me to Ask an LLM" (188 points, 108 comments), signaling a market correction where consultants and SMB owners need to position AI as a *augmentation tool for specific workflows*, not a universal solution—this directly impacts how you sell AI integration services.
+Claude Code's token efficiency is becoming a competitive differentiator—and a red flag for cost-conscious teams. Anthropic's tool is burning 33k tokens before even reading your prompt, while competitors like OpenCode use just 7k, sparking serious debate on Hacker News about whether convenience is worth 4-5x infrastructure costs. For SMB consultants selling AI automation, this is the first real "hidden cost" conversation you need to have with clients evaluating coding agents.
 
 ## What People Are Saying
-- Developers are pushing back on over-delegation to LLMs: "Stop Telling Me to Ask an LLM" is generating more comments (108) than points (188), indicating heated discussion among practitioners who've discovered LLMs create false confidence without solving core problems.
-- Distributed AI infrastructure (not just LLM APIs) is gaining serious traction: "Mesh LLM: distributed AI computing on iroh" led Hacker News today with 324 points, suggesting enterprises and builders are moving beyond centralized cloud LLM dependency toward edge/mesh architectures.
-- The Claude rollout is fragmenting developer loyalty: Pushback on latest Claude models (48 points, 61 comments with disproportionate engagement) reveals version control and vendor lock-in anxiety—buyers want guarantees that AI tool upgrades won't degrade their workflows.
+- Token overhead is the new TCO battleground: "Claude Code sends 33k tokens before reading the prompt; OpenCode sends 7k" hit 112 HN points with 56 comments—engineers are doing the math on what AI agents actually *cost* to run, not just their subscription price.
+- Sentiment is shifting from Claude enthusiasm to skepticism: "I used to love Claude, but the latest models are slowly ruining it" and "I love LLMs, I hate hype" both rank in the top tier of engagement, signaling that early adopter fatigue with Claude's direction is real and visible.
+- The "ask an LLM" reflex is being challenged: "Stop Telling Me to Ask an LLM" (188 points, 108 comments) suggests pushback against treating LLMs as universal problem-solvers—your clients need positioning around *when* to use AI, not just *that* they should.
 
 ## Updates
-- Claude Code introduces `/checkup` command for context optimization, enabling developers to audit and clean up unused skills, MCPs, and plugins—relevant for consultants selling Claude-based integration as it lowers maintenance burden on client implementations.
-- AI research findings show LLM adoption is narrowing the ideation span in scientific discovery (IEEE Spectrum), not broadening it—critical positioning angle: AI tools work best for *depth in defined domains*, not exploratory/novel thinking.
+- Claude Code /checkup feature launched: Anthropic shipped a new diagnostic command that optimizes context windows, deduplicates CLAUDE.md files, disables slow hooks, and auto-enables mode—directly addressing the overhead/efficiency problem after token criticism began surfacing.
+- Mesh LLM distributed computing: Iroh's new framework (326 HN points) enables distributed AI inference across multiple nodes, potentially solving the cost and latency problems that plague single-instance LLM deployments for enterprise teams.
+- Claude Code weekly limits promotion (May-July 2026): Anthropic is running a limited-time promotion on weekly usage limits for Claude Code, likely a retention play as token efficiency criticism gains traction.
 
 ## Hacker News Today
-- [Mesh LLM: distributed AI computing on iroh](https://www.iroh.computer/blog/mesh-llm) — 324 pts &middot; [75 comments](https://news.ycombinator.com/item?id=48876505)
+- [Mesh LLM: distributed AI computing on iroh](https://www.iroh.computer/blog/mesh-llm) — 326 pts &middot; [76 comments](https://news.ycombinator.com/item?id=48876505)
 - [Stop Telling Me to Ask an LLM](https://blog.yaelwrites.com/stop-telling-me-to-ask-an-llm/) — 188 pts &middot; [108 comments](https://news.ycombinator.com/item?id=48876441)
-- [AI boosts research careers but narrow the span of ideas explored: study](https://spectrum.ieee.org/ai-science-research-flattens-discovery) — 106 pts &middot; [85 comments](https://news.ycombinator.com/item?id=48881043)
+- [Claude Code sends 33k tokens before reading the prompt; OpenCode sends 7k](https://systima.ai/blog/claude-code-vs-opencode-token-overhead) — 112 pts &middot; [56 comments](https://news.ycombinator.com/item?id=48883275)
+- [Show HN: Shirei, cross-platform GUI framework in native Go](https://github.com/hasenj/go-shirei/) — 51 pts &middot; [27 comments](https://news.ycombinator.com/item?id=48882562)
 - [I used to love Claude, but the latest models are slowly ruining it](https://www.androidauthority.com/claude-latest-models-pushback-bad-3683521/) — 48 pts &middot; [61 comments](https://news.ycombinator.com/item?id=48875494)
+- [I love LLMs, I hate hype](https://geohot.github.io//blog/jekyll/update/2026/07/12/i-love-llms.html) — 44 pts &middot; [12 comments](https://news.ycombinator.com/item?id=48883343)
+- [Claude Code May–July 2026 weekly limits promotion](https://support.claude.com/en/articles/15910845-claude-code-may-july-2026-weekly-limits-promotion) — 40 pts &middot; [57 comments](https://news.ycombinator.com/item?id=48883064)
 
 ## On Threads
 **@boris_cherny** — Jul 8
@@ -56,27 +60,27 @@ The AI productivity debate is inverting: while founders obsess over whether LLMs
   https://www.youtube.com/watch?v=eRO1w9TS2t4
   No transcript available
 
-- [GaryVee] "Read the comments" — posted 5h ago
+- [GaryVee] "Read the comments" — posted 6h ago
   https://www.youtube.com/watch?v=RYRMYu3u1F0
   No transcript available
 
-- [GaryVee] "Please for the love of god …. get good at organic social media creative and social media ad spend" — posted 5h ago
+- [GaryVee] "Please for the love of god …. get good at organic social media creative and social media ad spend" — posted 6h ago
   https://www.youtube.com/watch?v=IdhGw9flwhw
   No transcript available
 
-- [GaryVee] "I trust literally everyone" — posted 16h ago
+- [GaryVee] "I trust literally everyone" — posted 17h ago
   https://www.youtube.com/watch?v=AMcIulJmhkY
   No transcript available
 
-- [GaryVee] "Some huge business opportunities for those who go “old school” & “human first”" — posted 17h ago
+- [GaryVee] "Some huge business opportunities for those who go “old school” & “human first”" — posted 18h ago
   https://www.youtube.com/watch?v=kSuoRfef9Nc
   No transcript available
 
-- [GaryVee] "Why Are You Scared To Lose" — posted 18h ago
+- [GaryVee] "Why Are You Scared To Lose" — posted 19h ago
   https://www.youtube.com/watch?v=BuNP_JWej-U
   No transcript available
 
-- [GaryVee] "Stop Living to Impress Others" — posted 18h ago
+- [GaryVee] "Stop Living to Impress Others" — posted 19h ago
   https://www.youtube.com/watch?v=-WLf1CMqLeY
   No transcript available
 
@@ -84,16 +88,12 @@ The AI productivity debate is inverting: while founders obsess over whether LLMs
   https://www.youtube.com/watch?v=Qt-fD0_a18o
   No transcript available
 
-- [GaryVee] "Comment if this is you" — posted 20h ago
+- [GaryVee] "Comment if this is you" — posted 21h ago
   https://www.youtube.com/watch?v=lvBxht82PyU
   No transcript available
 
-- [GaryVee] "A little smile 😊 always goes a long way … I love all of you and love meeting u all on the road" — posted 20h ago
+- [GaryVee] "A little smile 😊 always goes a long way … I love all of you and love meeting u all on the road" — posted 21h ago
   https://www.youtube.com/watch?v=qHkvse_iWFc
-  No transcript available
-
-- [GaryVee] "Wait for the end … the key 🔑 is the last few seconds … listen twice if you’re confused 💛" — posted 1d ago
-  https://www.youtube.com/watch?v=hfLiDzBKU7Q
   No transcript available
 
 ## Latest on TikTok
@@ -107,4 +107,4 @@ _No Reddit data collected._
 _No Twitter data collected._
 
 ---
-*Daily Scrape — 2026-07-12T18:37:23.808Z*
+*Daily Scrape — 2026-07-12T19:28:56.469Z*
