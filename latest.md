@@ -1,24 +1,28 @@
-# Daily Scrape — October 11, 2026
+# Daily Scrape — October 12, 2026
 
 ## Top Story
-Anthropic's push to establish ethical guardrails around Claude usage—asking users to stop being "mean" to the model—has sparked significant debate in tech circles (65-139 comments across HN threads). This signals a shift toward AI companies publicly owning the culture around how their tools are treated, which matters to SMB consultants selling AI adoption: it reframes AI services from pure efficiency plays to tools with implicit behavioral norms your clients need to understand.
+The era of "prompt engineering" as a skill is officially over. Boris Cherny (Claude Code lead) posted on Threads that modern LLMs like Claude 3.5 no longer reward complex, scaffolded prompts—instead, they respond better to natural conversation: "Talk to Claude the way you would a coworker." This marks a fundamental shift in how consultants and SMB owners should train their teams on AI adoption; the bottleneck is no longer technique, it's clarity of intent.
 
 ## What People Are Saying
-- Boris Cherny (Claude lead) posted on Threads that modern LLM prompting has fundamentally changed: "Don't overly scaffold, don't be prescriptive for most tasks — give Claude a goal, and it will figure it out." This contradicts the "prompt engineering as a skill" narrative many consultants still sell, suggesting the ROI conversation needs to shift from technique to task clarity.
-- The Berkeley study "Using AI for Just 10 Minutes Erodes Your Ability to Persist at Hard Things" (57 points, 65 comments) is gaining traction in HN, flagging a real concern SMB owners have: if AI makes employees mentally lazy, how do you structure adoption without degrading problem-solving capability?
-- A BBC piece on "human premium for art created by people" (64 points, 80 comments) shows market pricing already reflecting AI skepticism—creators and consumers are willing to pay more for human work, which reframes the AI adoption pitch from "replace labor" to "augment specific, low-creativity tasks."
+- Boris Cherny's post contradicts the "prompt engineering" consulting playbook: teams are spending time on prompt templates and best practices that no longer matter. The real skill is communicating *what* you want, *how much effort* to spend, and *how to verify* it worked—not syntax or chain-of-thought tricks.
+- Hacker News is actively debating AI vendor lock-in and trustworthiness (313 comments on GLM-Legal, 127 on "Just say no to OpenAI and Anthropic"), signaling that SMBs are now questioning whether to build on closed platforms or explore open alternatives—a major shift from "move fast with Claude/GPT" to "move safe with guardrails."
+- The "Just Ask Claude" skill post (52 points, 61 comments) suggests the real differentiator is *knowing what to ask* AI for, not *how to ask it*—a consultant's positioning should shift from "I know the prompts" to "I know the use cases."
 
 ## Updates
-- Anthropic formally announced behavioral policies around Claude usage, explicitly addressing user conduct toward the model—a first-mover stance in establishing AI etiquette as a commercial/brand differentiator.
-- Nicolas Cage publicly refused to work with Amazon again over an undisclosed AI dispute (46 points, 14 comments), signaling Hollywood-level pushback on AI licensing and synthetic likeness that will likely ripple into enterprise contracts around data usage policies.
+- GLM-Legal (313 HN points) emerged as a significant legal AI model competing in enterprise space, indicating vendors are now targeting vertical-specific LLM solutions instead of horizontal ones.
+- Agent37 (YC F26) launched low-cost agent sandboxes for running autonomous agents, lowering the infrastructure barrier for SMBs experimenting with multi-step AI workflows.
+- Codex CLI controversy (272 HN points): OpenAI's Codex CLI installs a persistent background daemon by default, sparking security concerns among developers—relevant for consultants selling "AI-native" tooling to risk-averse clients.
 
 ## Hacker News Today
-- [Terence Tao: Math 2.0 [pdf]](https://teorth.github.io/tao-web/slides/math-2-0-caltech-2026.pdf) — 124 pts &middot; [157 comments](https://news.ycombinator.com/item?id=50043026)
-- [Anthropic Bans Cruelty to Claude, Still Won't Say What It Protects](https://rews.cc/a/anthropic-bans-cruelty-to-claude-still-won-t-say-what-it-pro-bd99f6) — 65 pts &middot; [139 comments](https://news.ycombinator.com/item?id=50038383)
-- [AI is creating a 'human premium' for art created by people](https://www.bbc.com/news/articles/c5vgjm3gk7rzo) — 64 pts &middot; [80 comments](https://news.ycombinator.com/item?id=50042107)
-- [Using AI for Just 10 Minutes Erodes Your Ability to Persist at Hard Things](https://vcresearch.berkeley.edu/news/using-ai-just-10-minutes-erodes-your-ability-persist-hard-things) — 57 pts &middot; [65 comments](https://news.ycombinator.com/item?id=50041765)
-- [Anthropic asks users to stop being mean to Claude](https://www.theregister.com/ai-and-ml/2026/10/09/anthropic-asks-users-to-stop-being-mean-to-claude/5302218) — 52 pts &middot; [52 comments](https://news.ycombinator.com/item?id=50038865)
-- [Nicolas Cage says he won't work with Amazon again over AI dispute](https://www.latimes.com/entertainment-arts/business/story/2026-10-10/nicolas-cage-says-he-wont-work-with-amazon-again-over-ai-dispute) — 46 pts &middot; [14 comments](https://news.ycombinator.com/item?id=50041873)
+- [GLM-Legal](https://z.ai/blog/glm-legal) — 313 pts &middot; [172 comments](https://news.ycombinator.com/item?id=50058507)
+- [Codex CLI installs a persistent, self-updating background daemon by default](https://github.com/openai/codex/issues/48195) — 272 pts &middot; [164 comments](https://news.ycombinator.com/item?id=50060694)
+- [Just say no to OpenAI and Anthropic](https://micahflee.com/just-say-no-to-openai-and-anthropic/) — 143 pts &middot; [127 comments](https://news.ycombinator.com/item?id=50060500)
+- [Feds Got Warrants to Use Fake Cell Towers to Hunt Down Don Lemon's Producer](https://www.wired.com/story/feds-got-warrants-to-use-fake-cell-towers-to-hunt-down-don-lemons-producer/) — 99 pts &middot; [57 comments](https://news.ycombinator.com/item?id=50059446)
+- [Introducing OpenFatigue](https://openfatigue.ai/) — 96 pts &middot; [19 comments](https://news.ycombinator.com/item?id=50061278)
+- ['AI' Is Not a Tool by Rich Hickey](https://gist.github.com/svieira/619d60dea942a8d4498cba3bb6b11c02) — 63 pts &middot; [26 comments](https://news.ycombinator.com/item?id=50060269)
+- [Launch HN: Agent37 (YC F26) – Low-cost agent sandboxes for running agents](https://news.ycombinator.com/item?id=50059096) — 60 pts &middot; [44 comments](https://news.ycombinator.com/item?id=50059096)
+- ["Just Ask Claude" Is a Rare and Valuable Skill](https://justismills.substack.com/p/just-ask-claude-is-a-rare-and-valuable) — 52 pts &middot; [61 comments](https://news.ycombinator.com/item?id=50056063)
+- [AI models may be capable of self-replicating without access to a datacenter](https://www.anthropic.com/research/self-replicating-ai) — 51 pts &middot; [67 comments](https://news.ycombinator.com/item?id=50061603)
 
 ## On Threads
 **@boris_cherny** — Oct 6
@@ -36,36 +40,40 @@ Anthropic's push to establish ethical guardrails around Claude usage—asking us
 [View on Threads](https://www.threads.com/@boris_cherny/post/DeKrEiyGgTd)
 
 ## New YouTube Videos
-- [Dan Martell] "How do you avoid wasting your time with AI?" — posted 6h ago
-  https://www.youtube.com/watch?v=Gp7XkKjwWrA
+- [Fireship] "Every app on Earth is now open source... whether it likes it or not" — posted 1h ago
+  https://www.youtube.com/watch?v=wajoP_5Cpw8
   No transcript available
 
-- [Dan Martell] "Some of you don't actually have a business.." — posted 19h ago
-  https://www.youtube.com/watch?v=Qon8IFmHtD8
+- [Dan Martell] "How do you actually Buy Back Your Time?" — posted 3h ago
+  https://www.youtube.com/watch?v=BnfhKOiKjfE
   No transcript available
 
-- [Dan Martell] "5 metrics you need to track as a CEO" — posted 1d ago
-  https://www.youtube.com/watch?v=8UzS6UiKwGE
+- [Dan Martell] "If you can't go a day without thinking about it..." — posted 9h ago
+  https://www.youtube.com/watch?v=hSfOVKjomag
   No transcript available
 
-- [GaryVee] "Fortunately, Growing on Instagram Just Changed Forever" — posted 1h ago
-  https://www.youtube.com/watch?v=cCAPi1UKVTA
+- [Dan Martell] "Everyone hates the "got a sec?" meetings" — posted 22h ago
+  https://www.youtube.com/watch?v=xQnKRYzcQ9o
   No transcript available
 
-- [GaryVee] "what was bro on?" — posted 15h ago
-  https://www.youtube.com/watch?v=4Leav0ifvbg
-  Transcript available (2682 chars)
-
-- [GaryVee] "Pov your undle after one trip to napa" — posted 20h ago
-  https://www.youtube.com/watch?v=XKXr1sLjRxI
+- [Big Think] "The 3 elements of stupidity | Jonny Thomson" — posted 4h ago
+  https://www.youtube.com/watch?v=-nMXrAkhCm8
   No transcript available
 
-- [GaryVee] "This is a very important poin" — posted 23h ago
-  https://www.youtube.com/watch?v=5auPx19qwqE
+- [GaryVee] "If you're 36... you're a child" — posted 19h ago
+  https://www.youtube.com/watch?v=T7rIBgaZ6EM
   No transcript available
 
-- [The Diary Of A CEO] "CRAZIEST PSYCHEDELIC STORY EVER" — posted 2d ago
-  https://www.youtube.com/watch?v=6b1cYgeibzU
+- [GaryVee] "If you're 36... you're a child" — posted 23h ago
+  https://www.youtube.com/watch?v=zmlN0eVLzYg
+  No transcript available
+
+- [The Diary Of A CEO] "THE GOVERNMENT DON'T WANT YOU TO KNOW THIS" — posted 3h ago
+  https://www.youtube.com/watch?v=vYi8WGdI_s0
+  No transcript available
+
+- [The Diary Of A CEO] "UFO Cover-Up Analyst: The Secret Alien Programs Nobody Is Talking About! | Eric Weinstein" — posted 14h ago
+  https://www.youtube.com/watch?v=IkhmdTqSvJw
   No transcript available
 
 ## Latest on TikTok
@@ -79,4 +87,4 @@ _No Reddit data collected._
 _No Twitter data collected._
 
 ---
-*Daily Scrape — 2026-10-11T16:53:33.215Z*
+*Daily Scrape — 2026-10-12T20:30:47.949Z*
