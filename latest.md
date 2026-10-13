@@ -1,28 +1,26 @@
-# Daily Scrape — October 12, 2026
+# Daily Scrape — October 13, 2026
 
 ## Top Story
-The era of "prompt engineering" as a skill is officially over. Boris Cherny (Claude Code lead) posted on Threads that modern LLMs like Claude 3.5 no longer reward complex, scaffolded prompts—instead, they respond better to natural conversation: "Talk to Claude the way you would a coworker." This marks a fundamental shift in how consultants and SMB owners should train their teams on AI adoption; the bottleneck is no longer technique, it's clarity of intent.
+Claude's reasoning capabilities have matured to the point where prompt engineering—once the critical bottleneck for AI adoption—is becoming irrelevant. Boris Cherny (Claude Code lead) posted on Threads that modern Claude treats natural language like talking to a coworker: no scaffolding needed, just state your goal and effort level. This is a watershed moment for SMB adoption because it removes the "special skills" gatekeeping that's kept AI integration feeling technical rather than operational.
 
 ## What People Are Saying
-- Boris Cherny's post contradicts the "prompt engineering" consulting playbook: teams are spending time on prompt templates and best practices that no longer matter. The real skill is communicating *what* you want, *how much effort* to spend, and *how to verify* it worked—not syntax or chain-of-thought tricks.
-- Hacker News is actively debating AI vendor lock-in and trustworthiness (313 comments on GLM-Legal, 127 on "Just say no to OpenAI and Anthropic"), signaling that SMBs are now questioning whether to build on closed platforms or explore open alternatives—a major shift from "move fast with Claude/GPT" to "move safe with guardrails."
-- The "Just Ask Claude" skill post (52 points, 61 comments) suggests the real differentiator is *knowing what to ask* AI for, not *how to ask it*—a consultant's positioning should shift from "I know the prompts" to "I know the use cases."
+- Boris Cherny noted a critical shift in Claude's behavior: "Back in the Sonnet 3.5 days, your prompt mattered a lot. Nowadays, it's much more important to communicate to the model: (1) What you want it to do, (2) How much effort you want it to spend, (3) How it should verify that it did the right thing"—suggesting the bottleneck has moved from instruction design to outcome specification.
+- Hacker News users are actively discussing the operational hazard of AI adoption: "I posted to HN, and then my website was flooded with AI bot traffic" (123 points, 72 comments)—a sign that builders and consultants are now running real production workloads and hitting unexpected edge cases at scale.
+- AWS Lambda Web Functions (70 points, 64 comments) is gaining traction as the deployment layer for AI applications, indicating the market is moving past experimentation into infrastructure decisions for consultants building client-facing AI tools.
 
 ## Updates
-- GLM-Legal (313 HN points) emerged as a significant legal AI model competing in enterprise space, indicating vendors are now targeting vertical-specific LLM solutions instead of horizontal ones.
-- Agent37 (YC F26) launched low-cost agent sandboxes for running autonomous agents, lowering the infrastructure barrier for SMBs experimenting with multi-step AI workflows.
-- Codex CLI controversy (272 HN points): OpenAI's Codex CLI installs a persistent background daemon by default, sparking security concerns among developers—relevant for consultants selling "AI-native" tooling to risk-averse clients.
+- AWS launched Lambda Web Functions for "fast, consistent web app performance anywhere"—a direct infrastructure play for consultants deploying AI integrations at scale without managing Kubernetes or containers.
+- Google released Gemini-4 Argon (per Matt Wolfe), positioning it as competitive with OpenAI's latest—extending the multi-model landscape that consultants now have to evaluate and position to clients.
+- Kyle Kukshtel published "How to engineer an AI harness for game development with Claude Code"—a practical tutorial suggesting Claude's code generation is mature enough for vertical use cases beyond general software.
 
 ## Hacker News Today
-- [GLM-Legal](https://z.ai/blog/glm-legal) — 313 pts &middot; [172 comments](https://news.ycombinator.com/item?id=50058507)
-- [Codex CLI installs a persistent, self-updating background daemon by default](https://github.com/openai/codex/issues/48195) — 272 pts &middot; [164 comments](https://news.ycombinator.com/item?id=50060694)
-- [Just say no to OpenAI and Anthropic](https://micahflee.com/just-say-no-to-openai-and-anthropic/) — 143 pts &middot; [127 comments](https://news.ycombinator.com/item?id=50060500)
-- [Feds Got Warrants to Use Fake Cell Towers to Hunt Down Don Lemon's Producer](https://www.wired.com/story/feds-got-warrants-to-use-fake-cell-towers-to-hunt-down-don-lemons-producer/) — 99 pts &middot; [57 comments](https://news.ycombinator.com/item?id=50059446)
-- [Introducing OpenFatigue](https://openfatigue.ai/) — 96 pts &middot; [19 comments](https://news.ycombinator.com/item?id=50061278)
-- ['AI' Is Not a Tool by Rich Hickey](https://gist.github.com/svieira/619d60dea942a8d4498cba3bb6b11c02) — 63 pts &middot; [26 comments](https://news.ycombinator.com/item?id=50060269)
-- [Launch HN: Agent37 (YC F26) – Low-cost agent sandboxes for running agents](https://news.ycombinator.com/item?id=50059096) — 60 pts &middot; [44 comments](https://news.ycombinator.com/item?id=50059096)
-- ["Just Ask Claude" Is a Rare and Valuable Skill](https://justismills.substack.com/p/just-ask-claude-is-a-rare-and-valuable) — 52 pts &middot; [61 comments](https://news.ycombinator.com/item?id=50056063)
-- [AI models may be capable of self-replicating without access to a datacenter](https://www.anthropic.com/research/self-replicating-ai) — 51 pts &middot; [67 comments](https://news.ycombinator.com/item?id=50061603)
+- [A look at the math that OpenAI claims computes faster Fourier transforms](https://www.argmin.net/p/faster-fourier-transforms) — 231 pts &middot; [147 comments](https://news.ycombinator.com/item?id=50065932)
+- [Blood cells from 80-year-old donor become stem cells with molecular age under 20](https://doi.org/10.1111/acel.70751) — 170 pts &middot; [120 comments](https://news.ycombinator.com/item?id=50064536)
+- [Show HN: Use your OpenAI subscription to create audiobooks](https://pdftomp3.com/connect-ai/) — 138 pts &middot; [71 comments](https://news.ycombinator.com/item?id=50069337)
+- [I posted to HN, and then my website was flooded with AI bot traffic](https://www.sammystraus.com/#i-posted-to-hn-and-then-my-website-was-flooded-with-ai-bot-traffic) — 123 pts &middot; [72 comments](https://news.ycombinator.com/item?id=50073221)
+- [Denmark set to allow return of 'physical force' in school](https://www.lemonde.fr/en/international/article/2026/10/10/denmark-set-to-allow-the-return-of-physical-force-to-maintain-order-in-schools_6758443_4.html) — 74 pts &middot; [64 comments](https://news.ycombinator.com/item?id=50067570)
+- [AWS Lambda Web Functions](https://aws.amazon.com/blogs/aws/announcing-aws-lambda-web-functions-for-fast-consistent-web-app-performance-anywhere/) — 70 pts &middot; [64 comments](https://news.ycombinator.com/item?id=50069318)
+- [How to engineer an AI harness for game development](https://kylekukshtel.com/ai-harness-engineering-game-development-claude-code) — 46 pts &middot; [18 comments](https://news.ycombinator.com/item?id=50072120)
 
 ## On Threads
 **@boris_cherny** — Oct 6
@@ -40,40 +38,40 @@ The era of "prompt engineering" as a skill is officially over. Boris Cherny (Cla
 [View on Threads](https://www.threads.com/@boris_cherny/post/DeKrEiyGgTd)
 
 ## New YouTube Videos
-- [Fireship] "Every app on Earth is now open source... whether it likes it or not" — posted 1h ago
+- [Fireship] "Every app on Earth is now open source... whether it likes it or not" — posted 23h ago
   https://www.youtube.com/watch?v=wajoP_5Cpw8
   No transcript available
 
-- [Dan Martell] "How do you actually Buy Back Your Time?" — posted 3h ago
-  https://www.youtube.com/watch?v=BnfhKOiKjfE
+- [Matt Wolfe] "Google Just Caught Up (Gemini-4 Argon)" — posted 2h ago
+  https://www.youtube.com/watch?v=eBszYxzE2dk
   No transcript available
 
-- [Dan Martell] "If you can't go a day without thinking about it..." — posted 9h ago
-  https://www.youtube.com/watch?v=hSfOVKjomag
+- [Matt Wolfe] "How To Stop Being An "AI Meat Proxy"" — posted 3h ago
+  https://www.youtube.com/watch?v=b0jA6fkGsk8
   No transcript available
 
-- [Dan Martell] "Everyone hates the "got a sec?" meetings" — posted 22h ago
-  https://www.youtube.com/watch?v=xQnKRYzcQ9o
+- [AI Explained] "AI Labs Warn Race Makes Breach ‘Inevitable’" — posted 20h ago
+  https://www.youtube.com/watch?v=C4Sq3Rot8FU
   No transcript available
 
-- [Big Think] "The 3 elements of stupidity | Jonny Thomson" — posted 4h ago
-  https://www.youtube.com/watch?v=-nMXrAkhCm8
+- [Dan Martell] "The time my brother gave me all his money..." — posted 2h ago
+  https://www.youtube.com/watch?v=uHpWuxkqiMM
   No transcript available
 
-- [GaryVee] "If you're 36... you're a child" — posted 19h ago
-  https://www.youtube.com/watch?v=T7rIBgaZ6EM
+- [Dan Martell] "How do you become an effective CEO?" — posted 8h ago
+  https://www.youtube.com/watch?v=MO2EXcqvZPM
   No transcript available
 
-- [GaryVee] "If you're 36... you're a child" — posted 23h ago
-  https://www.youtube.com/watch?v=zmlN0eVLzYg
+- [Dan Martell] "What has 29 years of business taught me?" — posted 21h ago
+  https://www.youtube.com/watch?v=901T2ZDN3UA
   No transcript available
 
-- [The Diary Of A CEO] "THE GOVERNMENT DON'T WANT YOU TO KNOW THIS" — posted 3h ago
+- [GaryVee] "confidence doesnt need to tear people down" — posted 1h ago
+  https://www.youtube.com/watch?v=ERH90Y0lmQo
+  No transcript available
+
+- [The Diary Of A CEO] "THE GOVERNMENT DOESN'T WANT YOU TO KNOW THIS" — posted 1d ago
   https://www.youtube.com/watch?v=vYi8WGdI_s0
-  No transcript available
-
-- [The Diary Of A CEO] "UFO Cover-Up Analyst: The Secret Alien Programs Nobody Is Talking About! | Eric Weinstein" — posted 14h ago
-  https://www.youtube.com/watch?v=IkhmdTqSvJw
   No transcript available
 
 ## Latest on TikTok
@@ -87,4 +85,4 @@ _No Reddit data collected._
 _No Twitter data collected._
 
 ---
-*Daily Scrape — 2026-10-12T20:30:47.949Z*
+*Daily Scrape — 2026-10-13T18:35:51.425Z*
