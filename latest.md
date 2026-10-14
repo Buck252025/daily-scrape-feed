@@ -1,26 +1,25 @@
-# Daily Scrape — October 13, 2026
+# Daily Scrape — October 14, 2026
 
 ## Top Story
-Claude's reasoning capabilities have matured to the point where prompt engineering—once the critical bottleneck for AI adoption—is becoming irrelevant. Boris Cherny (Claude Code lead) posted on Threads that modern Claude treats natural language like talking to a coworker: no scaffolding needed, just state your goal and effort level. This is a watershed moment for SMB adoption because it removes the "special skills" gatekeeping that's kept AI integration feeling technical rather than operational.
+OpenAI's internal security breach—an engineer arrested for allegedly bugging an executive conference room—exposes the operational vulnerability of AI labs as they scale. For consultants selling AI adoption, this signals that enterprise clients will increasingly demand security and compliance frameworks alongside tool implementation, creating a new service layer around "AI governance" and internal threat detection.
 
 ## What People Are Saying
-- Boris Cherny noted a critical shift in Claude's behavior: "Back in the Sonnet 3.5 days, your prompt mattered a lot. Nowadays, it's much more important to communicate to the model: (1) What you want it to do, (2) How much effort you want it to spend, (3) How it should verify that it did the right thing"—suggesting the bottleneck has moved from instruction design to outcome specification.
-- Hacker News users are actively discussing the operational hazard of AI adoption: "I posted to HN, and then my website was flooded with AI bot traffic" (123 points, 72 comments)—a sign that builders and consultants are now running real production workloads and hitting unexpected edge cases at scale.
-- AWS Lambda Web Functions (70 points, 64 comments) is gaining traction as the deployment layer for AI applications, indicating the market is moving past experimentation into infrastructure decisions for consultants building client-facing AI tools.
+- Boris Cherny (Claude Code lead) on Threads reframes prompt engineering as a solved problem: "There's no secret to prompting. Don't overly scaffold...give Claude a goal, and it will figure it out." This shifts consultant positioning from "prompt optimization" to "outcome design"—teams now need help defining *what* to ask AI to do, not *how* to ask it.
+- Dan Martell's video series on "AI Strategies by Income Level ($35K, $100K, $1M+)" suggests consultants are segmenting AI adoption advice—implying no one-size-fits-all playbook exists and that income-tier-specific selling is working on YouTube right now.
+- Matt Wolfe's coverage of "Gemini-4 Argon" catching up to competitors signals continued model convergence; the differentiation story is shifting from "which model is best" to "which integrations + workflows matter most."
 
 ## Updates
-- AWS launched Lambda Web Functions for "fast, consistent web app performance anywhere"—a direct infrastructure play for consultants deploying AI integrations at scale without managing Kubernetes or containers.
-- Google released Gemini-4 Argon (per Matt Wolfe), positioning it as competitive with OpenAI's latest—extending the multi-model landscape that consultants now have to evaluate and position to clients.
-- Kyle Kukshtel published "How to engineer an AI harness for game development with Claude Code"—a practical tutorial suggesting Claude's code generation is mature enough for vertical use cases beyond general software.
+- Pulse Local (Mac budgeting app with on-device AI models) launched and gained 109 HN points—evidence that privacy-first, locally-run LLMs are resonating with builders tired of cloud API costs and data residency concerns.
+- ASML's strong Q4 forecasts eased fears that AI chip spending is cooling, per Reuters (76 HN points)—infrastructure confidence remains high, meaning AI adoption budgets are likely to hold through 2027.
+- Parsimony (open-source benchmark for measuring code bloat from AI models) entered the conversation—a leading indicator that AI quality metrics beyond accuracy (like efficiency and code hygiene) are becoming table stakes for integration work.
 
 ## Hacker News Today
-- [A look at the math that OpenAI claims computes faster Fourier transforms](https://www.argmin.net/p/faster-fourier-transforms) — 231 pts &middot; [147 comments](https://news.ycombinator.com/item?id=50065932)
-- [Blood cells from 80-year-old donor become stem cells with molecular age under 20](https://doi.org/10.1111/acel.70751) — 170 pts &middot; [120 comments](https://news.ycombinator.com/item?id=50064536)
-- [Show HN: Use your OpenAI subscription to create audiobooks](https://pdftomp3.com/connect-ai/) — 138 pts &middot; [71 comments](https://news.ycombinator.com/item?id=50069337)
-- [I posted to HN, and then my website was flooded with AI bot traffic](https://www.sammystraus.com/#i-posted-to-hn-and-then-my-website-was-flooded-with-ai-bot-traffic) — 123 pts &middot; [72 comments](https://news.ycombinator.com/item?id=50073221)
-- [Denmark set to allow return of 'physical force' in school](https://www.lemonde.fr/en/international/article/2026/10/10/denmark-set-to-allow-the-return-of-physical-force-to-maintain-order-in-schools_6758443_4.html) — 74 pts &middot; [64 comments](https://news.ycombinator.com/item?id=50067570)
-- [AWS Lambda Web Functions](https://aws.amazon.com/blogs/aws/announcing-aws-lambda-web-functions-for-fast-consistent-web-app-performance-anywhere/) — 70 pts &middot; [64 comments](https://news.ycombinator.com/item?id=50069318)
-- [How to engineer an AI harness for game development](https://kylekukshtel.com/ai-harness-engineering-game-development-claude-code) — 46 pts &middot; [18 comments](https://news.ycombinator.com/item?id=50072120)
+- [OpenAI engineer arrested in bugging of executive conference room](https://sfstandard.com/2026/10/13/openai-engineer-arrested-alleged-bugging-executive-conference-room/) — 621 pts &middot; [518 comments](https://news.ycombinator.com/item?id=50078141)
+- [Show HN: Pulse Local, a Mac budgeting app whose AI models run on your machine](https://pulseos.finance) — 109 pts &middot; [69 comments](https://news.ycombinator.com/item?id=50080275)
+- [Starlink limit hits Ukraine's drones. The battlefield depends on SpaceX](https://defence24.com/geopolitics/starlink-limit-hits-ukraines-drones-the-battlefield-depends-on-spacex) — 106 pts &middot; [118 comments](https://news.ycombinator.com/item?id=50084622)
+- [OpenAI finds recording device in one of their offices](https://twitter.com/OpenAINewsroom/status/2110095403198849132) — 85 pts &middot; [2 comments](https://news.ycombinator.com/item?id=50077703)
+- [ASML's strong orders ease fears AI spending boom is running out of steam](https://www.reuters.com/business/asml-forecasts-q4-sales-above-expectations-ai-chip-demand-2026-10-14/) — 76 pts &middot; [58 comments](https://news.ycombinator.com/item?id=50088430)
+- [Show HN: Parsimony – an open-source benchmark for how much code AI models add](https://parsimony.lasu.dev/) — 72 pts &middot; [16 comments](https://news.ycombinator.com/item?id=50077619)
 
 ## On Threads
 **@boris_cherny** — Oct 6
@@ -38,39 +37,55 @@ Claude's reasoning capabilities have matured to the point where prompt engineeri
 [View on Threads](https://www.threads.com/@boris_cherny/post/DeKrEiyGgTd)
 
 ## New YouTube Videos
-- [Fireship] "Every app on Earth is now open source... whether it likes it or not" — posted 23h ago
-  https://www.youtube.com/watch?v=wajoP_5Cpw8
+- [Matt Wolfe] "This Robot Is Unlike Any Other On The Market" — posted 1h ago
+  https://www.youtube.com/watch?v=XEl4ZQKKxig
   No transcript available
 
-- [Matt Wolfe] "Google Just Caught Up (Gemini-4 Argon)" — posted 2h ago
+- [Matt Wolfe] "Google Just Caught Up (Gemini-4 Argon)" — posted 23h ago
   https://www.youtube.com/watch?v=eBszYxzE2dk
   No transcript available
 
-- [Matt Wolfe] "How To Stop Being An "AI Meat Proxy"" — posted 3h ago
-  https://www.youtube.com/watch?v=b0jA6fkGsk8
+- [Lex Fridman] "Visiting Taiwan w/ Jensen Huang | Lex Fridman" — posted 19h ago
+  https://www.youtube.com/watch?v=FGCP2F_7rQk
   No transcript available
 
-- [AI Explained] "AI Labs Warn Race Makes Breach ‘Inevitable’" — posted 20h ago
-  https://www.youtube.com/watch?v=C4Sq3Rot8FU
+- [Dan Martell] "How do you maximize the time you get out of your week?" — posted 1h ago
+  https://www.youtube.com/watch?v=ofWgfQPzKKM
   No transcript available
 
-- [Dan Martell] "The time my brother gave me all his money..." — posted 2h ago
+- [Dan Martell] "The Best AI Strategies by Income Level: $35K, $100K, $1M+" — posted 3h ago
+  https://www.youtube.com/watch?v=Hgd1rxrIYGM
+  No transcript available
+
+- [Dan Martell] "Your environment is what shapes your reality" — posted 18h ago
+  https://www.youtube.com/watch?v=wTYC8v1Yzx8
+  No transcript available
+
+- [Dan Martell] "The time my brother gave me all his money..." — posted 23h ago
   https://www.youtube.com/watch?v=uHpWuxkqiMM
   No transcript available
 
-- [Dan Martell] "How do you become an effective CEO?" — posted 8h ago
-  https://www.youtube.com/watch?v=MO2EXcqvZPM
+- [Tim Ferriss] "Top Tech Investor Explains The Best AI Assistants in 16 Minutes — Kevin Rose" — posted 2h ago
+  https://www.youtube.com/watch?v=moHu65oieYM
   No transcript available
 
-- [Dan Martell] "What has 29 years of business taught me?" — posted 21h ago
-  https://www.youtube.com/watch?v=901T2ZDN3UA
+- [GaryVee] "This is the NEXT big SIDE HUSTLE" — posted 12h ago
+  https://www.youtube.com/watch?v=-_0p5YSXOvo
   No transcript available
 
-- [GaryVee] "confidence doesnt need to tear people down" — posted 1h ago
+- [GaryVee] "What would you create?" — posted 15h ago
+  https://www.youtube.com/watch?v=iBWT704PoJM
+  No transcript available
+
+- [GaryVee] "Why do you think people have such a hard time taking responsibility" — posted 20h ago
+  https://www.youtube.com/watch?v=g90_AFrW7Y8
+  No transcript available
+
+- [GaryVee] "confidence doesnt need to tear people down" — posted 23h ago
   https://www.youtube.com/watch?v=ERH90Y0lmQo
   No transcript available
 
-- [The Diary Of A CEO] "THE GOVERNMENT DOESN'T WANT YOU TO KNOW THIS" — posted 1d ago
+- [The Diary Of A CEO] "THE GOVERNMENT DOESN'T WANT YOU TO KNOW THIS" — posted 2d ago
   https://www.youtube.com/watch?v=vYi8WGdI_s0
   No transcript available
 
@@ -85,4 +100,4 @@ _No Reddit data collected._
 _No Twitter data collected._
 
 ---
-*Daily Scrape — 2026-10-13T18:35:51.425Z*
+*Daily Scrape — 2026-10-14T16:04:10.814Z*
