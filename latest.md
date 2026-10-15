@@ -1,25 +1,24 @@
-# Daily Scrape — October 14, 2026
+# Daily Scrape — October 15, 2026
 
 ## Top Story
-OpenAI's internal security breach—an engineer arrested for allegedly bugging an executive conference room—exposes the operational vulnerability of AI labs as they scale. For consultants selling AI adoption, this signals that enterprise clients will increasingly demand security and compliance frameworks alongside tool implementation, creating a new service layer around "AI governance" and internal threat detection.
+Boris Cherny (Claude Code lead) is reframing how builders should prompt modern LLMs—and it's a direct counter to the "prompt engineering" industry that's been selling complexity. His Threads post argues that today's models (Sonnet 3.5+) have reached a maturity level where natural language beats scaffolding: just tell Claude what you want, how hard to work, and how to verify. This matters to your audience because it collapses a major consulting play (premium prompt frameworks) while opening a bigger one (helping SMBs realize their existing teams can already do this with minimal training).
 
 ## What People Are Saying
-- Boris Cherny (Claude Code lead) on Threads reframes prompt engineering as a solved problem: "There's no secret to prompting. Don't overly scaffold...give Claude a goal, and it will figure it out." This shifts consultant positioning from "prompt optimization" to "outcome design"—teams now need help defining *what* to ask AI to do, not *how* to ask it.
-- Dan Martell's video series on "AI Strategies by Income Level ($35K, $100K, $1M+)" suggests consultants are segmenting AI adoption advice—implying no one-size-fits-all playbook exists and that income-tier-specific selling is working on YouTube right now.
-- Matt Wolfe's coverage of "Gemini-4 Argon" catching up to competitors signals continued model convergence; the differentiation story is shifting from "which model is best" to "which integrations + workflows matter most."
+- Boris Cherny (Claude Code lead) is pushing back against over-engineered prompting: "Don't overly scaffold, don't be prescriptive for most tasks -- give Claude a goal, and it will figure it out." The signal is that prompt complexity was a Sonnet 3.5 tax that newer models have eliminated.
+- Dan Martell's "Give your AI tool a harness so it stops going rogue" suggests builders are still wrestling with reliability and guardrails—there's real operational anxiety about autonomous agents that tooling hasn't fully solved yet.
+- On-device agent models (LFM2.5-24B-A2B, 263 HN points) are gaining traction as a response to API cost and latency concerns, signaling a shift toward edge deployment for SMB-scale operations.
 
 ## Updates
-- Pulse Local (Mac budgeting app with on-device AI models) launched and gained 109 HN points—evidence that privacy-first, locally-run LLMs are resonating with builders tired of cloud API costs and data residency concerns.
-- ASML's strong Q4 forecasts eased fears that AI chip spending is cooling, per Reuters (76 HN points)—infrastructure confidence remains high, meaning AI adoption budgets are likely to hold through 2027.
-- Parsimony (open-source benchmark for measuring code bloat from AI models) entered the conversation—a leading indicator that AI quality metrics beyond accuracy (like efficiency and code hygiene) are becoming table stakes for integration work.
+- Liquid AI released LFM2.5-24B-A2B, a 24B model purpose-built for fast on-device agents (263 HN points)—relevant for SMBs looking to cut API spend and reduce dependency on cloud inference.
+- Petal (open-source collaborative IDE tool) hit 202 HN points as a free alternative to CoScreen/ScreenHero, addressing the remote dev/team collaboration layer that AI integrators often need to wire into workflows.
+- Simons Foundation announced a $15M initiative to help mathematicians navigate the AI era, signaling institutional recognition that AI adoption requires active reskilling (relevant for positioning upskilling services to SMBs).
 
 ## Hacker News Today
-- [OpenAI engineer arrested in bugging of executive conference room](https://sfstandard.com/2026/10/13/openai-engineer-arrested-alleged-bugging-executive-conference-room/) — 621 pts &middot; [518 comments](https://news.ycombinator.com/item?id=50078141)
-- [Show HN: Pulse Local, a Mac budgeting app whose AI models run on your machine](https://pulseos.finance) — 109 pts &middot; [69 comments](https://news.ycombinator.com/item?id=50080275)
-- [Starlink limit hits Ukraine's drones. The battlefield depends on SpaceX](https://defence24.com/geopolitics/starlink-limit-hits-ukraines-drones-the-battlefield-depends-on-spacex) — 106 pts &middot; [118 comments](https://news.ycombinator.com/item?id=50084622)
-- [OpenAI finds recording device in one of their offices](https://twitter.com/OpenAINewsroom/status/2110095403198849132) — 85 pts &middot; [2 comments](https://news.ycombinator.com/item?id=50077703)
-- [ASML's strong orders ease fears AI spending boom is running out of steam](https://www.reuters.com/business/asml-forecasts-q4-sales-above-expectations-ai-chip-demand-2026-10-14/) — 76 pts &middot; [58 comments](https://news.ycombinator.com/item?id=50088430)
-- [Show HN: Parsimony – an open-source benchmark for how much code AI models add](https://parsimony.lasu.dev/) — 72 pts &middot; [16 comments](https://news.ycombinator.com/item?id=50077619)
+- [LFM2.5-24B-A2B: Built for fast on-device agents](https://www.liquid.ai/blog/lfm2-5-24b-a2b) — 263 pts &middot; [70 comments](https://news.ycombinator.com/item?id=50097369)
+- [Show HN: Petal, open-source CoScreen/ScreenHero finally free](https://petal.live/) — 202 pts &middot; [39 comments](https://news.ycombinator.com/item?id=50092470)
+- [Wayland desktop for Linux with skeuomorphic design](https://github.com/fyzugx/DEsk) — 157 pts &middot; [54 comments](https://news.ycombinator.com/item?id=50103338)
+- [Show HN: Ito – Build Terminal UIs in Lua](https://uji.sh/ito/) — 61 pts &middot; [12 comments](https://news.ycombinator.com/item?id=50096300)
+- [Simons Foundation Launches $15M Effort to Help Mathematicians Navigate AI Era](https://www.simonsfoundation.org/news/simons-foundation-launches-15m-effort-to-help-mathematicians-navigate-ai-era/) — 56 pts &middot; [21 comments](https://news.ycombinator.com/item?id=50104654)
 
 ## On Threads
 **@boris_cherny** — Oct 6
@@ -37,56 +36,44 @@ OpenAI's internal security breach—an engineer arrested for allegedly bugging a
 [View on Threads](https://www.threads.com/@boris_cherny/post/DeKrEiyGgTd)
 
 ## New YouTube Videos
-- [Matt Wolfe] "This Robot Is Unlike Any Other On The Market" — posted 1h ago
-  https://www.youtube.com/watch?v=XEl4ZQKKxig
+- [Fireship] "OpenAI’s lead engineer was secretly a spy..." — posted 22h ago
+  https://www.youtube.com/watch?v=QZVzuq28eFw
   No transcript available
 
-- [Matt Wolfe] "Google Just Caught Up (Gemini-4 Argon)" — posted 23h ago
-  https://www.youtube.com/watch?v=eBszYxzE2dk
+- [Dan Martell] "Give your AI tool a harness so it stops going rogue" — posted 1h ago
+  https://www.youtube.com/watch?v=It3WDKWqP5w
   No transcript available
 
-- [Lex Fridman] "Visiting Taiwan w/ Jensen Huang | Lex Fridman" — posted 19h ago
-  https://www.youtube.com/watch?v=FGCP2F_7rQk
+- [Dan Martell] "Deleting your fear of rejection in less than 60 seconds" — posted 19h ago
+  https://www.youtube.com/watch?v=l3sFLS0mzqI
   No transcript available
 
-- [Dan Martell] "How do you maximize the time you get out of your week?" — posted 1h ago
-  https://www.youtube.com/watch?v=ofWgfQPzKKM
+- [Big Think] "The shock of doing nothing | Andrew Holecek" — posted 2h ago
+  https://www.youtube.com/watch?v=HdJxqW0-uZA
   No transcript available
 
-- [Dan Martell] "The Best AI Strategies by Income Level: $35K, $100K, $1M+" — posted 3h ago
-  https://www.youtube.com/watch?v=Hgd1rxrIYGM
+- [Big Think] "The hidden cost of ignoring your feelings | Lisa Damour" — posted 1d ago
+  https://www.youtube.com/watch?v=KtY6mDA1Ps4
   No transcript available
 
-- [Dan Martell] "Your environment is what shapes your reality" — posted 18h ago
-  https://www.youtube.com/watch?v=wTYC8v1Yzx8
+- [Tim Ferriss] "Why I Refuse to Let AI Write My Next Book" — posted 2h ago
+  https://www.youtube.com/watch?v=X9nfEE8DJeI
   No transcript available
 
-- [Dan Martell] "The time my brother gave me all his money..." — posted 23h ago
-  https://www.youtube.com/watch?v=uHpWuxkqiMM
+- [Tim Ferriss] "An Update on My Next Book" — posted 1d ago
+  https://www.youtube.com/watch?v=9bZNjHPD5d4
   No transcript available
 
-- [Tim Ferriss] "Top Tech Investor Explains The Best AI Assistants in 16 Minutes — Kevin Rose" — posted 2h ago
-  https://www.youtube.com/watch?v=moHu65oieYM
+- [GaryVee] "How to build self confidence" — posted 2h ago
+  https://www.youtube.com/watch?v=XyfrnSrBH-U
   No transcript available
 
-- [GaryVee] "This is the NEXT big SIDE HUSTLE" — posted 12h ago
-  https://www.youtube.com/watch?v=-_0p5YSXOvo
+- [GaryVee] "Everything You Need to Know About Social Media in October 2026" — posted 23h ago
+  https://www.youtube.com/watch?v=aCw9gmDlDtc
   No transcript available
 
-- [GaryVee] "What would you create?" — posted 15h ago
-  https://www.youtube.com/watch?v=iBWT704PoJM
-  No transcript available
-
-- [GaryVee] "Why do you think people have such a hard time taking responsibility" — posted 20h ago
-  https://www.youtube.com/watch?v=g90_AFrW7Y8
-  No transcript available
-
-- [GaryVee] "confidence doesnt need to tear people down" — posted 23h ago
-  https://www.youtube.com/watch?v=ERH90Y0lmQo
-  No transcript available
-
-- [The Diary Of A CEO] "THE GOVERNMENT DOESN'T WANT YOU TO KNOW THIS" — posted 2d ago
-  https://www.youtube.com/watch?v=vYi8WGdI_s0
+- [The Diary Of A CEO] "No.1 Neuroscientist Reveals How To Unlock Superhuman Focus & Perfect Memory! - Dr. Sahar Yousef" — posted 9h ago
+  https://www.youtube.com/watch?v=yePLuwL3FbM
   No transcript available
 
 ## Latest on TikTok
@@ -100,4 +87,4 @@ _No Reddit data collected._
 _No Twitter data collected._
 
 ---
-*Daily Scrape — 2026-10-14T16:04:10.814Z*
+*Daily Scrape — 2026-10-15T15:52:15.408Z*
