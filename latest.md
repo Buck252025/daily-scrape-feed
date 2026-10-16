@@ -1,24 +1,18 @@
-# Daily Scrape — October 15, 2026
+# Daily Scrape — October 16, 2026
 
 ## Top Story
-Boris Cherny (Claude Code lead) is reframing how builders should prompt modern LLMs—and it's a direct counter to the "prompt engineering" industry that's been selling complexity. His Threads post argues that today's models (Sonnet 3.5+) have reached a maturity level where natural language beats scaffolding: just tell Claude what you want, how hard to work, and how to verify. This matters to your audience because it collapses a major consulting play (premium prompt frameworks) while opening a bigger one (helping SMBs realize their existing teams can already do this with minimal training).
+Boris Cherny (Claude Code lead) is signaling a fundamental shift in how AI practitioners should approach LLM prompting—moving away from over-engineered prompt patterns toward natural, conversational requests. This matters because it suggests the gap between "AI power users" and casual users is collapsing; SMBs and consultants selling AI services can now pitch simpler adoption paths, and the competitive moat of "prompt engineering expertise" is eroding.
 
 ## What People Are Saying
-- Boris Cherny (Claude Code lead) is pushing back against over-engineered prompting: "Don't overly scaffold, don't be prescriptive for most tasks -- give Claude a goal, and it will figure it out." The signal is that prompt complexity was a Sonnet 3.5 tax that newer models have eliminated.
-- Dan Martell's "Give your AI tool a harness so it stops going rogue" suggests builders are still wrestling with reliability and guardrails—there's real operational anxiety about autonomous agents that tooling hasn't fully solved yet.
-- On-device agent models (LFM2.5-24B-A2B, 263 HN points) are gaining traction as a response to API cost and latency concerns, signaling a shift toward edge deployment for SMB-scale operations.
+- Boris Cherny on Threads argues that modern Claude (post-Sonnet 3.5) has eliminated the need for prescriptive, heavily scaffolded prompts—just communicate what you want, how hard it should work, and how to verify success. This is a direct signal that prompt complexity is no longer a differentiator.
+- Greg Isenberg's latest video ("Make cool things with AI that people buy") hints at a market shift from AI-as-tool to AI-as-product, suggesting consultants should be packaging AI applications as sellable goods, not just integration services.
+- @gigaqian on TikTok is covering the convergence of smart glasses and ambient AI, indicating wearable AI integration is moving from novelty to practical deployment—a new sales surface for AI integration consultants.
 
 ## Updates
-- Liquid AI released LFM2.5-24B-A2B, a 24B model purpose-built for fast on-device agents (263 HN points)—relevant for SMBs looking to cut API spend and reduce dependency on cloud inference.
-- Petal (open-source collaborative IDE tool) hit 202 HN points as a free alternative to CoScreen/ScreenHero, addressing the remote dev/team collaboration layer that AI integrators often need to wire into workflows.
-- Simons Foundation announced a $15M initiative to help mathematicians navigate the AI era, signaling institutional recognition that AI adoption requires active reskilling (relevant for positioning upskilling services to SMBs).
+- Fireship's "The runtime wars are over... and Node won" suggests Node.js dominance is now settled fact; relevant for consultants building AI-integrated backend services who need to choose their stack confidently.
 
 ## Hacker News Today
-- [LFM2.5-24B-A2B: Built for fast on-device agents](https://www.liquid.ai/blog/lfm2-5-24b-a2b) — 263 pts &middot; [70 comments](https://news.ycombinator.com/item?id=50097369)
-- [Show HN: Petal, open-source CoScreen/ScreenHero finally free](https://petal.live/) — 202 pts &middot; [39 comments](https://news.ycombinator.com/item?id=50092470)
-- [Wayland desktop for Linux with skeuomorphic design](https://github.com/fyzugx/DEsk) — 157 pts &middot; [54 comments](https://news.ycombinator.com/item?id=50103338)
-- [Show HN: Ito – Build Terminal UIs in Lua](https://uji.sh/ito/) — 61 pts &middot; [12 comments](https://news.ycombinator.com/item?id=50096300)
-- [Simons Foundation Launches $15M Effort to Help Mathematicians Navigate AI Era](https://www.simonsfoundation.org/news/simons-foundation-launches-15m-effort-to-help-mathematicians-navigate-ai-era/) — 56 pts &middot; [21 comments](https://news.ycombinator.com/item?id=50104654)
+_No qualifying stories in this window._
 
 ## On Threads
 **@boris_cherny** — Oct 6
@@ -36,44 +30,44 @@ Boris Cherny (Claude Code lead) is reframing how builders should prompt modern L
 [View on Threads](https://www.threads.com/@boris_cherny/post/DeKrEiyGgTd)
 
 ## New YouTube Videos
-- [Fireship] "OpenAI’s lead engineer was secretly a spy..." — posted 22h ago
-  https://www.youtube.com/watch?v=QZVzuq28eFw
+- [Fireship] "The runtime wars are over... and Node won" — posted 22h ago
+  https://www.youtube.com/watch?v=l3L_lETiSzc
   No transcript available
 
-- [Dan Martell] "Give your AI tool a harness so it stops going rogue" — posted 1h ago
-  https://www.youtube.com/watch?v=It3WDKWqP5w
+- [Matt Wolfe] "This Tesla Actualy Flies (NOT AI)" — posted 11h ago
+  https://www.youtube.com/watch?v=WXWFmwfo1JA
   No transcript available
 
-- [Dan Martell] "Deleting your fear of rejection in less than 60 seconds" — posted 19h ago
-  https://www.youtube.com/watch?v=l3sFLS0mzqI
+- [Greg Isenberg] "Make cool things with AI that people buy (Gemini 4 Argon)" — posted 19h ago
+  https://www.youtube.com/watch?v=jEOUUAPC1sc
   No transcript available
 
-- [Big Think] "The shock of doing nothing | Andrew Holecek" — posted 2h ago
-  https://www.youtube.com/watch?v=HdJxqW0-uZA
+- [Dan Martell] "What's the best hire you could make to get the most time back?" — posted 1h ago
+  https://www.youtube.com/watch?v=WhBhUZ24xw8
   No transcript available
 
-- [Big Think] "The hidden cost of ignoring your feelings | Lisa Damour" — posted 1d ago
-  https://www.youtube.com/watch?v=KtY6mDA1Ps4
+- [Dan Martell] "How to delegate like a $100M CEO" — posted 19h ago
+  https://www.youtube.com/watch?v=6EMZ5GWt0q0
   No transcript available
 
-- [Tim Ferriss] "Why I Refuse to Let AI Write My Next Book" — posted 2h ago
-  https://www.youtube.com/watch?v=X9nfEE8DJeI
+- [Big Think] "Pantheism: A third way between religion and atheism | Jack Symes" — posted 3h ago
+  https://www.youtube.com/watch?v=S8l1jGHt_PI
   No transcript available
 
-- [Tim Ferriss] "An Update on My Next Book" — posted 1d ago
-  https://www.youtube.com/watch?v=9bZNjHPD5d4
+- [GaryVee] "Is college a scam?" — posted 7h ago
+  https://www.youtube.com/watch?v=d6DGm_kHbtw
   No transcript available
 
-- [GaryVee] "How to build self confidence" — posted 2h ago
-  https://www.youtube.com/watch?v=XyfrnSrBH-U
+- [GaryVee] ""I'm struggling with depression"" — posted 23h ago
+  https://www.youtube.com/watch?v=-Irlo8HySZo
   No transcript available
 
-- [GaryVee] "Everything You Need to Know About Social Media in October 2026" — posted 23h ago
-  https://www.youtube.com/watch?v=aCw9gmDlDtc
+- [GaryVee] "been telling you since 2009" — posted 1d ago
+  https://www.youtube.com/watch?v=Bzxwrb7-o3U
   No transcript available
 
-- [The Diary Of A CEO] "No.1 Neuroscientist Reveals How To Unlock Superhuman Focus & Perfect Memory! - Dr. Sahar Yousef" — posted 9h ago
-  https://www.youtube.com/watch?v=yePLuwL3FbM
+- [The Diary Of A CEO] "HOW TO STOP BEING CONTROLLED BY YOUR PHONE!" — posted 22h ago
+  https://www.youtube.com/watch?v=K1VIRbd4UvI
   No transcript available
 
 ## Latest on TikTok
@@ -87,4 +81,4 @@ _No Reddit data collected._
 _No Twitter data collected._
 
 ---
-*Daily Scrape — 2026-10-15T15:52:15.408Z*
+*Daily Scrape — 2026-10-16T15:40:20.650Z*
