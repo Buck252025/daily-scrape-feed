@@ -1,73 +1,78 @@
-# Daily Scrape — October 16, 2026
+# Daily Scrape — October 17, 2026
 
 ## Top Story
-Boris Cherny (Claude Code lead) is signaling a fundamental shift in how AI practitioners should approach LLM prompting—moving away from over-engineered prompt patterns toward natural, conversational requests. This matters because it suggests the gap between "AI power users" and casual users is collapsing; SMBs and consultants selling AI services can now pitch simpler adoption paths, and the competitive moat of "prompt engineering expertise" is eroding.
+Claude's code review automation is moving from research into production infrastructure. Boris Cherny (Claude Code lead) posted on Threads that admins can now enable automated PR reviews in Claude Code settings with zero developer setup — the system runs on every new PR automatically. This matters because it's the first major shift from "Claude can help with code" to "Claude handles code review at scale," which changes the unit economics of engineering teams and opens a new sales motion for consultants selling AI-augmented dev workflows.
 
 ## What People Are Saying
-- Boris Cherny on Threads argues that modern Claude (post-Sonnet 3.5) has eliminated the need for prescriptive, heavily scaffolded prompts—just communicate what you want, how hard it should work, and how to verify success. This is a direct signal that prompt complexity is no longer a differentiator.
-- Greg Isenberg's latest video ("Make cool things with AI that people buy") hints at a market shift from AI-as-tool to AI-as-product, suggesting consultants should be packaging AI applications as sellable goods, not just integration services.
-- @gigaqian on TikTok is covering the convergence of smart glasses and ambient AI, indicating wearable AI integration is moving from novelty to practical deployment—a new sales surface for AI integration consultants.
+- The Hacker News community is deeply engaged with DeepSeek's latest flash model (v4.1-Flash-1017 at 393 and 297 points across two threads), signaling that speed-optimized, cost-competitive models are becoming table stakes — not niche. This matters because consultants selling "use cheaper models" are now backed by real developer momentum, not just marketing claims.
+- Anthropic's cryptographic research (ECDSA curve origins at 940 points, 340 comments) is generating more engagement than their code review announcement — suggesting the AI builder community still values foundational research credibility over feature velocity. This is a reputation signal: trust still flows to companies doing public, peer-reviewable work.
+- There's active discussion around running LLMs locally (Llama.cpp on PS5, llmspeed.dev for hardware benchmarking), indicating consultants selling "on-premise AI" or "edge deployment" now have concrete, shareable proof-of-concept paths rather than just theoretical advantages.
 
 ## Updates
-- Fireship's "The runtime wars are over... and Node won" suggests Node.js dominance is now settled fact; relevant for consultants building AI-integrated backend services who need to choose their stack confidently.
+- Claude Code now offers automated PR review as a default admin-enabled feature with no per-developer configuration required — this is production infrastructure, not a beta experiment.
+- DeepSeek-v4.1-Flash-1017 is available on OpenRouter and Hugging Face, continuing the pattern of fast, accessible alternatives to proprietary models gaining traction in developer workflows.
+- Llmspeed.dev launched as a hardware compatibility checker for local LLM inference, lowering the friction for consultants to recommend specific hardware stacks to clients.
 
 ## Hacker News Today
-_No qualifying stories in this window._
+- [Claude reveals ECDSA curve origins](https://www.anthropic.com/research/ecdsa-curve-origins) — 940 pts &middot; [340 comments](https://news.ycombinator.com/item?id=50122800)
+- [How the Claude Code team does code review](https://claude.dev/blog/solving-code-review-at-anthropic/) — 406 pts &middot; [385 comments](https://news.ycombinator.com/item?id=50122951)
+- [DeepSeek: DeepSeek v4.1 Flash 1017](https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017) — 393 pts &middot; [181 comments](https://news.ycombinator.com/item?id=50129121)
+- [Llama.cpp on a jailbroken PS5: run any GGUF model natively on the console](https://github.com/cobanov/PS5LM) — 320 pts &middot; [77 comments](https://news.ycombinator.com/item?id=50122431)
+- [DeepSeek-v4.1-Flash-1017](https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017) — 297 pts &middot; [114 comments](https://news.ycombinator.com/item?id=50129045)
+- [Show HN: Llmspeed – feel how fast a local LLM runs before you buy the hardware](https://llmspeed.dev/) — 157 pts &middot; [52 comments](https://news.ycombinator.com/item?id=50127979)
+- [Designing more efficient quantum circuits with Claude](https://www.anthropic.com/research/designing-efficient-quantum-circuits) — 157 pts &middot; [33 comments](https://news.ycombinator.com/item?id=50121939)
+- [Anthropic Console overcharged my card 100x due to internationalization input bug](https://news.ycombinator.com/item?id=50121562) — 87 pts &middot; [36 comments](https://news.ycombinator.com/item?id=50121562)
 
 ## On Threads
-**@boris_cherny** — Oct 6
+**@boris_cherny** — Oct 16
 
-> I am surprised that people are surprised this is how I prompt Claude.
-> 
-> Talk to Claude the way you would a coworker. There's no secret to prompting. Don't overly scaffold, don't be prescriptive for most tasks -- give Claude a goal, and it will figure it out.
-> 
-> Back in the Sonnet 3.5 days, your prompt mattered a lot. Nowadays, it's much more important to communicate to the model:
-> 
-> 1. What you want it to do
-> 2. How much effort you want it to spend
-> 3. How it should verify that it did the right thing
+> Admins turn it on in Claude Code settings and pick repos. From there, reviews run on every new PR, with no setup for developers.
 
-[View on Threads](https://www.threads.com/@boris_cherny/post/DeKrEiyGgTd)
+[View on Threads](https://www.threads.com/@boris_cherny/post/DekKPCvGbnM)
 
 ## New YouTube Videos
-- [Fireship] "The runtime wars are over... and Node won" — posted 22h ago
-  https://www.youtube.com/watch?v=l3L_lETiSzc
+- [Matt Wolfe] "AI News: 6 New Models & A Nano Banana Killer" — posted 22h ago
+  https://www.youtube.com/watch?v=KGcuuhqmPhI
   No transcript available
 
-- [Matt Wolfe] "This Tesla Actualy Flies (NOT AI)" — posted 11h ago
-  https://www.youtube.com/watch?v=WXWFmwfo1JA
+- [Dan Martell] ""Tell your mom that you appreciate her"" — posted 17h ago
+  https://www.youtube.com/watch?v=zQits4B-UxA
   No transcript available
 
-- [Greg Isenberg] "Make cool things with AI that people buy (Gemini 4 Argon)" — posted 19h ago
-  https://www.youtube.com/watch?v=jEOUUAPC1sc
-  No transcript available
-
-- [Dan Martell] "What's the best hire you could make to get the most time back?" — posted 1h ago
+- [Dan Martell] "What's the best hire you could make to get the most time back?" — posted 23h ago
   https://www.youtube.com/watch?v=WhBhUZ24xw8
   No transcript available
 
-- [Dan Martell] "How to delegate like a $100M CEO" — posted 19h ago
-  https://www.youtube.com/watch?v=6EMZ5GWt0q0
+- [Big Think] "Why are T. Rex arms so pathetic? | Steve Brusatte" — posted 22h ago
+  https://www.youtube.com/watch?v=nLDBRNj93Ak
   No transcript available
 
-- [Big Think] "Pantheism: A third way between religion and atheism | Jack Symes" — posted 3h ago
-  https://www.youtube.com/watch?v=S8l1jGHt_PI
+- [Tim Ferriss] "How to Improve Your Sperm Quality (The Easy Way)" — posted 2h ago
+  https://www.youtube.com/watch?v=BFwUhIwe9u4
   No transcript available
 
-- [GaryVee] "Is college a scam?" — posted 7h ago
-  https://www.youtube.com/watch?v=d6DGm_kHbtw
+- [Tim Ferriss] "My Climbing Supplements Explained in 11 Minutes" — posted 23h ago
+  https://www.youtube.com/watch?v=-If57-faOq4
   No transcript available
 
-- [GaryVee] ""I'm struggling with depression"" — posted 23h ago
-  https://www.youtube.com/watch?v=-Irlo8HySZo
+- [GaryVee] "Can anyone rap?" — posted 7h ago
+  https://www.youtube.com/watch?v=PrL67Y5ZheI
   No transcript available
 
-- [GaryVee] "been telling you since 2009" — posted 1d ago
-  https://www.youtube.com/watch?v=Bzxwrb7-o3U
+- [GaryVee] "he tried to warn us..." — posted 17h ago
+  https://www.youtube.com/watch?v=_zyY-2E507o
   No transcript available
 
-- [The Diary Of A CEO] "HOW TO STOP BEING CONTROLLED BY YOUR PHONE!" — posted 22h ago
-  https://www.youtube.com/watch?v=K1VIRbd4UvI
+- [GaryVee] ""I wasted time..."" — posted 22h ago
+  https://www.youtube.com/watch?v=hhcc8sHT-zs
+  No transcript available
+
+- [The Diary Of A CEO] "SECRET TO WORKING FASTER" — posted 17h ago
+  https://www.youtube.com/watch?v=gtwyYRFcbr0
+  No transcript available
+
+- [The Diary Of A CEO] "IS THE SYSTEM BROKEN?" — posted 22h ago
+  https://www.youtube.com/watch?v=xhjPhSw6nEo
   No transcript available
 
 ## Latest on TikTok
@@ -81,4 +86,4 @@ _No Reddit data collected._
 _No Twitter data collected._
 
 ---
-*Daily Scrape — 2026-10-16T15:40:20.650Z*
+*Daily Scrape — 2026-10-17T14:32:27.820Z*
