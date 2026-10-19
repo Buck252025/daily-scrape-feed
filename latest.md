@@ -1,27 +1,29 @@
-# Daily Scrape — October 18, 2026
+# Daily Scrape — October 19, 2026
 
 ## Top Story
-OpenAI's disclosure of four new rogue incidents involving financial, medical, and government data (129 HN points, 154 comments) is the dominant conversation today—and it's landing against a backdrop of growing trust concerns. For consultants selling AI adoption to enterprises, this is your moment: clients are moving from "Should we use AI?" to "How do we use AI safely?" The conversation has shifted from opportunity to governance, making compliance-first positioning a competitive advantage.
+Claude Code is shipping PR review automation in a private beta, with Boris Cherny (Claude Code lead) posting on Threads that admins can now enable the feature and route it to specific repos—reviews run automatically on every new PR with zero developer setup required. This is the first concrete move toward Claude agents handling critical development workflows at scale, directly addressing the Hacker News debate around LLM proxy transparency and agent reliability that's dominating technical discourse this week.
 
 ## What People Are Saying
-- Boris Cherny (Claude Code lead) posted on Threads that Anthropic's new PR review automation runs "on every new PR, with no setup for developers"—signaling that the market is shifting toward AI tooling that reduces friction without sacrificing control, a direct response to trust deficits in the space.
-- Developers on Hacker News are actively building guardrails: "Sphinx – A hook that quizzes you on your AI's code before shipping" (193 points) shows builders treating AI output verification as table stakes, not optional polish.
-- The high comment-to-upvote ratio on the OpenAI incident post (154 comments on 129 points) suggests this isn't just technical shop talk—it's hitting concerns about data sovereignty and regulatory risk that matter to business buyers.
+- Hacker News is split on agent reliability: "Hybrid Reasoning Agents: LLM agents that think in latent space, act through text" (494 points) is outpacing discussion of CERN and Mistral's science collaboration (174 points), signaling that builders care more about *how* agents think than what they're applied to—and the top counterpoint ("If you don't run your own LLM proxy, how do you know what's going on?" 280 points) shows legitimate skepticism about delegation without visibility.
+- Integration infrastructure is becoming the new moat: WhatsApp MCP running on Cloudflare (144 points), Tmux + Claude Code sessions (135 points), and "Harness Engineering 101" (126 points) all emphasize *wiring* LLMs into existing systems over building new models—your SMB clients' competitive edge is in connecting AI to their actual workflows, not training.
+- Real-world agent attacks are no longer hypothetical: The Verge's story about a hacker deploying an AI agent army to breach John Deere and SharkNinja got buried (55 points, 4 comments), but it's the clearest signal yet that AI-powered security exploitation is live—not future risk.
 
 ## Updates
-- Claude Code now supports automated PR reviews via native Anthropic integration, reducing setup friction for teams adopting AI-assisted development workflows.
-- Sphinx, a new developer tool, introduces pre-deployment code verification for AI-generated outputs—addressing the "trust but verify" demand emerging after OpenAI's incident disclosures.
-- @gigaqian (TikTok) flagged smart glasses reaching visual parity with normal eyewear, signaling that AI-augmented wearables are moving from novelty to invisible infrastructure—relevant for consultants advising on next-wave adoption timelines.
+- Claude Code PR review automation launched in private beta with repo-level routing and zero-setup developer experience (via Boris Cherny on Threads).
+- CERN and Mistral announced a partnership to accelerate AI for scientific research, positioning Mistral as an enterprise-grade alternative to closed models in regulated domains.
+- GitHub Actions, Pages, and Webhooks experienced degraded availability, affecting dependent AI agent and CI/CD workflows—a reminder that infrastructure reliability matters when agents are critical to your deploy pipeline.
 
 ## Hacker News Today
-- [Show HN: Sphinx – A hook that quizzes you on your AI's code before shipping](https://sphinx-six-theta.vercel.app/) — 193 pts &middot; [61 comments](https://news.ycombinator.com/item?id=50137950)
-- [Codex Desktop continuously generates Crashpad pending dumps](https://github.com/openai/codex/issues/25921) — 156 pts &middot; [73 comments](https://news.ycombinator.com/item?id=50133231)
-- [Israeli settlers attack European diplomatic cars in West Bank beat French mayor](https://www.lemonde.fr/en/international/article/2026/10/17/israeli-settlers-attack-european-diplomatic-cars-in-west-bank-beat-french-mayor-say-witnesses_6758711_4.html) — 134 pts &middot; [19 comments](https://news.ycombinator.com/item?id=50133274)
-- [OpenAI discloses four more rogue incidents](https://fortune.com/2026/10/16/openai-discloses-four-more-rogue-incidents-involving-financial-medical-and-government-data/) — 129 pts &middot; [154 comments](https://news.ycombinator.com/item?id=50132502)
-- [Open MicroManipulator – A sub-micrometer 3D motion control plattform](https://github.com/0x23/MicroManipulatorStepper) — 75 pts &middot; [5 comments](https://news.ycombinator.com/item?id=50140001)
-- [RepRapMicron](https://github.com/VikOlliver/RepRapMicron/wiki) — 73 pts &middot; [8 comments](https://news.ycombinator.com/item?id=50141076)
-- [Show HN: 500 clocks in one 6.3 MB HTML file by Opus 5.5](https://tkgally.github.io/500-clocks/) — 56 pts &middot; [19 comments](https://news.ycombinator.com/item?id=50137820)
-- [The math that OpenAI keeps for itself](https://newsletter.danielpaleka.com/p/the-math-that-openai-keeps-for-itself) — 46 pts &middot; [16 comments](https://news.ycombinator.com/item?id=50134211)
+- [Hybrid Reasoning Agents: LLM agents that think in latent space, act through text](https://arxiv.org/abs/2610.18861) — 494 pts &middot; [231 comments](https://news.ycombinator.com/item?id=50145337)
+- [If you don't run your own LLM proxy, how do you know whats going on?](https://jrdsgl.com/if-you-dont-run-your-own-llm-proxy-how-the-fuck-do-you-even-know-whats-going-on/) — 280 pts &middot; [197 comments](https://news.ycombinator.com/item?id=50145507)
+- [CERN and Mistral join forces to accelerate AI for science](https://home.cern/cern-and-mistral-join-forces-to-accelerate-ai-for-science/) — 174 pts &middot; [32 comments](https://news.ycombinator.com/item?id=50153630)
+- [PalmOS Lemmings](https://github.com/ardiri/palmos-lemmings) — 146 pts &middot; [34 comments](https://news.ycombinator.com/item?id=50143536)
+- [Show HN: WhatsApp MCP running free on Cloudflare](https://github.com/finereli/whatsapp-mcp) — 144 pts &middot; [75 comments](https://news.ycombinator.com/item?id=50145715)
+- [Tmux and Claude Code: Sessions, Send-Keys, and the Ceiling](https://crystl.dev/guides/tmux-for-ai-agents/) — 135 pts &middot; [94 comments](https://news.ycombinator.com/item?id=50148855)
+- [Harness Engineering 101: The LLM is the brain, the harness is the body](https://github.com/IsuruMaduranga/harness-engineering-101) — 126 pts &middot; [61 comments](https://news.ycombinator.com/item?id=50151390)
+- [Degraded availability for GitHub Actions, GitHub Pages and Webhooks](https://www.githubstatus.com/incidents/8tzbpcnl75jp) — 121 pts &middot; [83 comments](https://news.ycombinator.com/item?id=50153934)
+- [A hacker broke into John Deere and SharkNinja with an army of AI agents](https://www.theverge.com/ai-artificial-intelligence/1013643/ai-agents-hack-john-deere-shark-ninja-cummins) — 55 pts &middot; [4 comments](https://news.ycombinator.com/item?id=50152877)
+- [Show HN: KiviDB, a faster Redis-compatible memory database and vector cache](https://github.com/kividbio/kividb) — 52 pts &middot; [28 comments](https://news.ycombinator.com/item?id=50152541)
 
 ## On Threads
 **@boris_cherny** — Oct 16
@@ -31,32 +33,40 @@ OpenAI's disclosure of four new rogue incidents involving financial, medical, an
 [View on Threads](https://www.threads.com/@boris_cherny/post/DekKPCvGbnM)
 
 ## New YouTube Videos
-- [Dan Martell] "Entrepreneurs: Do you do these tasks in the mornings or afternoons?" — posted 18h ago
-  https://www.youtube.com/watch?v=6a6l6Zt7enI
+- [Matt Wolfe] "3 New Claude Prompts You Need To Try" — posted 5h ago
+  https://www.youtube.com/watch?v=aIrrq3CLSKM
   No transcript available
 
-- [Dan Martell] "Use AI to Automate Your Inbox" — posted 1d ago
-  https://www.youtube.com/watch?v=ymGOODVqpuU
+- [Dan Martell] "How do I allocate the capital in my businesses?" — posted 3h ago
+  https://www.youtube.com/watch?v=TBnwOD2oXto
   No transcript available
 
-- [Tim Ferriss] "The Dream Experiment That May Treat Trauma and PTSD" — posted 2h ago
-  https://www.youtube.com/watch?v=Lw-aknepabM
+- [Dan Martell] "John Maxwell told me to dream bigger" — posted 21h ago
+  https://www.youtube.com/watch?v=7aoj7evQwiw
   No transcript available
 
-- [GaryVee] "The biggest opportunity right now" — posted 19h ago
-  https://www.youtube.com/watch?v=o3kWm920M9U
+- [Big Think] "The 3 biggest origin mysteries | Paul Davies" — posted 2h ago
+  https://www.youtube.com/watch?v=btdZ8iMz_XU
   No transcript available
 
-- [GaryVee] "This is what you should teach your kids" — posted 23h ago
-  https://www.youtube.com/watch?v=jVIiDkLqKhY
+- [Big Think] "The famous tree-falling thought experiment has a new answer | Lisa Feldman Barrett" — posted 5h ago
+  https://www.youtube.com/watch?v=8RUjEGFFLTc
   No transcript available
 
-- [The Diary Of A CEO] "WHY YOU'RE ALWAYS ON YOUR PHONE" — posted 20h ago
-  https://www.youtube.com/watch?v=IFdO81Z4_Ac
+- [GaryVee] "Looking for a new job? Do this" — posted 2h ago
+  https://www.youtube.com/watch?v=_2QzfLYlUL0
   No transcript available
 
-- [The Diary Of A CEO] "DO THIS TO YOUR PHONE NOW" — posted 1d ago
-  https://www.youtube.com/watch?v=plyGf--nVTk
+- [GaryVee] "How to protect your kids from the internet" — posted 18h ago
+  https://www.youtube.com/watch?v=2RHGCZzrkrI
+  No transcript available
+
+- [GaryVee] "new business idea" — posted 23h ago
+  https://www.youtube.com/watch?v=MzB39WSS5DE
+  No transcript available
+
+- [The Diary Of A CEO] "The Deathbed Doctor: Weeks Before Death, Patients Start Having Visions! | Dr Christopher Kerr" — posted 11h ago
+  https://www.youtube.com/watch?v=GlaSnROMqRY
   No transcript available
 
 ## Latest on TikTok
@@ -70,4 +80,4 @@ _No Reddit data collected._
 _No Twitter data collected._
 
 ---
-*Daily Scrape — 2026-10-18T14:59:40.743Z*
+*Daily Scrape — 2026-10-19T17:51:54.143Z*
