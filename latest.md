@@ -1,27 +1,25 @@
-# Daily Scrape — October 22, 2026
+# Daily Scrape — October 23, 2026
 
 ## Top Story
-Claude's ecosystem is rapidly expanding beyond chat—Claude Duet (504 HN points) is driving serious developer interest, while Boris Cherny (Claude Code lead) posted on Threads that automated PR reviews are now live in Claude Code settings with zero developer setup friction. Combined with Claude's new Google Workspace integration, Anthropic is positioning Claude as an embedded productivity layer, not just a chatbot. For SMB consultants selling AI services, this signals a shift from "use Claude as a tool" to "Claude becomes your workflow infrastructure"—the delta between reselling access and reselling integrated systems.
+Anthropic's formal verification research is gaining serious traction (397 HN points, 242 comments), signaling that LLMs are moving beyond chat into mission-critical infrastructure verification work. For SMB consultants, this means a new B2B sales angle: positioning AI as a productivity multiplier for software teams managing legacy codebases, not just as a content or automation tool.
 
 ## What People Are Saying
-- Claude Duet is generating outsized engagement (504 points, 462 comments on HN)—the volume of discussion suggests developers see something substantive here, not just a minor feature bump. This is the highest-engagement story in today's data.
-- Boris Cherny flagged that Claude Code's PR review automation requires "no setup for developers"—this is a direct answer to the operational friction that blocks AI adoption in teams. The friction removal is the story.
-- Greg Isenberg's video "The 9 Stages of AI Agent Adoption" suggests there's still a market education gap; adoption is staged, not instant, and consultants still need a framework to sell it.
+- The Hacker News community is actively debating why OpenAI hasn't spun out 100 companies if its models are so capable (357 points, 383 comments)—suggesting skepticism about real-world LLM utility at scale, and an opening for consultants to demonstrate concrete ROI metrics in their case studies.
+- Boris Cherny (Claude Code lead) posted on Threads that Anthropic's PR review automation requires zero developer setup—just admin enablement in settings—which directly addresses the friction point that's been slowing AI adoption in engineering teams.
+- GaryVee's content volume on growth mechanics ("How I'd Grow a Business With $0 in 2026," "The reason you don't grow on Social Media") suggests the influencer class is doubling down on distribution and mindset over tooling, creating a gap where AI integration consultants can position practical implementation as the missing piece.
 
 ## Updates
-- **Claude Duet launch** — High engagement (504 HN points, 462 comments) suggests a meaningful new capability or product tier from Anthropic, likely a collaboration or agentic feature; specifics not yet clear but adoption conversation is hot.
-- **Claude Code PR review automation** — Boris Cherny posted that automated code reviews are live in Claude Code settings with one-click repo setup; this removes a major friction point for team adoption.
-- **Claude integrates Google Docs, Sheets, Slides** — Claude now works natively in Google Workspace apps (67 HN points); lowers switching cost for SMBs already in Google's ecosystem.
+- Anthropic published formal verification research demonstrating LLMs can scale software verification work previously limited by manual effort—establishing a new product category for verification-as-a-service consulting.
+- Claude Code now supports automated PR reviews with zero developer friction (per Boris Cherny on Threads), lowering the barrier for teams to adopt AI-native workflows.
+- Swedish government offices banned ChatGPT and Claude, signaling regulatory pressure that will force enterprise clients to demand air-gapped, compliant AI solutions—a consulting upsell opportunity.
 
 ## Hacker News Today
-- [Claude Duet](https://claude.com/product/claude-duet) — 504 pts &middot; [462 comments](https://news.ycombinator.com/item?id=50186037)
-- [OpenAI CLI](https://github.com/openai/openai-cli) — 206 pts &middot; [96 comments](https://news.ycombinator.com/item?id=50191507)
-- [Several Linux kernel vulnerabilities accidentally posted to public mailing list](https://www.phoronix.com/news/LKML-New-Trend-Vulnerabilities) — 188 pts &middot; [54 comments](https://news.ycombinator.com/item?id=50193804)
-- [What's Getting Pwned](https://pwn.watch/) — 118 pts &middot; [75 comments](https://news.ycombinator.com/item?id=50195543)
-- [Show HN: Omnara – Open-source alternative to Claude Managed Agents](https://github.com/omnara-ai/omnara) — 100 pts &middot; [29 comments](https://news.ycombinator.com/item?id=50183892)
-- [Claude Duet](https://claude.com/resources/articles/claude-duet) — 85 pts &middot; [11 comments](https://news.ycombinator.com/item?id=50186455)
-- [Claude Now Works with Google Docs, Sheets, and Slides](https://claude.com/resources/articles/claude-now-works-in-google-docs-sheets-and-slides) — 67 pts &middot; [8 comments](https://news.ycombinator.com/item?id=50190357)
-- [Achieving AI-style reasoning without an LLM](https://fleetingswallow.com/minotaur-ai-deep-dive-achieving-reasoning-without-a-language-model/) — 44 pts &middot; [30 comments](https://news.ycombinator.com/item?id=50192868)
+- [LLMs are making formal software verification feasible at a much larger scale](https://www.anthropic.com/research/formal-verification) — 397 pts &middot; [242 comments](https://news.ycombinator.com/item?id=50202217)
+- [Ask HN: If the models are so good, why doesn't OpenAI just start 100 companies?](https://news.ycombinator.com/item?id=50200997) — 357 pts &middot; [383 comments](https://news.ycombinator.com/item?id=50200997)
+- [Swedish government offices to ban ChatGPT and Claude](https://www.sverigesradio.se/artikel/chat-gpt-och-claude-forbjuder-regeringskansliet) — 295 pts &middot; [106 comments](https://news.ycombinator.com/item?id=50207405)
+- [OpenSSL 4.1.0](https://github.com/openssl/openssl/releases/tag/openssl-4.1.0) — 133 pts &middot; [36 comments](https://news.ycombinator.com/item?id=50208099)
+- [The Rise and Fall of Jev](https://blog.alexewerlof.com/p/rise-and-fall-of-jev-eval-hype-vs-llm) — 81 pts &middot; [57 comments](https://news.ycombinator.com/item?id=50206361)
+- [UN says breaching 1.5C warming limit is 'imminent and unavoidable'](https://www.cnn.com/2026/10/21/climate/cop31-un-climate-report-emissions-gap) — 49 pts &middot; [29 comments](https://news.ycombinator.com/item?id=50202609)
 
 ## On Threads
 **@boris_cherny** — Oct 16
@@ -31,52 +29,44 @@ Claude's ecosystem is rapidly expanding beyond chat—Claude Duet (504 HN points
 [View on Threads](https://www.threads.com/@boris_cherny/post/DekKPCvGbnM)
 
 ## New YouTube Videos
-- [Fireship] "The last real programmers are dying out..." — posted 1h ago
-  https://www.youtube.com/watch?v=zv6B6PQOuHE
+- [Dan Martell] "The most expensive I've learned" — posted 1h ago
+  https://www.youtube.com/watch?v=tBcdQSRgRAc
   No transcript available
 
-- [Matt Wolfe] "Personal Body Guard Robot - What could go wrong?" — posted 13h ago
-  https://www.youtube.com/watch?v=dyrNQV0F3Zs
+- [Dan Martell] "Building a business vs building a brand, which is more important?" — posted 19h ago
+  https://www.youtube.com/watch?v=8MzK0d1jPNU
   No transcript available
 
-- [Matt Wolfe] "AI Breakthroughs Everyone Missed" — posted 22h ago
-  https://www.youtube.com/watch?v=umGZrkyTRtw
+- [Big Think] "Screens made belonging easy and selfhood nearly impossible | Luke Burgis: Full Interview" — posted 3h ago
+  https://www.youtube.com/watch?v=9WJ-GGD212s
   No transcript available
 
-- [Greg Isenberg] "The 9 Stages of AI Agent Adoption, Explained" — posted 21h ago
-  https://www.youtube.com/watch?v=nRl-7Yhmbog
+- [GaryVee] "you must hear this" — posted just now
+  https://www.youtube.com/watch?v=PXn388C-8Ec
   No transcript available
 
-- [Dan Martell] "You need to stop micromanaging your team and let them cook." — posted 1h ago
-  https://www.youtube.com/watch?v=gZy3UhfEZfU
+- [GaryVee] "How I'd Grow a Business With $0 in 2026" — posted 1h ago
+  https://www.youtube.com/watch?v=CBMo0qoTu1I
   No transcript available
 
-- [Dan Martell] "You need to build the people, so they can build the business" — posted 19h ago
-  https://www.youtube.com/watch?v=3L5HG-X98ZA
+- [GaryVee] "The reason you don't grow on Social Media" — posted 18h ago
+  https://www.youtube.com/watch?v=tie3sHP0VV0
   No transcript available
 
-- [GaryVee] "I come back to this video when I feel ungrateful" — posted 15h ago
-  https://www.youtube.com/watch?v=E_xzFTdDeaA
+- [GaryVee] "It's not their fault" — posted 21h ago
+  https://www.youtube.com/watch?v=DCXNRZCmtNY
   No transcript available
 
-- [GaryVee] "This is the greatest era ever" — posted 17h ago
-  https://www.youtube.com/watch?v=rQUOfoKIG08
+- [GaryVee] "Just post it" — posted 1d ago
+  https://www.youtube.com/watch?v=4PogawC4WiE
   No transcript available
 
-- [GaryVee] "It's free distribution" — posted 19h ago
-  https://www.youtube.com/watch?v=N6iorueJqHU
+- [The Diary Of A CEO] "ZELENSKYY ON THE DAY RUSSIA INVADED UKRAINE" — posted 4h ago
+  https://www.youtube.com/watch?v=WLwH3Yc_uu4
   No transcript available
 
-- [GaryVee] "advice you need to hear" — posted 21h ago
-  https://www.youtube.com/watch?v=unHCZlKIObc
-  No transcript available
-
-- [GaryVee] "if I was 16 today...." — posted 23h ago
-  https://www.youtube.com/watch?v=s8Ecjt6YPpQ
-  No transcript available
-
-- [The Diary Of A CEO] "President Zelenskyy: It's Time To Tell You The Truth About This War! I Found 500 Bodies!" — posted 9h ago
-  https://www.youtube.com/watch?v=5x9dkYIRb58
+- [The Diary Of A CEO] "ZELENSKYY OPENS UP ABOUT THE WAR" — posted 22h ago
+  https://www.youtube.com/watch?v=O8JqOIRtwXI
   No transcript available
 
 ## Latest on TikTok
@@ -90,4 +80,4 @@ _No Reddit data collected._
 _No Twitter data collected._
 
 ---
-*Daily Scrape — 2026-10-22T16:11:01.637Z*
+*Daily Scrape — 2026-10-23T16:01:10.701Z*
