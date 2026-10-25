@@ -1,28 +1,23 @@
-# Daily Scrape — October 24, 2026
+# Daily Scrape — October 25, 2026
 
 ## Top Story
-AI-powered code review infrastructure is moving from "nice-to-have" to automated-by-default. Boris Cherny (Claude Code lead) posted on Threads that Anthropic is enabling repository-linked code review in Claude that runs on every PR with zero developer setup required — a shift that signals AI tools are quietly becoming invisible infrastructure layers rather than discrete features consultants need to "sell" clients on adopting.
+Open-source AI models are closing the capability gap with frontier models—Matt Wolfe's coverage of Kimi K3.1 Pro signals that SMBs and consultants can no longer justify premium LLM costs on performance alone. This matters because your clients' "we need GPT-4" arguments are evaporating, forcing a pivot from model selection to *integration strategy* (which Dan Martell just reinforced: most business owners have a strategy problem, not a technology problem).
 
 ## What People Are Saying
-- Security vulnerabilities in AI supply chains are creating urgency: The Samsung TV reverse-engineering story (348 HN points) and OpenAI account suspension signal that consumers are discovering AI listening in without consent — and the conversation is shifting from "is AI risky?" to "whose AI am I accidentally running?" This matters for SMBs selling AI services: trust and transparency are now table-stakes.
-- AI hallucinations are publishing fabricated citations in peer-reviewed work: The Z-Library paper that cited a non-existent TorrentFreak article (61 HN points) reveals a critical gap — AI-assisted research is scaling faster than quality gates, creating reputational risk for consultants recommending these tools to clients without guardrails.
-- Node2Shell → HTTP2Shell escalation shows blast radius thinking is real: The RCE vulnerability evolution across HTTP libraries (177 and 112 HN points with 93 and 61 comments respectively) demonstrates that a single vulnerability class can cascade through multiple stacks simultaneously — consultants pitching "AI-powered security" need to show they understand dependency chains, not just model outputs.
+- Boris Cherny (Claude Code lead) posted on Threads that Anthropic's code review automation is now admin-configurable—developers get AI-powered PR reviews with zero setup friction, signaling a shift from "AI as a tool you configure" to "AI as embedded infrastructure."
+- The open-source community is fracturing over LLM adoption: r/opensource banned solo projects using LLMs (49 points, 30 comments), reflecting real tension between "AI-accelerated development" and authenticity gatekeeping—a concern your SMB clients will face when selling AI-built solutions.
+- Hacker News engagement shows creeping AI legitimacy concerns: the Nikon photography contest AI-detection story (70 points) and the broader "limitations breed creativity" essay (99 points) suggest your audience is grappling with *when* to disclose AI involvement—a LinkedIn reputation risk.
 
 ## Updates
-- Claude Code now integrates GitHub/GitLab repo scanning for automated PR review without setup overhead (per Boris Cherny on Threads) — meaningful for consultants selling "AI-as-infrastructure" rather than "AI-as-tool."
-- OpenAI published a security briefing on frontier model training environment hardening — signals the model providers are moving from research-focused to production-hardened posture, creating new compliance talking points for enterprise AI sales.
-- HTTP2Shell RCE vulnerability disclosed affecting Python, Node.js, and other HTTP libraries — directly relevant to consultants advising clients on LLM integration security.
+- Claude Code now supports repository-level PR review automation (via Boris Cherny on Threads), enabling agencies to embed Anthropic's models directly into client GitHub workflows without developer setup.
 
 ## Hacker News Today
-- [Hacker reverses Samsung TV, finds on-board AI listening OpenAI account suspended](https://www.reddit.com/r/antiai/comments/1xdv3e5/hacker_reverse_engineers_his_samsung_tv_and_finds/) — 348 pts &middot; [110 comments](https://news.ycombinator.com/item?id=50218633)
-- [Elon Musk Just Gave Europe a Reason to Replace American Technology](https://steveblank.com/2026/10/24/europe-gets-a-wake-up-call/) — 255 pts &middot; [251 comments](https://news.ycombinator.com/item?id=50220913)
-- [Evolving Threat: http2shell is an RCE in Node, Python, and more](https://nitter.click/AikidoSecurity/status/2113759110625906950?__galadriel=lPmlGl9id4oAd5UeBwMhlYKArHyr6lR2IDGujPwB5HV2kQ1aLoPWFd5A9sGuzNcmrp8fUso8qygmHcKTDZ8MNHWqQ3bDJcycV87xp_0VypzQLYj6O_RRHlZuQqj33oASGY2YLSoAiMjeOZN40h7Stf8AG7DPrGZbAPVKUXy36HoMudRbvwF3_r2uYNmfJMhpKzywQDM6Ab8) — 177 pts &middot; [93 comments](https://news.ycombinator.com/item?id=50216791)
-- [Node2Shell evolves to HTTP2Shell, blast radius affects many HTTP libs and apps](https://www.aikido.dev/blog/python-packages-vulnerable-node2shell-brotli-cve-2026-111497) — 112 pts &middot; [61 comments](https://news.ycombinator.com/item?id=50219177)
-- [Show HN: Corgi, a helpful {agent, terminal} multiplexer](https://corgi.computer/) — 109 pts &middot; [29 comments](https://news.ycombinator.com/item?id=50214373)
-- [Securing our frontier model training environment](https://openai.com/index/securing-our-frontier-model-training-environment/) — 108 pts &middot; [112 comments](https://news.ycombinator.com/item?id=50214416)
-- [AI-Assisted Paper on Z-Library Cites a TorrentFreak Article That Doesn't Exist](https://torrentfreak.com/ai-assisted-paper-on-z-library-cites-a-torrentfreak-article-that-doesnt-exist/) — 61 pts &middot; [19 comments](https://news.ycombinator.com/item?id=50220204)
-- [Volodymyr Zelenskyy: The speed limits on Starlink and Starshield are still there](https://twitter.com/ZelenskyyUa/status/2113677048354947180) — 48 pts &middot; [17 comments](https://news.ycombinator.com/item?id=50214055)
-- [ThinkRail from JetBrains](https://thinkrail.ai/) — 47 pts &middot; [71 comments](https://news.ycombinator.com/item?id=50219186)
+- [The Importance of Limitations for Creativity and Learning (2023)](https://ratfactor.com/cards/limitations) — 99 pts &middot; [33 comments](https://news.ycombinator.com/item?id=50225663)
+- [fheroes2: A recreation of Heroes of Might and Magic II game engine](https://github.com/ihhub/fheroes2) — 97 pts &middot; [32 comments](https://news.ycombinator.com/item?id=50230384)
+- [Nikon photography contest winner loses title after scientists spot signs of AI](https://www.techspot.com/news/114171-nikon-photography-contest-winner-loses-title-after-scientists.html) — 70 pts &middot; [16 comments](https://news.ycombinator.com/item?id=50229827)
+- [R/open source bans all solo projects and projects using LLMs](https://www.reddit.com/r/opensource/comments/1xelcuf/your_tokens_arent_valuable_no_more_ai) — 49 pts &middot; [30 comments](https://news.ycombinator.com/item?id=50231722)
+- [Oai-math-revised: a community hub for revising OpenAI's math write-ups](https://terrytao.wordpress.com/2026/10/24/oai-math-revised-a-community-hub-for-revising-openais-math-write-ups/) — 48 pts &middot; [39 comments](https://news.ycombinator.com/item?id=50222283)
+- ["Musk" Documentary Pulled from Almost Every One of 472 Theaters After One Week](https://www.showbiz411.com/2026/10/23/controversial-musk-documentary-pulled-from-almost-every-one-of-472-theaters-after-one-week-by-newly-sold-bleecker-street-films) — 46 pts &middot; [15 comments](https://news.ycombinator.com/item?id=50227403)
 
 ## On Threads
 **@boris_cherny** — Oct 16
@@ -32,47 +27,23 @@ AI-powered code review infrastructure is moving from "nice-to-have" to automated
 [View on Threads](https://www.threads.com/@boris_cherny/post/DekKPCvGbnM)
 
 ## New YouTube Videos
-- [Fireship] "The most vulnerable week in internet history..." — posted 21h ago
-  https://www.youtube.com/watch?v=SMGg7iisHmc
+- [Matt Wolfe] "Open-Source AI Models Caught Up! (Kimi K3.1 Pro)" — posted 20h ago
+  https://www.youtube.com/watch?v=u3WV4nf8Jdo
   No transcript available
 
-- [Matt Wolfe] "Old Phones Are Becoming Robots?!?" — posted 15h ago
-  https://www.youtube.com/watch?v=FiyUagHO37Y
+- [Dan Martell] "Most business owners don't have an AI problem. They have a strategy problem." — posted 18h ago
+  https://www.youtube.com/watch?v=huFvRouRKkQ
   No transcript available
 
-- [Matt Wolfe] "These ChatGPT Prompts Are Game-Changers!" — posted 18h ago
-  https://www.youtube.com/watch?v=WSHEBdmahHY
+- [GaryVee] "How to start" — posted 18h ago
+  https://www.youtube.com/watch?v=yMo3X3dA9AM
   No transcript available
 
-- [Matt Wolfe] "AI News: 24 Things You Need To Know This Week" — posted 21h ago
-  https://www.youtube.com/watch?v=TVRCcMlvR10
+- [GaryVee] "Say that again" — posted 22h ago
+  https://www.youtube.com/watch?v=uVjF2U29q6I
   No transcript available
 
-- [Dan Martell] "How do you get leads through content?" — posted 18h ago
-  https://www.youtube.com/watch?v=KaSzb4I-YMo
-  No transcript available
-
-- [Dan Martell] "The most expensive I've learned" — posted 1d ago
-  https://www.youtube.com/watch?v=tBcdQSRgRAc
-  No transcript available
-
-- [Big Think] "Did T. Rex have feathers? | Steve Brusatte" — posted 23h ago
-  https://www.youtube.com/watch?v=MgpM7QxPOr8
-  No transcript available
-
-- [GaryVee] "every 16 year old must master this" — posted 17h ago
-  https://www.youtube.com/watch?v=57JWvsjLCg8
-  No transcript available
-
-- [GaryVee] "I come back to this video every time I feel behind" — posted 22h ago
-  https://www.youtube.com/watch?v=yA7181IAezs
-  No transcript available
-
-- [GaryVee] "you must hear this" — posted 23h ago
-  https://www.youtube.com/watch?v=PXn388C-8Ec
-  No transcript available
-
-- [The Diary Of A CEO] "WHAT BIDEN REALLY SAID TO ZELENSKYY..." — posted 20h ago
+- [The Diary Of A CEO] "WHAT BIDEN REALLY SAID TO ZELENSKYY..." — posted 2d ago
   https://www.youtube.com/watch?v=9ZlfYdOmuek
   No transcript available
 
@@ -87,4 +58,4 @@ _No Reddit data collected._
 _No Twitter data collected._
 
 ---
-*Daily Scrape — 2026-10-24T14:58:19.415Z*
+*Daily Scrape — 2026-10-25T15:08:46.146Z*
