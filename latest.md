@@ -1,25 +1,25 @@
-# Daily Scrape — October 27, 2026
+# Daily Scrape — October 28, 2026
 
 ## Top Story
-OpenAI just shipped three breakthroughs in mathematics and computer science (1,079 HN points, 621 comments), including proof that the Exponential Time Hypothesis is false and the launch of GPT-6.1 Terra. For consultants selling AI services, this signals a dramatic acceleration in AI's ability to solve "hard" problems—mathematical proofs, optimization, complexity theory—that were previously thought computationally intractable. This moves AI from productivity tool to competitive moat: clients who integrate these capabilities now own access to a new class of problem-solving that competitors can't easily replicate.
+AI agents are moving from theoretical to operational—Dan Martell's latest content sprint showcasing "AI Agent for Every Part of Your Life" paired with Boris Cherny's (Claude Code lead) Threads post on automated PR reviews suggests the market is shipping agents into real workflows, not just talking about them. For SMB consultants, this is the inflection point where "AI integration" stops meaning chatbots and starts meaning autonomous task execution—the services that sell now are the ones that can operationalize these agents for specific business functions.
 
 ## What People Are Saying
-- Boris Cherny (Claude Code lead) posted on Threads that Anthropic's code review automation now runs automatically on every PR once admins enable it in Claude Code settings—no developer setup required. The implication: autonomous code agents are shipping as mainstream features, not experiments.
-- Greg Isenberg's latest videos highlight both the "$1,000/hour 1-person AI business" opportunity and practical implementation via OpenAI's Dots AI agents inside ChatGPT, suggesting the market is consolidating around agent-first workflows for consultants building solo practices.
-- Lex Fridman's podcast episode on "AI Crisis in Math" (Navier-Stokes, Riemann Hypothesis) directly echoes the HN conversation around OpenAI's mathematical breakthroughs—indicating that the AI-vs-hard-math narrative is now mainstream enough for flagship media coverage.
+- Boris Cherny flagged zero-friction agent deployment: "Admins turn it on in Claude Code settings and pick repos. From there, reviews run on every new PR, with no setup for developers"—the friction to adoption is collapsing, which means consultants need positioning ready for clients asking "why aren't we using this yet?"
+- Fireship's "Did the AI bubble just pop?" is getting engagement, signaling real doubt in the market about valuations/hype—but Hacker News is actually focused on *capability* wins (Anthropic's drug development progress at 295 points, Gemini 4 Carbon at 137), not bubble narratives, suggesting practitioners and builders see past the noise.
+- The practical evaluation gap is real: Surgehq's "Dayjob: Tax" (testing AI agents on 50 professional tax assignments) only hit 60 HN points, suggesting enterprise AI validation is still fragmented—consultants claiming "AI works for X" without rigorous benchmarks won't hold water much longer.
 
 ## Updates
-- GPT-6.1 Terra launched (615 HN points, 396 comments)—no details in this window, but the naming suggests a new tier or capability set beyond GPT-6.
-- Claude Code now supports automated PR reviews with zero developer friction—a feature gate away from full autonomous code integration workflows.
-- OpenAI published three peer-reviewed breakthroughs in mathematics, computer science, and physics (https://openai.com/index/building-scientific-understanding-with-academic-communities/), positioning AI as a research and proof-generation tool, not just text completion.
+- Anthropic expanded its GSA partnership to bring Claude to "all levels of government"—federal/state/local procurement is now a distribution channel for enterprise AI, creating a moat for Claude and a sales motion for consultants selling compliance-first AI integration.
+- Google shipped Gemini 4 Carbon—a lighter, faster model variant designed for efficiency—signaling the commodity-fication of LLMs is accelerating; SMB consultants should expect cost pressure on basic automation work and pivot to specialized agents.
+- Survival LLM (479 HN points, 175 comments) launched a local-first AI assistant with offline capabilities—this taps into privacy/sovereignty concerns and suggests a new market segment for consultants: on-prem or hybrid AI deployments for regulated industries.
 
 ## Hacker News Today
-- [Three new discoveries in mathematics, computer science, and physics](https://openai.com/index/building-scientific-understanding-with-academic-communities/) — 1079 pts &middot; [621 comments](https://news.ycombinator.com/item?id=50251344)
-- [The Exponential Time Hypothesis Is False [pdf]](https://github.com/openai/math/blob/main/preprints/The-Exponential-Time-Hypothesis-is-False-October-25-2026/paper.pdf) — 751 pts &middot; [271 comments](https://news.ycombinator.com/item?id=50251661)
-- [GPT-6.1 Terra](https://openai.com/index/introducing-gpt-6-1-terra/) — 615 pts &middot; [396 comments](https://news.ycombinator.com/item?id=50248124)
-- [Is my data used for model training?](https://privacy.claude.com/en/articles/7996868-is-my-data-used-for-model-training) — 157 pts &middot; [74 comments](https://news.ycombinator.com/item?id=50259406)
-- [There are now 5 inference providers for abliterated DeepSeek](https://allmodels.io/llm/abliterated) — 88 pts &middot; [107 comments](https://news.ycombinator.com/item?id=50254836)
-- [Anthropic trained Claude on illegally obtained Stanford professors' books](https://stanforddaily.com/2026/10/27/professors-books-pirated-to-train-claude/) — 65 pts &middot; [32 comments](https://news.ycombinator.com/item?id=50260814)
+- [Survival LLM: AI assistant and emergency library that runs on your own computer](https://www.brangus.io/survival-llm) — 479 pts &middot; [175 comments](https://news.ycombinator.com/item?id=50264853)
+- [Early progress on accelerating drug development with Claude](https://www.anthropic.com/research/early-progress-drug-development) — 295 pts &middot; [288 comments](https://news.ycombinator.com/item?id=50265609)
+- [Gemini 4 Carbon](https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/) — 137 pts &middot; [86 comments](https://news.ycombinator.com/item?id=50276792)
+- [Dayjob: Tax – evaluating AI agents on 50 professional tax assignments](https://surgehq.ai/blog/dayjob-tax) — 60 pts &middot; [36 comments](https://news.ycombinator.com/item?id=50275626)
+- [Tell HN: I'm going on strike this November](https://news.ycombinator.com/item?id=50271808) — 48 pts &middot; [63 comments](https://news.ycombinator.com/item?id=50271808)
+- [Expanding our partnership with GSA to bring Claude to all levels of government](https://www.anthropic.com/news/expanding-partnership-gsa) — 46 pts &middot; [29 comments](https://news.ycombinator.com/item?id=50266701)
 
 ## On Threads
 **@boris_cherny** — Oct 16
@@ -29,60 +29,56 @@ OpenAI just shipped three breakthroughs in mathematics and computer science (1,0
 [View on Threads](https://www.threads.com/@boris_cherny/post/DekKPCvGbnM)
 
 ## New YouTube Videos
-- [Fireship] "China just dropped a new frontier model... and nobody can explain how" — posted 22h ago
-  https://www.youtube.com/watch?v=G_em1hHPnXY
+- [Fireship] "Did the AI bubble just pop?" — posted 4h ago
+  https://www.youtube.com/watch?v=nEaJMdM1djM
   No transcript available
 
-- [Matt Wolfe] "Crazy Spy Tech You Can Use For Free!" — posted just now
-  https://www.youtube.com/watch?v=EUjd_UBApoA
+- [Dan Martell] "How to Work with an Executive Assistant" — posted 2h ago
+  https://www.youtube.com/watch?v=QVLmhx4jHa0
   No transcript available
 
-- [Matt Wolfe] "ANOTHER Flying Car? (Not Tesla / Not AI)" — posted 21h ago
-  https://www.youtube.com/watch?v=gC18kqOcCEI
+- [Dan Martell] "How to Build an AI Agent for Every Part of Your Life" — posted 5h ago
+  https://www.youtube.com/watch?v=SJywU4UQryQ
   No transcript available
 
-- [Lex Fridman] "AI Crisis in Math: Navier-Stokes, Riemann Hypothesis & Complexity Theory | Lex Fridman Podcast #503" — posted 18h ago
-  https://www.youtube.com/watch?v=ZAzWPE9CItg
+- [Dan Martell] "What would you do if you had 10 extra hours? #AIFS Day 2" — posted 18h ago
+  https://www.youtube.com/watch?v=bN5Fr9s5Rvc
   No transcript available
 
-- [Greg Isenberg] "Watch how I use @openai Dots AI agents in chatgpt to make my life & business better #chatgpt_partner" — posted 20h ago
-  https://www.youtube.com/watch?v=35sh2FkQn-k
+- [Dan Martell] "Simple AI tip to get you better results #AIFS" — posted 21h ago
+  https://www.youtube.com/watch?v=QxB85TXE7Oc
   No transcript available
 
-- [Greg Isenberg] "The $1,000/hour 1-person AI business" — posted 22h ago
-  https://www.youtube.com/watch?v=HKNpCwG3nlc
+- [Dan Martell] "From Prison to Programming: My Journey to AI" — posted 22h ago
+  https://www.youtube.com/watch?v=iLbvTcRuipY
   No transcript available
 
-- [Dan Martell] "POV: your AI event is like Coachella" — posted 17h ago
-  https://www.youtube.com/watch?v=cYxbQgepY_s
+- [Big Think] "The hidden trap of overthinking | Lisa Damour" — posted 1h ago
+  https://www.youtube.com/watch?v=9UtyrAipobI
   No transcript available
 
-- [Dan Martell] "What did you takeaway from Day 1 of #AIFS in Kelowna?" — posted 19h ago
-  https://www.youtube.com/watch?v=k-c7N1kZ5E4
+- [GaryVee] "What platforms to post on?" — posted 2h ago
+  https://www.youtube.com/watch?v=ggyjGK61Nsw
   No transcript available
 
-- [Dan Martell] "Asking CEOs at #AIFS what they want AI to take off their plate?" — posted 21h ago
-  https://www.youtube.com/watch?v=r7KQQ-gLVQs
+- [GaryVee] "Why would you not be happy for other people?" — posted 16h ago
+  https://www.youtube.com/watch?v=LZQI5xhxYws
   No transcript available
 
-- [Dan Martell] "It most definitely can’t replace the people who make this community what it is." — posted 23h ago
-  https://www.youtube.com/watch?v=qLgqXQIL6n8
+- [GaryVee] "jealousy is eating up your soul" — posted 19h ago
+  https://www.youtube.com/watch?v=mwlwoOefMgE
   No transcript available
 
-- [Tim Ferriss] "Legendary Chef Jacques Pépin — The Pursuit of Mastery, Meeting Julia Child, and More" — posted 3h ago
-  https://www.youtube.com/watch?v=9AIZhBfomp4
+- [GaryVee] "How do you stop caring about what other people think" — posted 22h ago
+  https://www.youtube.com/watch?v=Hwe2vurZe7w
   No transcript available
 
-- [GaryVee] "What's next" — posted 20h ago
-  https://www.youtube.com/watch?v=Ffixlua6GlU
+- [GaryVee] "Nobody is coming to save you" — posted 23h ago
+  https://www.youtube.com/watch?v=xQVHx5Z-MhQ
   No transcript available
 
-- [GaryVee] "Let me get this straight" — posted 1d ago
-  https://www.youtube.com/watch?v=yvOQv-eL4U4
-  No transcript available
-
-- [The Diary Of A CEO] "HOW TO MAKE YOUR FIRST MILLION" — posted 21h ago
-  https://www.youtube.com/watch?v=PFO3cJzIFfc
+- [The Diary Of A CEO] "FAME PUT PRESSURE ON MY FAMILY 💔" — posted 1d ago
+  https://www.youtube.com/watch?v=hxGeryDClG4
   No transcript available
 
 ## Latest on TikTok
@@ -96,4 +92,4 @@ _No Reddit data collected._
 _No Twitter data collected._
 
 ---
-*Daily Scrape — 2026-10-27T16:56:59.137Z*
+*Daily Scrape — 2026-10-28T17:30:55.985Z*
