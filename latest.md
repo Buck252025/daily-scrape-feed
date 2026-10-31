@@ -1,29 +1,23 @@
-# Daily Scrape — October 30, 2026
+# Daily Scrape — October 31, 2026
 
 ## Top Story
-Claude Code VS Code extension compromised with backdoor malware across Cursor marketplace — 1,041+ combined HN engagement points across three stories. This is a critical supply-chain attack vector for AI developers and consultants integrating Claude tooling into their stack. For SMB owners and agencies selling AI services, this signals a trust/security conversation you need to have with prospects *now* before they adopt Claude-based workflows at scale.
+OpenAI's funding round collapsed to less than half its $30B target, landing at roughly $15B—a watershed moment signaling investor skepticism about AI ROI and valuation expectations. For consultants and SMB owners selling AI services, this signals a tightening market where clients will demand faster, measurable returns and vendors will consolidate around proven use cases rather than speculative AI plays.
 
 ## What People Are Saying
-- Boris Cherny (Claude Code lead) posted on Threads that Claude Code now auto-reviews PRs on every commit when admins enable it in settings — no developer setup required — which directly contradicts the "AI is deskilling engineers" narrative. HN's top engagement on "AI Isn't Replacing SREs. It's Deskilling Them" (192 points, 152 comments) shows teams are worried about capability atrophy, not productivity gains.
-- Dan Martell's two latest videos ("Why are CEOs and business owners afraid to let go of control?" and "Meetings are optional in my companies") tap into the founder control-vs-delegation anxiety that's blocking AI adoption at SMB level — this is a psychological barrier, not a technical one.
-- GaryVee's "The Biggest Social Media Shift Nobody Is Talking About" + "Stop chasing. Make them come to you" signals a shift in LinkedIn/social selling strategy that consultants need to reframe around — inbound positioning over outbound hustle.
+- Security is becoming the defining battleground: ChatGPT account takeovers (190 HN points), Anthropic employee data breaches, and LLM-powered malware victim ranking (47 points) are dominating technical discourse—yet receiving dramatically different engagement levels, suggesting the industry is still underselling AI security risks to SMB buyers.
+- Boris Cherny (Claude Code lead) posted on Threads that Anthropic's new Claude Code feature runs PR reviews automatically with zero developer setup required—a direct answer to the micromanagement problem Dan Martell's latest video addresses, showing where AI integration is actually solving operational friction.
+- Digital minimalism and anti-hype sentiment are rising (182 HN points on Vitalik's minimalism essay): the conversation is shifting from "what can AI do?" to "what *should* AI do?"—a critical pivot for consultants positioning AI adoption as strategic discipline, not just adoption for adoption's sake.
 
 ## Updates
-- Claude Code backdoor incident: malicious extension distributed via Cursor marketplace delivering remote access trojans to developer machines — immediate audit required for any agency or consultant recommending Claude tooling to clients.
-- Claude Duet (personal assistant harness) hitting 122 HN points with 136 comments — real signal that Claude-as-agent is resonating with builders, not just as a code tool but as a workflow orchestrator.
-- Tim Ferriss' "The 4-Hour Workweek in a World of AI" released — major voice re-entering the AI productivity conversation with a legacy framework your audience knows.
+- Claude Code now supports automatic PR reviews with repository integration via admin settings, requiring zero developer configuration—meaningful for SMBs automating code quality without retooling workflows.
+- OpenAI's Series D fundraising fell short at ~$15B (vs. $30B target), per Wall Street Journal—a clear signal that late-stage AI investor appetite has contracted significantly.
 
 ## Hacker News Today
-- [Backdoors in official Claude Code extensions](https://cyberplace.social/@GossiTheDog/117528831681803563) — 646 pts &middot; [17 comments](https://news.ycombinator.com/item?id=50302334)
-- [Claude Code VS Code extension with backdoor released on Cursor marketplace](https://doublepulsar.com/anthropic-hacked-to-deliver-remote-access-trojan-to-claude-developer-laptops-worldwide-1148a92baae2) — 396 pts &middot; [1 comments](https://news.ycombinator.com/item?id=50301983)
-- [Backdoor in Claude Code for VS Code extension on the Cursor Marketplace](https://phorion.io/blog/offical-claude-code-vsx-compromise/) — 395 pts &middot; [366 comments](https://news.ycombinator.com/item?id=50300683)
-- [AI Isn't Replacing SREs. It's Deskilling Them](https://newsletter.signoz.io/p/ai-isnt-replacing-sres-its-deskilling) — 192 pts &middot; [152 comments](https://news.ycombinator.com/item?id=50305693)
-- [Show HN: Auto Dismiss Mac OS "Allow <app> to find devices on local networks?"](https://github.com/johncassil/dontallow) — 147 pts &middot; [118 comments](https://news.ycombinator.com/item?id=50294506)
-- [Claude Duet is the first personal-assistant-type harness that feels useful](https://fig.blue/posts/duet-is-the-future/) — 122 pts &middot; [136 comments](https://news.ycombinator.com/item?id=50292727)
-- [The importance of communities around software](https://lumi.codeberg.page/blog/software-community.html) — 107 pts &middot; [119 comments](https://news.ycombinator.com/item?id=50294507)
-- [After 28 years walking across the globe, he's almost home](https://www.nytimes.com/2026/10/29/world/europe/karl-bushby-walking-globe-uk.html) — 92 pts &middot; [77 comments](https://news.ycombinator.com/item?id=50293023)
-- [US tech stocks see sharp falls over AI cost fears](https://www.bbc.co.uk/news/articles/cvwy72e0n72yo) — 52 pts &middot; [16 comments](https://news.ycombinator.com/item?id=50306008)
-- [IgE disruptor for food allergy with Claude-enabled antibody design [pdf]](https://divergencelabs.com/publications/ige-preprint.pdf) — 50 pts &middot; [38 comments](https://news.ycombinator.com/item?id=50294486)
+- [We Took over ChatGPT Accounts](https://www.parameter.ai/labs/we-found-a-gap-at-openai) — 190 pts &middot; [96 comments](https://news.ycombinator.com/item?id=50314699)
+- [Digital minimalism](https://vitalik.eth.limo/general/2026/10/31/digital_minimalism.html) — 182 pts &middot; [130 comments](https://news.ycombinator.com/item?id=50313661)
+- [OpenAI raises less than half of $30B target](https://www.wsj.com/tech/ai/openai-raises-less-than-half-of-30-billion-target-in-latest-round-91aecdc5) — 172 pts &middot; [161 comments](https://news.ycombinator.com/item?id=50312922)
+- [AI startup hacks Anthropic, gains access to employee details, internal messages](https://www.indiatoday.in/technology/news/story/ai-startup-hacks-anthropic-in-12-hours-gains-access-to-employee-details-and-internal-messages-3025452-2026-10-26) — 70 pts &middot; [17 comments](https://news.ycombinator.com/item?id=50315990)
+- [Malware uses LLMs to rank victims by how much they're worth](https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer/) — 47 pts &middot; [1 comments](https://news.ycombinator.com/item?id=50316531)
 
 ## On Threads
 **@boris_cherny** — Oct 16
@@ -33,47 +27,39 @@ Claude Code VS Code extension compromised with backdoor malware across Cursor ma
 [View on Threads](https://www.threads.com/@boris_cherny/post/DekKPCvGbnM)
 
 ## New YouTube Videos
-- [Greg Isenberg] "SaaS is dead?" — posted 22h ago
-  https://www.youtube.com/watch?v=AqqjH_uv-_w
+- [Matt Wolfe] "6 AI Updates Worth Knowing & A Bubble-Bursting IPO" — posted 19h ago
+  https://www.youtube.com/watch?v=eDiQNFa-zYg
   No transcript available
 
-- [Dan Martell] "Why are CEOs and business owners afraid to let go of control?" — posted 2h ago
-  https://www.youtube.com/watch?v=l98nXW1TyqY
+- [Matt Wolfe] "When a humanoid and a drone become besties" — posted 21h ago
+  https://www.youtube.com/watch?v=4sGplZdBy6A
   No transcript available
 
-- [Dan Martell] "Meetings are optional in my companies" — posted 20h ago
-  https://www.youtube.com/watch?v=o7T66r8NqlA
+- [Dan Martell] "Barber Talks w/ @al_clipone; Installing GrokBot" — posted 1h ago
+  https://www.youtube.com/watch?v=1z-sQtgEJdA
   No transcript available
 
-- [Big Think] "How to change your toxic relationship | Ramani Durvasula" — posted 1h ago
-  https://www.youtube.com/watch?v=do1Hkubz-Eo
+- [Dan Martell] "Why are you still micromanaging your team? Do this instead." — posted 19h ago
+  https://www.youtube.com/watch?v=WbzNAjkNkeY
   No transcript available
 
-- [Big Think] "1 in 6 people are narcissists. Learn to spot them early | Ramani Durvasula: Full Interview" — posted 4h ago
-  https://www.youtube.com/watch?v=XfxQL1LP2BM
+- [Tim Ferriss] "The 10x Question for Deciding What Matters" — posted 3h ago
+  https://www.youtube.com/watch?v=9FvMm01QpU8
   No transcript available
 
-- [Tim Ferriss] "The 4-Hour Workweek in a World of AI" — posted 3h ago
-  https://www.youtube.com/watch?v=7HmiGzd-7WQ
+- [GaryVee] "There's 2 ways to build the biggest business in town" — posted 5h ago
+  https://www.youtube.com/watch?v=uadyT1lEPfc
   No transcript available
 
-- [GaryVee] "The Biggest Social Media Shift Nobody Is Talking About" — posted 1h ago
+- [GaryVee] "the biggest mistake parents make" — posted 23h ago
+  https://www.youtube.com/watch?v=njms8kXcRd4
+  No transcript available
+
+- [GaryVee] "The Biggest Social Media Shift Nobody Is Talking About" — posted 1d ago
   https://www.youtube.com/watch?v=aP7msE4tJqU
   No transcript available
 
-- [GaryVee] "Head to WineText.com to sign up for this huge deal 🍷" — posted 14h ago
-  https://www.youtube.com/watch?v=iUsxUUErWiQ
-  No transcript available
-
-- [GaryVee] "the #1 advice to win in business" — posted 17h ago
-  https://www.youtube.com/watch?v=QNKxk6mzyxE
-  No transcript available
-
-- [GaryVee] "Stop chasing. Make them come to you" — posted 21h ago
-  https://www.youtube.com/watch?v=AXHh29lkw8M
-  No transcript available
-
-- [The Diary Of A CEO] "DON'T MAKE THIS INTERVIEW MISTAKE" — posted 19h ago
+- [The Diary Of A CEO] "DON'T MAKE THIS INTERVIEW MISTAKE" — posted 2d ago
   https://www.youtube.com/watch?v=Eisgc6cyBRQ
   No transcript available
 
@@ -88,4 +74,4 @@ _No Reddit data collected._
 _No Twitter data collected._
 
 ---
-*Daily Scrape — 2026-10-30T17:20:48.316Z*
+*Daily Scrape — 2026-10-31T16:25:14.636Z*
