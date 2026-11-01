@@ -1,23 +1,25 @@
-# Daily Scrape — October 31, 2026
+# Daily Scrape — November 1, 2026
 
 ## Top Story
-OpenAI's funding round collapsed to less than half its $30B target, landing at roughly $15B—a watershed moment signaling investor skepticism about AI ROI and valuation expectations. For consultants and SMB owners selling AI services, this signals a tightening market where clients will demand faster, measurable returns and vendors will consolidate around proven use cases rather than speculative AI plays.
+Claude Code's PR review automation is live and frictionless—Boris Cherny (Claude Code lead) posted on Threads that admins can now enable it directly in settings, pick repos, and run reviews on every new PR with zero developer setup required. This is the fastest path-to-deployment we've seen from Anthropic for a developer-facing feature, and it signals a major shift: AI tooling is moving from "add this to your workflow" to "it's already running in your workflow."
 
 ## What People Are Saying
-- Security is becoming the defining battleground: ChatGPT account takeovers (190 HN points), Anthropic employee data breaches, and LLM-powered malware victim ranking (47 points) are dominating technical discourse—yet receiving dramatically different engagement levels, suggesting the industry is still underselling AI security risks to SMB buyers.
-- Boris Cherny (Claude Code lead) posted on Threads that Anthropic's new Claude Code feature runs PR reviews automatically with zero developer setup required—a direct answer to the micromanagement problem Dan Martell's latest video addresses, showing where AI integration is actually solving operational friction.
-- Digital minimalism and anti-hype sentiment are rising (182 HN points on Vitalik's minimalism essay): the conversation is shifting from "what can AI do?" to "what *should* AI do?"—a critical pivot for consultants positioning AI adoption as strategic discipline, not just adoption for adoption's sake.
+- OpenAI and Anthropic are both making aggressive moves to control how their models are *used*—Anthropic is actively blocking Claude from reverse-engineering video games (171 points on HN), while Sam Altman is publicly stating that DRAM should go to data centers instead of personal computers (65 comments debating the infrastructure implications). The subtext: both companies are betting that centralized, API-based AI beats local/edge deployments.
+- AI agent swarms in controlled environments (like Minecraft) are hitting unexpected friction—the story "AI agent swarms fail to build civilization, drown in bureaucracy" (83 points) is getting real engagement, suggesting builders are seeing that coordination complexity isn't just a scaling problem, it's a fundamental design problem that LLMs haven't solved yet.
+- ChatGPT and Codex usage limits are merging (201 points, 143 comments on HN), which means OpenAI is consolidating its API product surface and likely simplifying pricing—important signal for consultants pricing AI integration services.
 
 ## Updates
-- Claude Code now supports automatic PR reviews with repository integration via admin settings, requiring zero developer configuration—meaningful for SMBs automating code quality without retooling workflows.
-- OpenAI's Series D fundraising fell short at ~$15B (vs. $30B target), per Wall Street Journal—a clear signal that late-stage AI investor appetite has contracted significantly.
+- Claude Code PR review automation is now in general availability with one-click admin enablement via settings (via Boris Cherny on Threads).
+- ChatGPT and Codex usage limits are being unified, signaling a consolidation of OpenAI's API offerings and potential pricing/quota restructuring.
+- Anthropic is shipping guardrails specifically designed to prevent Claude from being used for video game reverse-engineering, raising questions about what other use-case-specific blocks are coming.
 
 ## Hacker News Today
-- [We Took over ChatGPT Accounts](https://www.parameter.ai/labs/we-found-a-gap-at-openai) — 190 pts &middot; [96 comments](https://news.ycombinator.com/item?id=50314699)
-- [Digital minimalism](https://vitalik.eth.limo/general/2026/10/31/digital_minimalism.html) — 182 pts &middot; [130 comments](https://news.ycombinator.com/item?id=50313661)
-- [OpenAI raises less than half of $30B target](https://www.wsj.com/tech/ai/openai-raises-less-than-half-of-30-billion-target-in-latest-round-91aecdc5) — 172 pts &middot; [161 comments](https://news.ycombinator.com/item?id=50312922)
-- [AI startup hacks Anthropic, gains access to employee details, internal messages](https://www.indiatoday.in/technology/news/story/ai-startup-hacks-anthropic-in-12-hours-gains-access-to-employee-details-and-internal-messages-3025452-2026-10-26) — 70 pts &middot; [17 comments](https://news.ycombinator.com/item?id=50315990)
-- [Malware uses LLMs to rank victims by how much they're worth](https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer/) — 47 pts &middot; [1 comments](https://news.ycombinator.com/item?id=50316531)
+- [ChatGPT and Codex usage limits merging](https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits) — 201 pts &middot; [143 comments](https://news.ycombinator.com/item?id=50320588)
+- [Anthropic takes steps to block Claude from reverse-engineering video games](https://mashable.com/tech/anthropic-takes-steps-to-block-video-game-cloning-and-reverse-engineering) — 171 pts &middot; [105 comments](https://news.ycombinator.com/item?id=50320255)
+- [Show HN: HackerBooks – HackerTube, but for books recommended on HN](https://hackerbooks.org) — 156 pts &middot; [53 comments](https://news.ycombinator.com/item?id=50326821)
+- [AI agent swarms in Minecraft fail to build civilization, drown in bureaucracy](https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-agent-swarms-unleashed-in-minecraft-to-build-a-thriving-civilization-50-agent-teams-fail-after-falling-into-paralyzing-bureaucracy) — 83 pts &middot; [34 comments](https://news.ycombinator.com/item?id=50325662)
+- [Sam Altman says DRAM capacity should go to data centers, not personal computers](https://www.tomshardware.com/tech-industry/data-centers/openai-ceo-says-its-quite-terrible-for-your-pc-to-have-ram-sam-altman-says-data-centers-offer-better-utilization) — 50 pts &middot; [65 comments](https://news.ycombinator.com/item?id=50324267)
+- [Show HN: BBRouter – Ben Eater's 8-bit computer, simulated on 3D breadboards](https://bbrouter.com/bbrouter/ben-eater-sap-1) — 44 pts &middot; [8 comments](https://news.ycombinator.com/item?id=50321522)
 
 ## On Threads
 **@boris_cherny** — Oct 16
@@ -27,39 +29,31 @@ OpenAI's funding round collapsed to less than half its $30B target, landing at r
 [View on Threads](https://www.threads.com/@boris_cherny/post/DekKPCvGbnM)
 
 ## New YouTube Videos
-- [Matt Wolfe] "6 AI Updates Worth Knowing & A Bubble-Bursting IPO" — posted 19h ago
-  https://www.youtube.com/watch?v=eDiQNFa-zYg
+- [Matt Wolfe] "Glasses That Make You Telepathic" — posted 23h ago
+  https://www.youtube.com/watch?v=_9R7QOhJh-o
   No transcript available
 
-- [Matt Wolfe] "When a humanoid and a drone become besties" — posted 21h ago
-  https://www.youtube.com/watch?v=4sGplZdBy6A
+- [Dan Martell] "The next big AI tool is...." — posted 20h ago
+  https://www.youtube.com/watch?v=Ravnyp-ye08
   No transcript available
 
-- [Dan Martell] "Barber Talks w/ @al_clipone; Installing GrokBot" — posted 1h ago
-  https://www.youtube.com/watch?v=1z-sQtgEJdA
+- [Tim Ferriss] "Does The 4-Hour Body Still Work After 40? (I’m 49)" — posted 3h ago
+  https://www.youtube.com/watch?v=5qP0hT4blKQ
   No transcript available
 
-- [Dan Martell] "Why are you still micromanaging your team? Do this instead." — posted 19h ago
-  https://www.youtube.com/watch?v=WbzNAjkNkeY
+- [GaryVee] "This is the greatest era ever" — posted 5h ago
+  https://www.youtube.com/watch?v=QY4glSyv3Ls
   No transcript available
 
-- [Tim Ferriss] "The 10x Question for Deciding What Matters" — posted 3h ago
-  https://www.youtube.com/watch?v=9FvMm01QpU8
+- [GaryVee] "You can be honest AND be kind" — posted 17h ago
+  https://www.youtube.com/watch?v=mF1SijXjfc4
   No transcript available
 
-- [GaryVee] "There's 2 ways to build the biggest business in town" — posted 5h ago
-  https://www.youtube.com/watch?v=uadyT1lEPfc
+- [GaryVee] "Manifest is a word" — posted 21h ago
+  https://www.youtube.com/watch?v=D8djFX-6JlE
   No transcript available
 
-- [GaryVee] "the biggest mistake parents make" — posted 23h ago
-  https://www.youtube.com/watch?v=njms8kXcRd4
-  No transcript available
-
-- [GaryVee] "The Biggest Social Media Shift Nobody Is Talking About" — posted 1d ago
-  https://www.youtube.com/watch?v=aP7msE4tJqU
-  No transcript available
-
-- [The Diary Of A CEO] "DON'T MAKE THIS INTERVIEW MISTAKE" — posted 2d ago
+- [The Diary Of A CEO] "DON'T MAKE THIS INTERVIEW MISTAKE" — posted 3d ago
   https://www.youtube.com/watch?v=Eisgc6cyBRQ
   No transcript available
 
@@ -74,4 +68,4 @@ _No Reddit data collected._
 _No Twitter data collected._
 
 ---
-*Daily Scrape — 2026-10-31T16:25:14.636Z*
+*Daily Scrape — 2026-11-01T17:19:01.165Z*
