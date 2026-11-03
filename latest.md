@@ -1,29 +1,24 @@
-# Daily Scrape — November 2, 2026
+# Daily Scrape — November 3, 2026
 
 ## Top Story
-Claude's architectural capabilities have crossed into professional territory—Claude Opus 5.5 can now generate permit-level architectural drawings, signaling that AI is moving from ideation tool to production-ready output for regulated, high-stakes work. For consultants selling AI integration, this is the inflection point where "AI helps you work faster" becomes "AI replaces entire specialist workflows," which changes both your pitch and your liability story.
+Silent data exfiltration is becoming the dirty secret of AI tooling. Postman's auto-installation of AI plugins without user consent (339 HN points, 113 comments) and OpenAI's apparent re-enablement of model training on Codex chats (217 points) reveal a pattern: major platforms are betting on data collection without transparency. For consultants selling AI adoption, this is the trust liability you need to own before clients ask—and they will.
 
 ## What People Are Saying
-- The Hacker News community is wrestling with whether LLMs have become the default cognitive layer: "So I guess everyone uses LLMs to think now" (77 points, 130 comments) suggests consultants and builders are no longer asking *if* they should integrate LLMs into workflows, but rather how to optimize that dependency—and what breaks when you do.
-- Boris Cherny (Claude Code lead) posted on Threads that Claude Code can now auto-review PRs with zero developer setup—admins enable it in settings, pick repos, and reviews run on every PR—which demonstrates that AI integration is moving from "add-on tool" to "embedded governance layer" in SMB workflows.
-- Anthropic's internal AI costs now exceed total employee payroll (225 points, 176 comments on HN), which inverts the traditional ROI narrative: if a major AI company is spending more on AI compute than human salaries, your SMB clients should expect that investment multiplier, not just cost-per-task savings.
+- The Postman controversy (113 comments) centers on a core integration fear: "AI features" are often cover for data pipelines. Developers are explicitly worried about API data being shared without consent, signaling that opaque AI tooling adoption is becoming a red flag in enterprise decision-making.
+- Boris Cherny (Claude Code lead) posted on Threads that Claude's code review automation now runs on every PR with zero developer setup required—suggesting friction-free AI integration is table stakes, but also that the "set it and forget it" model is already being built into major dev tools.
+- Greg Isenberg's latest video promotes "The $1M+ Solo Grok Bot Business," indicating the creator economy is actively monetizing single-founder AI automation plays—a signal that SMBs see immediate ROI potential in purpose-built LLM applications, not generic copilots.
 
 ## Updates
-- Claude Opus 5.5 can now generate permit-level architectural drawings, collapsing the gap between conceptual AI output and regulated, professional deliverables that can be filed with municipal authorities.
-- Momentic (YC W24) launched as an AI agent platform specifically built to catch bugs by using your app like a human QA tester, addressing the gap between "AI can write code" and "AI can validate code in real user environments."
-- Oracle is raising $20B in new stock and bonds explicitly to finance AI buildout, signaling that enterprise-scale AI infrastructure competition is accelerating and that consultants selling AI adoption to SMBs are now racing against major infrastructure vendors flooding the market.
+- Claude Code can now auto-review PRs with repo access (Boris Cherny, Threads) — no setup friction, suggesting a shift toward embedded, invisible AI tooling in developer workflows.
+- OpenAI is reportedly re-enabling model training on Codex chats, creating a potential compliance and transparency issue for any consultant selling OpenAI-based solutions to risk-averse clients.
+- Google DeepMind researchers are demanding freedom to publicly criticize company AI decisions, hinting at growing internal friction over AI safety/ethics policies that could ripple into enterprise procurement anxiety.
 
 ## Hacker News Today
-- [Astra can read and write weights to improve Qwen](https://rikiyat.github.io/blog/weight-space-programming/) — 951 pts &middot; [300 comments](https://news.ycombinator.com/item?id=50341174)
-- [Anthropic's internal AI use, at retail prices, now exceeds its employee pay](https://www.businessinsider.com/anthropic-claude-internal-ai-use-exceeds-employee-pay-tokens-2026-11) — 225 pts &middot; [176 comments](https://news.ycombinator.com/item?id=50339494)
-- [Jobless tech workers are being left out of San Francisco's AI boom](https://www.bloomberg.com/news/features/2026-09-17/san-francisco-s-ai-wealth-boom-skirts-engineers-as-openai-anthropic-ipos-near) — 136 pts &middot; [179 comments](https://news.ycombinator.com/item?id=50337454)
-- [Launch HN: Momentic (YC W24) – Agents that catch bugs by using your app](https://momentic.ai/) — 88 pts &middot; [55 comments](https://news.ycombinator.com/item?id=50339913)
-- [Ubuntu still has not released patch for Linux 0day RCE in almost 3 weeks](https://freenode.net/article/ubuntu-lts-kernels-still-unfixed-for-critical-cve-2026-98432) — 87 pts &middot; [10 comments](https://news.ycombinator.com/item?id=50341462)
-- [So I guess everyone uses LLMs to think now](https://eva.ac/blog/llms/) — 77 pts &middot; [130 comments](https://news.ycombinator.com/item?id=50330253)
-- [Oracle files to sell $20B in new stock, bonds to finance AI buildout](https://www.cnbc.com/2026/11/02/oracle-files-to-sell-20-billion-in-new-stock-bonds-to-finance-ai-buildout.html) — 58 pts &middot; [27 comments](https://news.ycombinator.com/item?id=50342284)
-- [GPT-Rosalind-6 System Card Addendum](https://deploymentsafety.openai.com/gpt-rosalind-6) — 55 pts &middot; [47 comments](https://news.ycombinator.com/item?id=50337503)
-- [Claude Opus 5.5 Can Draw Permit-Level Architectural Drawings](https://stephenjgallagher.substack.com/p/ai-can-draw-blueprints-now) — 53 pts &middot; [24 comments](https://news.ycombinator.com/item?id=50339224)
-- [Egoless Mathematics in the AI Era](https://terrytao.wordpress.com/2026/11/02/egoless-mathematics-in-the-ai-era/) — 51 pts &middot; [44 comments](https://news.ycombinator.com/item?id=50341736)
+- [Postman silently auto-installs AI plugins and attempts to share all API data](https://github.com/postmanlabs/postman-app-support/issues/14370) — 339 pts &middot; [113 comments](https://news.ycombinator.com/item?id=50354960)
+- [Scaling Git at OpenAI](https://openai.com/index/scaling-git-at-openai/) — 258 pts &middot; [175 comments](https://news.ycombinator.com/item?id=50345924)
+- [OpenAI seems to be silently re-enabling model training on Codex chats](https://news.ycombinator.com/item?id=50352757) — 217 pts &middot; [72 comments](https://news.ycombinator.com/item?id=50352757)
+- [Gitbook Breached](https://news.ycombinator.com/item?id=50354336) — 64 pts &middot; [18 comments](https://news.ycombinator.com/item?id=50354336)
+- [Google researchers demand freedom to tell the world what they know about AI](https://www.washingtonpost.com/technology/2026/11/03/google-deepmind-staff-protest-lifetime-ban-criticizing-company/) — 47 pts &middot; [39 comments](https://news.ycombinator.com/item?id=50355504)
 
 ## On Threads
 **@boris_cherny** — Oct 16
@@ -33,47 +28,43 @@ Claude's architectural capabilities have crossed into professional territory—C
 [View on Threads](https://www.threads.com/@boris_cherny/post/DekKPCvGbnM)
 
 ## New YouTube Videos
-- [Matt Wolfe] "Would you be excited to see this at Disneyland?" — posted 17h ago
-  https://www.youtube.com/watch?v=h5SNFLIZl_U
+- [Matt Wolfe] "Generate Worlds in Real-Time (Free & Open Source)" — posted 20h ago
+  https://www.youtube.com/watch?v=lZes3U_WIug
   No transcript available
 
-- [AI Explained] "‘We may release models we can’t control’: Amodei, Altman … and Gemini Carbon" — posted 4h ago
-  https://www.youtube.com/watch?v=0Kw6_DTZPrY
-  No transcript available
-
-- [Greg Isenberg] "The $1M+ Solo Grok Bot Business (Full Course)" — posted 2h ago
+- [Greg Isenberg] "The $1M+ Solo Grok Bot Business (Full Course)" — posted 23h ago
   https://www.youtube.com/watch?v=67BmkptgTms
   No transcript available
 
-- [Dan Martell] "The power of FOCUS is how you win" — posted 5h ago
-  https://www.youtube.com/watch?v=rLyTmuBosrw
+- [Dan Martell] "CEO's AI Productivity Set Up" — posted 3h ago
+  https://www.youtube.com/watch?v=T_87i1iR9Xk
   No transcript available
 
-- [Dan Martell] "Are you using voice mode on GrokBot?" — posted 23h ago
-  https://www.youtube.com/watch?v=p-NY0B1AthI
+- [Dan Martell] "The 10-80-10 rule is how you decide what to automate" — posted 21h ago
+  https://www.youtube.com/watch?v=6q8nnmDAm60
   No transcript available
 
-- [Big Think] "What is life? | Paul Davies" — posted 4h ago
-  https://www.youtube.com/watch?v=j1ztlNlPnnk
+- [Tim Ferriss] "Is Back Pain All in Your Head? Tim Ferriss on Dr. Sarno" — posted 5h ago
+  https://www.youtube.com/watch?v=L8f9P3JRJf0
   No transcript available
 
-- [Big Think] "Your brain didn't invent reality — it inherited it | Lisa Feldman Barrett" — posted 7h ago
-  https://www.youtube.com/watch?v=KLeOL1CFZVM
+- [GaryVee] "What success looks like:" — posted 2h ago
+  https://www.youtube.com/watch?v=BJVrX6ydhDw
   No transcript available
 
-- [Tim Ferriss] "Watch These 5 Minutes if Overthinking Has You Paralyzed" — posted 7h ago
-  https://www.youtube.com/watch?v=5LMx2zhvxRY
+- [GaryVee] "The number one career skill right now." — posted 4h ago
+  https://www.youtube.com/watch?v=463vzV9LflY
   No transcript available
 
-- [GaryVee] ""I thought you were going to call me a loser"" — posted 4h ago
-  https://www.youtube.com/watch?v=QKeBKWn3Uv4
+- [GaryVee] "Friend: Just say it's good and be normal" — posted 18h ago
+  https://www.youtube.com/watch?v=snh_w-J9_AM
   No transcript available
 
-- [GaryVee] "Is college worth?" — posted 8h ago
-  https://www.youtube.com/watch?v=5u8It4Q0xts
+- [GaryVee] "I come back to this video when I feel like I'm not good enough" — posted 22h ago
+  https://www.youtube.com/watch?v=h1JAknWU5r8
   No transcript available
 
-- [The Diary Of A CEO] "James Talarico: Here Is How They Designed The System To Keep You Poor!" — posted 13h ago
+- [The Diary Of A CEO] "James Talarico: Here Is How They Designed The System To Keep You Poor!" — posted 1d ago
   https://www.youtube.com/watch?v=FpIN6tYC5XM
   No transcript available
 
@@ -88,4 +79,4 @@ _No Reddit data collected._
 _No Twitter data collected._
 
 ---
-*Daily Scrape — 2026-11-02T20:56:58.879Z*
+*Daily Scrape — 2026-11-03T18:44:17.509Z*
