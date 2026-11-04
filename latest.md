@@ -1,24 +1,27 @@
-# Daily Scrape — November 3, 2026
+# Daily Scrape — November 4, 2026
 
 ## Top Story
-Silent data exfiltration is becoming the dirty secret of AI tooling. Postman's auto-installation of AI plugins without user consent (339 HN points, 113 comments) and OpenAI's apparent re-enablement of model training on Codex chats (217 points) reveal a pattern: major platforms are betting on data collection without transparency. For consultants selling AI adoption, this is the trust liability you need to own before clients ask—and they will.
+Claude Code is moving from experimental to production—Boris Cherny (Claude Code lead) posted on Threads that admins can now enable it directly in Claude Code settings with automatic PR reviews requiring zero developer setup. This is the clearest signal yet that Anthropic's agentic coding layer is graduating from early access to deployable infrastructure, directly competing with GitHub Copilot's workflow integration and raising the bar for what "AI-native developer experience" means for teams adopting LLM tools.
 
 ## What People Are Saying
-- The Postman controversy (113 comments) centers on a core integration fear: "AI features" are often cover for data pipelines. Developers are explicitly worried about API data being shared without consent, signaling that opaque AI tooling adoption is becoming a red flag in enterprise decision-making.
-- Boris Cherny (Claude Code lead) posted on Threads that Claude's code review automation now runs on every PR with zero developer setup required—suggesting friction-free AI integration is table stakes, but also that the "set it and forget it" model is already being built into major dev tools.
-- Greg Isenberg's latest video promotes "The $1M+ Solo Grok Bot Business," indicating the creator economy is actively monetizing single-founder AI automation plays—a signal that SMBs see immediate ROI potential in purpose-built LLM applications, not generic copilots.
+- Developers are actively mapping their own AI agentic stacks—a Hacker News thread ("Ask HN: What's your current AI agentic setup?") generated 68 comments, signaling that multi-tool orchestration and agent composition are now standard practice, not experimental fringe work.
+- LLM-powered creative workflows are maturing into production tools—Matt Wolfe's "Definitive Guide To Editing Video With Claude" suggests Claude is now being positioned as a direct editing layer, not just a copilot, implying a shift from "AI assists creators" to "AI runs the creative pipeline."
+- Job displacement anxiety is driving engagement but not accuracy—multiple Dan Martell videos ("AI is gonna take your job, unless you do this," "3 skills AI will never replace") and GaryVee's motivational content dominate the YouTube feed, suggesting consultants and SMB owners are hungry for frameworks that position AI adoption as a *skill edge* rather than a threat.
 
 ## Updates
-- Claude Code can now auto-review PRs with repo access (Boris Cherny, Threads) — no setup friction, suggesting a shift toward embedded, invisible AI tooling in developer workflows.
-- OpenAI is reportedly re-enabling model training on Codex chats, creating a potential compliance and transparency issue for any consultant selling OpenAI-based solutions to risk-averse clients.
-- Google DeepMind researchers are demanding freedom to publicly criticize company AI decisions, hinting at growing internal friction over AI safety/ethics policies that could ripple into enterprise procurement anxiety.
+- Pierre Computer acquired by OpenAI (71 HN points, 29 comments)—OpenAI is consolidating compute infrastructure or talent; worth tracking for API/model availability implications.
+- Kairos, an open-source fraud and risk decisioning platform, launched on Show HN (102 points, 30 comments)—pre-built agentic framework for financial decisioning workflows, lowering the barrier for SMBs to deploy rule-based LLM agents in compliance-heavy domains.
+- Flipper One Kickstarter pre-orders opened (225 HN points, 97 comments)—hardware security research tool gaining mainstream traction; relevant to cybersecurity consultants advising on AI system hardening.
 
 ## Hacker News Today
-- [Postman silently auto-installs AI plugins and attempts to share all API data](https://github.com/postmanlabs/postman-app-support/issues/14370) — 339 pts &middot; [113 comments](https://news.ycombinator.com/item?id=50354960)
-- [Scaling Git at OpenAI](https://openai.com/index/scaling-git-at-openai/) — 258 pts &middot; [175 comments](https://news.ycombinator.com/item?id=50345924)
-- [OpenAI seems to be silently re-enabling model training on Codex chats](https://news.ycombinator.com/item?id=50352757) — 217 pts &middot; [72 comments](https://news.ycombinator.com/item?id=50352757)
-- [Gitbook Breached](https://news.ycombinator.com/item?id=50354336) — 64 pts &middot; [18 comments](https://news.ycombinator.com/item?id=50354336)
-- [Google researchers demand freedom to tell the world what they know about AI](https://www.washingtonpost.com/technology/2026/11/03/google-deepmind-staff-protest-lifetime-ban-criticizing-company/) — 47 pts &middot; [39 comments](https://news.ycombinator.com/item?id=50355504)
+- [Preparing for the Flipper One Kickstarter and opening pre-orders](https://flipper.net/pages/flipper-one) — 225 pts &middot; [97 comments](https://news.ycombinator.com/item?id=50356994)
+- [Giant canyon on Mars is still tectonically active](https://lamont.columbia.edu/news/giant-canyon-mars-still-tectonically-active-today) — 138 pts &middot; [36 comments](https://news.ycombinator.com/item?id=50360573)
+- [Show HN: Uncracked City, detective game where you question LLM suspects that lie](https://uncracked.city) — 119 pts &middot; [60 comments](https://news.ycombinator.com/item?id=50358352)
+- [Show HN: Kairos – Open-source risk and fraud decisioning platform](https://github.com/finic-ai/kairos) — 102 pts &middot; [30 comments](https://news.ycombinator.com/item?id=50358314)
+- [Pierre Computer is being acquired by OpenAI](https://twitter.com/pierrecomputer/status/2117999036175188183) — 71 pts &middot; [29 comments](https://news.ycombinator.com/item?id=50366863)
+- [Ask HN: What's your current AI agentic setup?](https://news.ycombinator.com/item?id=50366117) — 59 pts &middot; [68 comments](https://news.ycombinator.com/item?id=50366117)
+- [BYD doubles its Brazil market share to 9.7% a year after opening its local plant](https://www.bloomberg.com/news/articles/2026-11-03/china-s-byd-doubles-market-share-in-brazil-with-new-plant-eyed) — 59 pts &middot; [24 comments](https://news.ycombinator.com/item?id=50369146)
+- [Told to reboot a server, it destroyed systemd, destroyed containers, ran random](https://github.com/openai/codex/issues/59060) — 43 pts &middot; [32 comments](https://news.ycombinator.com/item?id=50363717)
 
 ## On Threads
 **@boris_cherny** — Oct 16
@@ -28,44 +31,64 @@ Silent data exfiltration is becoming the dirty secret of AI tooling. Postman's a
 [View on Threads](https://www.threads.com/@boris_cherny/post/DekKPCvGbnM)
 
 ## New YouTube Videos
-- [Matt Wolfe] "Generate Worlds in Real-Time (Free & Open Source)" — posted 20h ago
-  https://www.youtube.com/watch?v=lZes3U_WIug
+- [Fireship] "The worst week in cybersecurity history... so far" — posted 23h ago
+  https://www.youtube.com/watch?v=k2ruCf_z75I
   No transcript available
 
-- [Greg Isenberg] "The $1M+ Solo Grok Bot Business (Full Course)" — posted 23h ago
-  https://www.youtube.com/watch?v=67BmkptgTms
+- [Matt Wolfe] "The Definitive Guide To Editing Video With Claude" — posted 2h ago
+  https://www.youtube.com/watch?v=ep4psgAFOqc
   No transcript available
 
-- [Dan Martell] "CEO's AI Productivity Set Up" — posted 3h ago
-  https://www.youtube.com/watch?v=T_87i1iR9Xk
+- [Matt Wolfe] "A real-life speeder bike from Return of the Jedi (Not AI)" — posted 22h ago
+  https://www.youtube.com/watch?v=PRAY_SewRxI
   No transcript available
 
-- [Dan Martell] "The 10-80-10 rule is how you decide what to automate" — posted 21h ago
-  https://www.youtube.com/watch?v=6q8nnmDAm60
+- [Dan Martell] "POV: you get to workout with your 9 figure mentor" — posted 1h ago
+  https://www.youtube.com/watch?v=CV1MOXZtdh8
   No transcript available
 
-- [Tim Ferriss] "Is Back Pain All in Your Head? Tim Ferriss on Dr. Sarno" — posted 5h ago
-  https://www.youtube.com/watch?v=L8f9P3JRJf0
+- [Dan Martell] "3 skills AI will never replace" — posted 3h ago
+  https://www.youtube.com/watch?v=UB_ZIWrsnfs
   No transcript available
 
-- [GaryVee] "What success looks like:" — posted 2h ago
-  https://www.youtube.com/watch?v=BJVrX6ydhDw
+- [Dan Martell] "If you only watch one sales video, make it this one" — posted 5h ago
+  https://www.youtube.com/watch?v=nsFKkeQg-V0
   No transcript available
 
-- [GaryVee] "The number one career skill right now." — posted 4h ago
-  https://www.youtube.com/watch?v=463vzV9LflY
+- [Dan Martell] "AI is gonna take your job, unless you do this" — posted 21h ago
+  https://www.youtube.com/watch?v=38OTLXbT3xs
   No transcript available
 
-- [GaryVee] "Friend: Just say it's good and be normal" — posted 18h ago
-  https://www.youtube.com/watch?v=snh_w-J9_AM
+- [Big Think] "Why listening beats problem solving | Lisa Damour" — posted 2h ago
+  https://www.youtube.com/watch?v=EdfYPOffmsE
   No transcript available
 
-- [GaryVee] "I come back to this video when I feel like I'm not good enough" — posted 22h ago
-  https://www.youtube.com/watch?v=h1JAknWU5r8
+- [Tim Ferriss] "The Question I Ask Friends Before Committing to Anything" — posted 5h ago
+  https://www.youtube.com/watch?v=FS_XhSIBjDE
   No transcript available
 
-- [The Diary Of A CEO] "James Talarico: Here Is How They Designed The System To Keep You Poor!" — posted 1d ago
-  https://www.youtube.com/watch?v=FpIN6tYC5XM
+- [GaryVee] "how to stop giving a fck" — posted 2h ago
+  https://www.youtube.com/watch?v=SxsYNjsuwJY
+  No transcript available
+
+- [GaryVee] "Watch This Before You Waste Another Year of Your Life" — posted 2h ago
+  https://www.youtube.com/watch?v=3rO6h5C6z5Q
+  No transcript available
+
+- [GaryVee] "What success looks like:" — posted 18h ago
+  https://www.youtube.com/watch?v=FdfX38v1Wwg
+  No transcript available
+
+- [GaryVee] "What success looks like" — posted 20h ago
+  https://www.youtube.com/watch?v=Zct_Hn4Cql0
+  No transcript available
+
+- [GaryVee] "Behind every win..." — posted 23h ago
+  https://www.youtube.com/watch?v=uvJbllicJ9o
+  No transcript available
+
+- [The Diary Of A CEO] "CAN AMERICA BE FIXED?" — posted 1d ago
+  https://www.youtube.com/watch?v=k-ldMhfIuJE
   No transcript available
 
 ## Latest on TikTok
@@ -79,4 +102,4 @@ _No Reddit data collected._
 _No Twitter data collected._
 
 ---
-*Daily Scrape — 2026-11-03T18:44:17.509Z*
+*Daily Scrape — 2026-11-04T18:57:46.739Z*
