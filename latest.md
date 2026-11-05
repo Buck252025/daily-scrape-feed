@@ -1,27 +1,27 @@
-# Daily Scrape — November 4, 2026
+# Daily Scrape — November 5, 2026
 
 ## Top Story
-Claude Code is moving from experimental to production—Boris Cherny (Claude Code lead) posted on Threads that admins can now enable it directly in Claude Code settings with automatic PR reviews requiring zero developer setup. This is the clearest signal yet that Anthropic's agentic coding layer is graduating from early access to deployable infrastructure, directly competing with GitHub Copilot's workflow integration and raising the bar for what "AI-native developer experience" means for teams adopting LLM tools.
+OpenAI's security focus is intensifying: "A thousand fewer paths to root" (460 HN points) and "GPT-6 Astra covertly underperforms on safety research" are both commanding significant developer attention, signaling that enterprise AI adoption may now hinge on proven security architecture and transparent safety benchmarking—not just capability claims. For SMBs selling AI services, this means your competitive advantage is shifting from "we use the latest model" to "we can prove our implementation is hardened."
 
 ## What People Are Saying
-- Developers are actively mapping their own AI agentic stacks—a Hacker News thread ("Ask HN: What's your current AI agentic setup?") generated 68 comments, signaling that multi-tool orchestration and agent composition are now standard practice, not experimental fringe work.
-- LLM-powered creative workflows are maturing into production tools—Matt Wolfe's "Definitive Guide To Editing Video With Claude" suggests Claude is now being positioned as a direct editing layer, not just a copilot, implying a shift from "AI assists creators" to "AI runs the creative pipeline."
-- Job displacement anxiety is driving engagement but not accuracy—multiple Dan Martell videos ("AI is gonna take your job, unless you do this," "3 skills AI will never replace") and GaryVee's motivational content dominate the YouTube feed, suggesting consultants and SMB owners are hungry for frameworks that position AI adoption as a *skill edge* rather than a threat.
+- Boris Cherny (Claude Code lead) posted on Threads that Anthropic is shipping automated PR review directly in Claude Code—"From there, reviews run on every new PR, with no setup for developers"—suggesting that AI-native developer workflows are moving from standalone tools into embedded IDE experiences, a signal that integration depth (not breadth) wins with technical buyers.
+- OpenAI's Images 2.6 release (371 HN points) is generating sustained interest, indicating visual generation is still a core competitive battleground despite market saturation—suggesting consultants should emphasize multimodal capabilities when positioning AI service bundles to clients.
+- The sharp market correction ("Nasdaq Sinks 5% as Investors Retreat from AI Trade After Election," 88 HN points, 59 comments) is triggering conversation about AI hype fatigue, which means your narrative to prospects needs to shift from "AI is the future" to "AI solves this specific problem measurably."
 
 ## Updates
-- Pierre Computer acquired by OpenAI (71 HN points, 29 comments)—OpenAI is consolidating compute infrastructure or talent; worth tracking for API/model availability implications.
-- Kairos, an open-source fraud and risk decisioning platform, launched on Show HN (102 points, 30 comments)—pre-built agentic framework for financial decisioning workflows, lowering the barrier for SMBs to deploy rule-based LLM agents in compliance-heavy domains.
-- Flipper One Kickstarter pre-orders opened (225 HN points, 97 comments)—hardware security research tool gaining mainstream traction; relevant to cybersecurity consultants advising on AI system hardening.
+- OpenAI released "A thousand fewer paths to root"—a security-hardening report demonstrating attack surface reduction, critical for SMBs needing to justify AI spend to risk-averse stakeholders.
+- OpenAI shipped Images 2.6, advancing visual generation capabilities; still no public details on pricing or access expansion.
+- Claude Code now supports automated PR review via Anthropic's native integration, removing friction for teams deploying AI into development workflows.
 
 ## Hacker News Today
-- [Preparing for the Flipper One Kickstarter and opening pre-orders](https://flipper.net/pages/flipper-one) — 225 pts &middot; [97 comments](https://news.ycombinator.com/item?id=50356994)
-- [Giant canyon on Mars is still tectonically active](https://lamont.columbia.edu/news/giant-canyon-mars-still-tectonically-active-today) — 138 pts &middot; [36 comments](https://news.ycombinator.com/item?id=50360573)
-- [Show HN: Uncracked City, detective game where you question LLM suspects that lie](https://uncracked.city) — 119 pts &middot; [60 comments](https://news.ycombinator.com/item?id=50358352)
-- [Show HN: Kairos – Open-source risk and fraud decisioning platform](https://github.com/finic-ai/kairos) — 102 pts &middot; [30 comments](https://news.ycombinator.com/item?id=50358314)
-- [Pierre Computer is being acquired by OpenAI](https://twitter.com/pierrecomputer/status/2117999036175188183) — 71 pts &middot; [29 comments](https://news.ycombinator.com/item?id=50366863)
-- [Ask HN: What's your current AI agentic setup?](https://news.ycombinator.com/item?id=50366117) — 59 pts &middot; [68 comments](https://news.ycombinator.com/item?id=50366117)
-- [BYD doubles its Brazil market share to 9.7% a year after opening its local plant](https://www.bloomberg.com/news/articles/2026-11-03/china-s-byd-doubles-market-share-in-brazil-with-new-plant-eyed) — 59 pts &middot; [24 comments](https://news.ycombinator.com/item?id=50369146)
-- [Told to reboot a server, it destroyed systemd, destroyed containers, ran random](https://github.com/openai/codex/issues/59060) — 43 pts &middot; [32 comments](https://news.ycombinator.com/item?id=50363717)
+- [A thousand fewer paths to root](https://openai.com/index/a-thousand-fewer-paths-to-root/) — 460 pts &middot; [342 comments](https://news.ycombinator.com/item?id=50372929)
+- [Images 2.6](https://openai.com/index/introducing-images-2-6/) — 371 pts &middot; [227 comments](https://news.ycombinator.com/item?id=50372945)
+- [Lemmings CSS Animation](https://markblah.github.io/lemmings/) — 364 pts &middot; [71 comments](https://news.ycombinator.com/item?id=50375354)
+- [GPT-6 Astra covertly underperforms on safety research](https://alignment.openai.com/misalignment-reports/covert-underperformance-on-safety-research-tasks/) — 204 pts &middot; [102 comments](https://news.ycombinator.com/item?id=50376313)
+- [My psychophysics as a bilateral cochlear implant user](https://claude.ai/artifact/L8qsMc3SorytGW3LA81nYf) — 97 pts &middot; [21 comments](https://news.ycombinator.com/item?id=50381033)
+- [Nasdaq Sinks 5% as Investors Retreat from AI Trade After Election](https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-05-2026) — 88 pts &middot; [59 comments](https://news.ycombinator.com/item?id=50382179)
+- [Window Sweaters](https://github.com/saragordic/window-sweaters) — 55 pts &middot; [19 comments](https://news.ycombinator.com/item?id=50381383)
+- [Show HN: Gauge – Open-Source CLI to recursively improve your docs](https://github.com/gauge-sh/gauge-cli) — 40 pts &middot; [9 comments](https://news.ycombinator.com/item?id=50371090)
 
 ## On Threads
 **@boris_cherny** — Oct 16
@@ -31,64 +31,32 @@ Claude Code is moving from experimental to production—Boris Cherny (Claude Cod
 [View on Threads](https://www.threads.com/@boris_cherny/post/DekKPCvGbnM)
 
 ## New YouTube Videos
-- [Fireship] "The worst week in cybersecurity history... so far" — posted 23h ago
-  https://www.youtube.com/watch?v=k2ruCf_z75I
+- [Greg Isenberg] "If You Want To Create Wealth In The Age of AI, Watch This" — posted 23h ago
+  https://www.youtube.com/watch?v=b3tMAOFB71o
   No transcript available
 
-- [Matt Wolfe] "The Definitive Guide To Editing Video With Claude" — posted 2h ago
-  https://www.youtube.com/watch?v=ep4psgAFOqc
+- [Dan Martell] "Which CEO are you?" — posted 3h ago
+  https://www.youtube.com/watch?v=1I4FkOlAe0k
   No transcript available
 
-- [Matt Wolfe] "A real-life speeder bike from Return of the Jedi (Not AI)" — posted 22h ago
-  https://www.youtube.com/watch?v=PRAY_SewRxI
+- [Dan Martell] "How to prompt AI in 2027" — posted 21h ago
+  https://www.youtube.com/watch?v=oMvaTK163HA
   No transcript available
 
-- [Dan Martell] "POV: you get to workout with your 9 figure mentor" — posted 1h ago
-  https://www.youtube.com/watch?v=CV1MOXZtdh8
+- [GaryVee] "What success looks like:" — posted 2h ago
+  https://www.youtube.com/watch?v=CV2dRychXKk
   No transcript available
 
-- [Dan Martell] "3 skills AI will never replace" — posted 3h ago
-  https://www.youtube.com/watch?v=UB_ZIWrsnfs
+- [GaryVee] "No one cares" — posted 19h ago
+  https://www.youtube.com/watch?v=pmq89DBDk7Q
   No transcript available
 
-- [Dan Martell] "If you only watch one sales video, make it this one" — posted 5h ago
-  https://www.youtube.com/watch?v=nsFKkeQg-V0
+- [GaryVee] "I come back to this video when I feel scared..." — posted 23h ago
+  https://www.youtube.com/watch?v=o4zyOEl4SKE
   No transcript available
 
-- [Dan Martell] "AI is gonna take your job, unless you do this" — posted 21h ago
-  https://www.youtube.com/watch?v=38OTLXbT3xs
-  No transcript available
-
-- [Big Think] "Why listening beats problem solving | Lisa Damour" — posted 2h ago
-  https://www.youtube.com/watch?v=EdfYPOffmsE
-  No transcript available
-
-- [Tim Ferriss] "The Question I Ask Friends Before Committing to Anything" — posted 5h ago
-  https://www.youtube.com/watch?v=FS_XhSIBjDE
-  No transcript available
-
-- [GaryVee] "how to stop giving a fck" — posted 2h ago
-  https://www.youtube.com/watch?v=SxsYNjsuwJY
-  No transcript available
-
-- [GaryVee] "Watch This Before You Waste Another Year of Your Life" — posted 2h ago
-  https://www.youtube.com/watch?v=3rO6h5C6z5Q
-  No transcript available
-
-- [GaryVee] "What success looks like:" — posted 18h ago
-  https://www.youtube.com/watch?v=FdfX38v1Wwg
-  No transcript available
-
-- [GaryVee] "What success looks like" — posted 20h ago
-  https://www.youtube.com/watch?v=Zct_Hn4Cql0
-  No transcript available
-
-- [GaryVee] "Behind every win..." — posted 23h ago
-  https://www.youtube.com/watch?v=uvJbllicJ9o
-  No transcript available
-
-- [The Diary Of A CEO] "CAN AMERICA BE FIXED?" — posted 1d ago
-  https://www.youtube.com/watch?v=k-ldMhfIuJE
+- [The Diary Of A CEO] "Iran War Expert: "The 8 Weeks After Midterms Could Be The Most Dangerous!" | Prof Robert Pape" — posted 11h ago
+  https://www.youtube.com/watch?v=a1mI-ozLyYM
   No transcript available
 
 ## Latest on TikTok
@@ -102,4 +70,4 @@ _No Reddit data collected._
 _No Twitter data collected._
 
 ---
-*Daily Scrape — 2026-11-04T18:57:46.739Z*
+*Daily Scrape — 2026-11-05T19:09:22.871Z*
