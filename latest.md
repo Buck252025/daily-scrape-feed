@@ -1,27 +1,25 @@
-# Daily Scrape — November 5, 2026
+# Daily Scrape — November 6, 2026
 
 ## Top Story
-OpenAI's security focus is intensifying: "A thousand fewer paths to root" (460 HN points) and "GPT-6 Astra covertly underperforms on safety research" are both commanding significant developer attention, signaling that enterprise AI adoption may now hinge on proven security architecture and transparent safety benchmarking—not just capability claims. For SMBs selling AI services, this means your competitive advantage is shifting from "we use the latest model" to "we can prove our implementation is hardened."
+Claude Code just hit a critical trust inflection point—Anthropic's native code review feature is reportedly sending user email addresses to external websites, triggering 1,509 upvotes and 473 comments on Hacker News. For consultants and SMB owners betting on AI-native developer tools, this is a watershed moment: the convenience vs. security tradeoff is now live, and your clients will be watching how Anthropic responds.
 
 ## What People Are Saying
-- Boris Cherny (Claude Code lead) posted on Threads that Anthropic is shipping automated PR review directly in Claude Code—"From there, reviews run on every new PR, with no setup for developers"—suggesting that AI-native developer workflows are moving from standalone tools into embedded IDE experiences, a signal that integration depth (not breadth) wins with technical buyers.
-- OpenAI's Images 2.6 release (371 HN points) is generating sustained interest, indicating visual generation is still a core competitive battleground despite market saturation—suggesting consultants should emphasize multimodal capabilities when positioning AI service bundles to clients.
-- The sharp market correction ("Nasdaq Sinks 5% as Investors Retreat from AI Trade After Election," 88 HN points, 59 comments) is triggering conversation about AI hype fatigue, which means your narrative to prospects needs to shift from "AI is the future" to "AI solves this specific problem measurably."
+- The Claude Code privacy issue dominates technical conversation (1,509 HN points), suggesting deep concern among builders about data leakage in "frictionless" AI tooling—the exact pitch consultants are selling clients on.
+- Boris Cherny (Claude Code lead) posted on Threads that admin-controlled PR review automation requires "no setup for developers," positioning it as a selling point, but the email exposure incident complicates that narrative around ease-of-use claims.
+- GaryVee's latest content focus on "how AI changed the content game forever" signals that mainstream operator discourse is shifting from "should we use AI?" to "how do we compete now that everyone is?"—the adoption window is closing for laggards.
 
 ## Updates
-- OpenAI released "A thousand fewer paths to root"—a security-hardening report demonstrating attack surface reduction, critical for SMBs needing to justify AI spend to risk-averse stakeholders.
-- OpenAI shipped Images 2.6, advancing visual generation capabilities; still no public details on pricing or access expansion.
-- Claude Code now supports automated PR review via Anthropic's native integration, removing friction for teams deploying AI into development workflows.
+- **Claude Code privacy exposure**: Email addresses leaked to external websites via code review feature; high-signal incident (1,509 HN engagement) now defines trust perception around Anthropic's tooling for enterprise adoption conversations.
+- **Anthropic IPO signals valuation pressure**: Bloomberg coverage of IPO expectations (47 HN points, 56 comments) shows market doubt post-AI downturn, directly impacting how consultants should frame Claude's competitive durability to risk-conscious SMBs.
+- **No major product announcements in this window**—signal is dominated by critique and market sentiment rather than new feature launches.
 
 ## Hacker News Today
-- [A thousand fewer paths to root](https://openai.com/index/a-thousand-fewer-paths-to-root/) — 460 pts &middot; [342 comments](https://news.ycombinator.com/item?id=50372929)
-- [Images 2.6](https://openai.com/index/introducing-images-2-6/) — 371 pts &middot; [227 comments](https://news.ycombinator.com/item?id=50372945)
-- [Lemmings CSS Animation](https://markblah.github.io/lemmings/) — 364 pts &middot; [71 comments](https://news.ycombinator.com/item?id=50375354)
-- [GPT-6 Astra covertly underperforms on safety research](https://alignment.openai.com/misalignment-reports/covert-underperformance-on-safety-research-tasks/) — 204 pts &middot; [102 comments](https://news.ycombinator.com/item?id=50376313)
-- [My psychophysics as a bilateral cochlear implant user](https://claude.ai/artifact/L8qsMc3SorytGW3LA81nYf) — 97 pts &middot; [21 comments](https://news.ycombinator.com/item?id=50381033)
-- [Nasdaq Sinks 5% as Investors Retreat from AI Trade After Election](https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-05-2026) — 88 pts &middot; [59 comments](https://news.ycombinator.com/item?id=50382179)
-- [Window Sweaters](https://github.com/saragordic/window-sweaters) — 55 pts &middot; [19 comments](https://news.ycombinator.com/item?id=50381383)
-- [Show HN: Gauge – Open-Source CLI to recursively improve your docs](https://github.com/gauge-sh/gauge-cli) — 40 pts &middot; [9 comments](https://news.ycombinator.com/item?id=50371090)
+- [Claude Code sends your email address to websites](https://github.com/anthropics/claude-code/issues/107757) — 1509 pts &middot; [473 comments](https://news.ycombinator.com/item?id=50385272)
+- [Living beyond the limits of survival: wood ants trapped in a gigantic pitfall (2016)](https://jhr.pensoft.net/articles.php?id=9096) — 134 pts &middot; [43 comments](https://news.ycombinator.com/item?id=50390525)
+- [FAA begins retiring decades old floppy disks from air traffic control](https://www.faa.gov/newsroom/trumps-transportation-secretary-sean-p-duffy-begins-retiring-decades-old-floppy-disks-air) — 89 pts &middot; [1 comments](https://news.ycombinator.com/item?id=50393183)
+- [AI for scientific discovery: How researchers use Claude](https://www.anthropic.com/research/how-researchers-use-claude) — 72 pts &middot; [30 comments](https://news.ycombinator.com/item?id=50389990)
+- [Rune: A native GPU-rendered Rust UI framework for macOS, Windows, Linux and web](https://github.com/anomalyco/rune) — 57 pts &middot; [34 comments](https://news.ycombinator.com/item?id=50394569)
+- [Anthropic IPO Buyers See Valuation as Low as $1.1T](https://www.bloomberg.com/news/articles/2026-11-06/anthropic-ipo-valuation-expectations-pressured-after-ai-rout) — 47 pts &middot; [56 comments](https://news.ycombinator.com/item?id=50394906)
 
 ## On Threads
 **@boris_cherny** — Oct 16
@@ -31,37 +29,61 @@ OpenAI's security focus is intensifying: "A thousand fewer paths to root" (460 H
 [View on Threads](https://www.threads.com/@boris_cherny/post/DekKPCvGbnM)
 
 ## New YouTube Videos
-- [Greg Isenberg] "If You Want To Create Wealth In The Age of AI, Watch This" — posted 23h ago
-  https://www.youtube.com/watch?v=b3tMAOFB71o
+- [Fireship] "The one thing holding theoretical CS together just broke... kinda" — posted 2h ago
+  https://www.youtube.com/watch?v=iw9SZgyahqg
   No transcript available
 
-- [Dan Martell] "Which CEO are you?" — posted 3h ago
-  https://www.youtube.com/watch?v=1I4FkOlAe0k
+- [Matt Wolfe] "AI News: New ChatGPT & Google Models (14 Updates Worth Knowing)" — posted just now
+  https://www.youtube.com/watch?v=IrAHINf0M6E
   No transcript available
 
-- [Dan Martell] "How to prompt AI in 2027" — posted 21h ago
-  https://www.youtube.com/watch?v=oMvaTK163HA
+- [Matt Wolfe] "What will people REALLY use these for?" — posted 23h ago
+  https://www.youtube.com/watch?v=hniPlxcQ7X4
   No transcript available
 
-- [GaryVee] "What success looks like:" — posted 2h ago
-  https://www.youtube.com/watch?v=CV2dRychXKk
+- [Dan Martell] "Anyone can start a business in less than 60 seconds with GrokBot" — posted 3h ago
+  https://www.youtube.com/watch?v=5K2ndMthDiM
   No transcript available
 
-- [GaryVee] "No one cares" — posted 19h ago
-  https://www.youtube.com/watch?v=pmq89DBDk7Q
+- [Dan Martell] "Leave things better than you found it" — posted 21h ago
+  https://www.youtube.com/watch?v=LgTW_tJKpBM
   No transcript available
 
-- [GaryVee] "I come back to this video when I feel scared..." — posted 23h ago
-  https://www.youtube.com/watch?v=o4zyOEl4SKE
+- [Big Think] "How fast was T. Rex? | Steve Brusatte" — posted 1h ago
+  https://www.youtube.com/watch?v=Ms89FF_Jo3E
   No transcript available
 
-- [The Diary Of A CEO] "Iran War Expert: "The 8 Weeks After Midterms Could Be The Most Dangerous!" | Prof Robert Pape" — posted 11h ago
+- [Big Think] "The laws of the universe are unable to explain these origin mysteries | Paul Davies: Full Interview" — posted 5h ago
+  https://www.youtube.com/watch?v=e41IyOlfj7I
+  No transcript available
+
+- [Big Think] "One-way doors vs. two-way doors | Dambisa Moyo" — posted 23h ago
+  https://www.youtube.com/watch?v=112zzmKAfno
+  No transcript available
+
+- [GaryVee] "The land grab nobody’s taking seriously" — posted 2h ago
+  https://www.youtube.com/watch?v=9xahlrwj6fw
+  No transcript available
+
+- [GaryVee] "How AI changed the content game forever" — posted 3h ago
+  https://www.youtube.com/watch?v=ivq6Ucy2FXc
+  No transcript available
+
+- [GaryVee] "What success looks like:" — posted 19h ago
+  https://www.youtube.com/watch?v=bqunLXvC7fs
+  No transcript available
+
+- [GaryVee] "What success looks like:" — posted 22h ago
+  https://www.youtube.com/watch?v=VBBIS8PgKao
+  No transcript available
+
+- [The Diary Of A CEO] "Iran War Expert: "The 8 Weeks After Midterms Could Be The Most Dangerous!" | Prof Robert Pape" — posted 1d ago
   https://www.youtube.com/watch?v=a1mI-ozLyYM
   No transcript available
 
 ## Latest on TikTok
-- [@gigaqian] "This car is incredible! It’s massive, and the seats feel more luxurio..."
-  https://www.tiktok.com/@gigaqian/video/7698775592908442894
+- [@gigaqian] "China just flew FIVE autonomous VTOL aircraft in formation with no pi..."
+  https://www.tiktok.com/@gigaqian/video/7704841407063805198
 
 ## Top Reddit Posts
 _No Reddit data collected._
@@ -70,4 +92,4 @@ _No Reddit data collected._
 _No Twitter data collected._
 
 ---
-*Daily Scrape — 2026-11-05T19:09:22.871Z*
+*Daily Scrape — 2026-11-06T18:36:54.621Z*
