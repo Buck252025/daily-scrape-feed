@@ -1,25 +1,24 @@
-# Daily Scrape — November 6, 2026
+# Daily Scrape — November 7, 2026
 
 ## Top Story
-Claude Code just hit a critical trust inflection point—Anthropic's native code review feature is reportedly sending user email addresses to external websites, triggering 1,509 upvotes and 473 comments on Hacker News. For consultants and SMB owners betting on AI-native developer tools, this is a watershed moment: the convenience vs. security tradeoff is now live, and your clients will be watching how Anthropic responds.
+Claude Code's PR review automation is now live in settings—Boris Cherny (Claude Code lead) posted on Threads that admins can enable it, point it at repos, and get automated reviews on every PR with zero developer setup required. This is the first major shift toward autonomous code quality gates, directly threatening manual review workflows and opening a new revenue angle for consultants selling "AI-native dev ops" to SMBs still doing code review by committee.
 
 ## What People Are Saying
-- The Claude Code privacy issue dominates technical conversation (1,509 HN points), suggesting deep concern among builders about data leakage in "frictionless" AI tooling—the exact pitch consultants are selling clients on.
-- Boris Cherny (Claude Code lead) posted on Threads that admin-controlled PR review automation requires "no setup for developers," positioning it as a selling point, but the email exposure incident complicates that narrative around ease-of-use claims.
-- GaryVee's latest content focus on "how AI changed the content game forever" signals that mainstream operator discourse is shifting from "should we use AI?" to "how do we compete now that everyone is?"—the adoption window is closing for laggards.
+- The cost-performance tradeoff is becoming the primary battleground: Hacker News engagement (538 points, 135 comments) spiked hardest around the Claude Opus judge model that delivers "Opus accuracy at 4x lower cost"—consultants are watching for the moment when cheaper, lighter models can replace premium ones without degradation.
+- Apple's undocumented family member classifier on every Mac (395 points, 228 comments) triggered immediate privacy scrutiny, signaling that SMBs need to audit what ML inference is already baked into their infrastructure—this is a hidden risk in "free" AI capabilities.
+- OpenAI's SIP calling API (68 points, 57 comments) is being quietly adopted; the conversation is technical but the implication is real-time voice integration is now trivial to bolt onto workflows, expanding the surface area for AI-native product builds.
 
 ## Updates
-- **Claude Code privacy exposure**: Email addresses leaked to external websites via code review feature; high-signal incident (1,509 HN engagement) now defines trust perception around Anthropic's tooling for enterprise adoption conversations.
-- **Anthropic IPO signals valuation pressure**: Bloomberg coverage of IPO expectations (47 HN points, 56 comments) shows market doubt post-AI downturn, directly impacting how consultants should frame Claude's competitive durability to risk-conscious SMBs.
-- **No major product announcements in this window**—signal is dominated by critique and market sentiment rather than new feature launches.
+- OpenAI released outbound SIP calling to all organizations—enables real-time voice automation for contact centers, support workflows, and outbound campaigns; critical for consultants positioning "voice-first AI" as a new service line.
+- Claude Code's automated PR review launched in beta—repos can now get AI-driven code reviews on every pull request without developer friction; removes a manual bottleneck and creates a new attack surface for AI integration into legacy SDLC processes.
+- Matt Wolfe covered 14 AI model updates in his latest video (ChatGPT & Google models)—specific updates not transcribed, but signal that model iteration velocity remains high enough to warrant daily tracking for SMB tech stacks.
 
 ## Hacker News Today
-- [Claude Code sends your email address to websites](https://github.com/anthropics/claude-code/issues/107757) — 1509 pts &middot; [473 comments](https://news.ycombinator.com/item?id=50385272)
-- [Living beyond the limits of survival: wood ants trapped in a gigantic pitfall (2016)](https://jhr.pensoft.net/articles.php?id=9096) — 134 pts &middot; [43 comments](https://news.ycombinator.com/item?id=50390525)
-- [FAA begins retiring decades old floppy disks from air traffic control](https://www.faa.gov/newsroom/trumps-transportation-secretary-sean-p-duffy-begins-retiring-decades-old-floppy-disks-air) — 89 pts &middot; [1 comments](https://news.ycombinator.com/item?id=50393183)
-- [AI for scientific discovery: How researchers use Claude](https://www.anthropic.com/research/how-researchers-use-claude) — 72 pts &middot; [30 comments](https://news.ycombinator.com/item?id=50389990)
-- [Rune: A native GPU-rendered Rust UI framework for macOS, Windows, Linux and web](https://github.com/anomalyco/rune) — 57 pts &middot; [34 comments](https://news.ycombinator.com/item?id=50394569)
-- [Anthropic IPO Buyers See Valuation as Low as $1.1T](https://www.bloomberg.com/news/articles/2026-11-06/anthropic-ipo-valuation-expectations-pressured-after-ai-rout) — 47 pts &middot; [56 comments](https://news.ycombinator.com/item?id=50394906)
+- [A Jev that can ask Opus for help gives Opus accuracy at 4x lower cost](https://hightouch.com/blog/llm-judges-identity-resolution) — 538 pts &middot; [135 comments](https://news.ycombinator.com/item?id=50397429)
+- [Every Mac comes with an (undocumented) family member classifier](https://8rank.ai/game/apple-intelligence-personal-knowledge-graph) — 395 pts &middot; [228 comments](https://news.ycombinator.com/item?id=50403097)
+- [Memorilla: Latent Semantic Memory for LLMs](https://arxiv.org/abs/2610.21375) — 112 pts &middot; [13 comments](https://news.ycombinator.com/item?id=50395919)
+- [ChatGPT silently passes data between connectors and the bounty wants an ID card](https://community.openai.com/t/security-follow-up-tool-call-silently-routed-to-a-different-connector/1413053) — 90 pts &middot; [38 comments](https://news.ycombinator.com/item?id=50399569)
+- [Outbound SIP calling is now available to all organizations](https://developers.openai.com/api/docs/guides/voice-sip) — 68 pts &middot; [57 comments](https://news.ycombinator.com/item?id=50399695)
 
 ## On Threads
 **@boris_cherny** — Oct 16
@@ -29,61 +28,41 @@ Claude Code just hit a critical trust inflection point—Anthropic's native code
 [View on Threads](https://www.threads.com/@boris_cherny/post/DekKPCvGbnM)
 
 ## New YouTube Videos
-- [Fireship] "The one thing holding theoretical CS together just broke... kinda" — posted 2h ago
-  https://www.youtube.com/watch?v=iw9SZgyahqg
+- [Matt Wolfe] "That is Some Crazy Fabric" — posted 9h ago
+  https://www.youtube.com/watch?v=w3z3Fa7ACt8
   No transcript available
 
-- [Matt Wolfe] "AI News: New ChatGPT & Google Models (14 Updates Worth Knowing)" — posted just now
+- [Matt Wolfe] "AI News: New ChatGPT & Google Models (14 Updates Worth Knowing)" — posted 23h ago
   https://www.youtube.com/watch?v=IrAHINf0M6E
   No transcript available
 
-- [Matt Wolfe] "What will people REALLY use these for?" — posted 23h ago
-  https://www.youtube.com/watch?v=hniPlxcQ7X4
+- [Dan Martell] "Why I get my haircut at work" — posted 2h ago
+  https://www.youtube.com/watch?v=P9x0GtC0Kig
   No transcript available
 
-- [Dan Martell] "Anyone can start a business in less than 60 seconds with GrokBot" — posted 3h ago
-  https://www.youtube.com/watch?v=5K2ndMthDiM
+- [Dan Martell] "You're either a dictator or a doormat" — posted 20h ago
+  https://www.youtube.com/watch?v=ADnwWYB7qOs
   No transcript available
 
-- [Dan Martell] "Leave things better than you found it" — posted 21h ago
-  https://www.youtube.com/watch?v=LgTW_tJKpBM
-  No transcript available
-
-- [Big Think] "How fast was T. Rex? | Steve Brusatte" — posted 1h ago
+- [Big Think] "How fast was T. Rex? | Steve Brusatte" — posted 1d ago
   https://www.youtube.com/watch?v=Ms89FF_Jo3E
   No transcript available
 
-- [Big Think] "The laws of the universe are unable to explain these origin mysteries | Paul Davies: Full Interview" — posted 5h ago
-  https://www.youtube.com/watch?v=e41IyOlfj7I
+- [GaryVee] "No demand? Create it." — posted 16h ago
+  https://www.youtube.com/watch?v=7224uADkefI
   No transcript available
 
-- [Big Think] "One-way doors vs. two-way doors | Dambisa Moyo" — posted 23h ago
-  https://www.youtube.com/watch?v=112zzmKAfno
+- [GaryVee] "You’re one LinkedIn post away from your dream client" — posted 21h ago
+  https://www.youtube.com/watch?v=LHfVIJ9S0T8
   No transcript available
 
-- [GaryVee] "The land grab nobody’s taking seriously" — posted 2h ago
-  https://www.youtube.com/watch?v=9xahlrwj6fw
-  No transcript available
-
-- [GaryVee] "How AI changed the content game forever" — posted 3h ago
-  https://www.youtube.com/watch?v=ivq6Ucy2FXc
-  No transcript available
-
-- [GaryVee] "What success looks like:" — posted 19h ago
-  https://www.youtube.com/watch?v=bqunLXvC7fs
-  No transcript available
-
-- [GaryVee] "What success looks like:" — posted 22h ago
-  https://www.youtube.com/watch?v=VBBIS8PgKao
-  No transcript available
-
-- [The Diary Of A CEO] "Iran War Expert: "The 8 Weeks After Midterms Could Be The Most Dangerous!" | Prof Robert Pape" — posted 1d ago
-  https://www.youtube.com/watch?v=a1mI-ozLyYM
+- [The Diary Of A CEO] "GET READY FOR THE NEXT EIGHT WEEKS" — posted 21h ago
+  https://www.youtube.com/watch?v=jQvw3PDo1Do
   No transcript available
 
 ## Latest on TikTok
-- [@gigaqian] "China just flew FIVE autonomous VTOL aircraft in formation with no pi..."
-  https://www.tiktok.com/@gigaqian/video/7704841407063805198
+- [@gigaqian] "China’s first-in-human chemogenetic brain therapy study just reported..."
+  https://www.tiktok.com/@gigaqian/video/7705193625239440654
 
 ## Top Reddit Posts
 _No Reddit data collected._
@@ -92,4 +71,4 @@ _No Reddit data collected._
 _No Twitter data collected._
 
 ---
-*Daily Scrape — 2026-11-06T18:36:54.621Z*
+*Daily Scrape — 2026-11-07T17:04:11.623Z*
