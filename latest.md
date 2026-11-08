@@ -1,24 +1,24 @@
-# Daily Scrape — November 7, 2026
+# Daily Scrape — November 8, 2026
 
 ## Top Story
-Claude Code's PR review automation is now live in settings—Boris Cherny (Claude Code lead) posted on Threads that admins can enable it, point it at repos, and get automated reviews on every PR with zero developer setup required. This is the first major shift toward autonomous code quality gates, directly threatening manual review workflows and opening a new revenue angle for consultants selling "AI-native dev ops" to SMBs still doing code review by committee.
+Claude's AI coding agent is leaking secrets at scale — 1,122 public GitHub files have exposed passwords via the "Don't Ask Again" feature — while simultaneously, developers are publicly rejecting LLMs for production coding work. This creates an urgent positioning opportunity for SMBs: the market is splitting between those selling "AI-assisted development" (security liability) and those selling "AI code review and safety gates" (the emerging need).
 
 ## What People Are Saying
-- The cost-performance tradeoff is becoming the primary battleground: Hacker News engagement (538 points, 135 comments) spiked hardest around the Claude Opus judge model that delivers "Opus accuracy at 4x lower cost"—consultants are watching for the moment when cheaper, lighter models can replace premium ones without degradation.
-- Apple's undocumented family member classifier on every Mac (395 points, 228 comments) triggered immediate privacy scrutiny, signaling that SMBs need to audit what ML inference is already baked into their infrastructure—this is a hidden risk in "free" AI capabilities.
-- OpenAI's SIP calling API (68 points, 57 comments) is being quietly adopted; the conversation is technical but the implication is real-time voice integration is now trivial to bolt onto workflows, expanding the surface area for AI-native product builds.
+- Boris Cherny (Claude Code lead) is promoting Claude Code's automated PR review feature on Threads as a frictionless admin deployment — "no setup for developers" — yet Hacker News is simultaneously surfacing that the same tool's "Don't Ask Again" toggle is systematically compromising GitHub repositories with exposed credentials, indicating a gap between marketing narrative and production safety.
+- The top-engagement Hacker News thread ("Goodbye Claude, hello Pi" at 551 points, 347 comments) suggests meaningful developer churn away from Claude toward alternative models, while the security breach story (501 points, 363 comments) is nearly tied in engagement — developers care equally about *which* model to use and *whether* it's safe to use.
+- A contrarian post ("Why I will not be using LLMs in my coding," 90 points, 179 comments) generated 179 comments despite lower score, indicating a vocal subcommunity actively debating LLM coding risks — this is the sentiment audit SMBs need to track before selling "AI-powered development" to their clients.
 
 ## Updates
-- OpenAI released outbound SIP calling to all organizations—enables real-time voice automation for contact centers, support workflows, and outbound campaigns; critical for consultants positioning "voice-first AI" as a new service line.
-- Claude Code's automated PR review launched in beta—repos can now get AI-driven code reviews on every pull request without developer friction; removes a manual bottleneck and creates a new attack surface for AI integration into legacy SDLC processes.
-- Matt Wolfe covered 14 AI model updates in his latest video (ChatGPT & Google models)—specific updates not transcribed, but signal that model iteration velocity remains high enough to warrant daily tracking for SMB tech stacks.
+- Claude Code's automated PR review feature now has admin-controlled deployment (per Boris Cherny on Threads), removing friction for enterprise rollout — but security liability is unresolved.
+- DeepSeek's 284B parameter model can now run on 64GB RAM without a GPU (llama-modchip project on GitHub), radically lowering the cost floor for self-hosted LLM inference and shifting the on-prem vs. API trade-off calculation for SMBs.
+- OpenAI raised $11B at a $1.25T valuation (down from the initially sought $1.4T), signaling market recalibration on AI company valuations mid-funding cycle.
 
 ## Hacker News Today
-- [A Jev that can ask Opus for help gives Opus accuracy at 4x lower cost](https://hightouch.com/blog/llm-judges-identity-resolution) — 538 pts &middot; [135 comments](https://news.ycombinator.com/item?id=50397429)
-- [Every Mac comes with an (undocumented) family member classifier](https://8rank.ai/game/apple-intelligence-personal-knowledge-graph) — 395 pts &middot; [228 comments](https://news.ycombinator.com/item?id=50403097)
-- [Memorilla: Latent Semantic Memory for LLMs](https://arxiv.org/abs/2610.21375) — 112 pts &middot; [13 comments](https://news.ycombinator.com/item?id=50395919)
-- [ChatGPT silently passes data between connectors and the bounty wants an ID card](https://community.openai.com/t/security-follow-up-tool-call-silently-routed-to-a-different-connector/1413053) — 90 pts &middot; [38 comments](https://news.ycombinator.com/item?id=50399569)
-- [Outbound SIP calling is now available to all organizations](https://developers.openai.com/api/docs/guides/voice-sip) — 68 pts &middot; [57 comments](https://news.ycombinator.com/item?id=50399695)
+- [Goodbye Claude, hello Pi](https://caleb.software/posts/claude-to-pi.html) — 551 pts &middot; [347 comments](https://news.ycombinator.com/item?id=50410107)
+- [Claude Code's "Don't Ask Again" exposes passwords in 1,122 public GitHub files](https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again) — 501 pts &middot; [363 comments](https://news.ycombinator.com/item?id=50407882)
+- [Llama-modchip: 284B DeepSeek on 64GB RAM, no GPU](https://github.com/synchopate/llama-modchip) — 186 pts &middot; [61 comments](https://news.ycombinator.com/item?id=50411961)
+- [OpenAI raises $11B at a $1.25T valuation](https://247wallst.com/investing/2026/11/07/openai-just-raised-11-billion-at-a-1-25-trillion-valuation-below-the-1-4-trillion-it-first-sought/) — 119 pts &middot; [101 comments](https://news.ycombinator.com/item?id=50413822)
+- [Why I will not be using LLMs in my coding](https://www.polso.info/why-i-will-not-be-using-llms-coding) — 90 pts &middot; [179 comments](https://news.ycombinator.com/item?id=50412591)
 
 ## On Threads
 **@boris_cherny** — Oct 16
@@ -28,36 +28,28 @@ Claude Code's PR review automation is now live in settings—Boris Cherny (Claud
 [View on Threads](https://www.threads.com/@boris_cherny/post/DekKPCvGbnM)
 
 ## New YouTube Videos
-- [Matt Wolfe] "That is Some Crazy Fabric" — posted 9h ago
-  https://www.youtube.com/watch?v=w3z3Fa7ACt8
+- [Dan Martell] "YOU are what makes your culture different as a leader" — posted 2h ago
+  https://www.youtube.com/watch?v=GSkoG3FvJ7c
   No transcript available
 
-- [Matt Wolfe] "AI News: New ChatGPT & Google Models (14 Updates Worth Knowing)" — posted 23h ago
-  https://www.youtube.com/watch?v=IrAHINf0M6E
+- [Dan Martell] "The way you lead is a trauma response" — posted 20h ago
+  https://www.youtube.com/watch?v=PdD8GSv-N8Y
   No transcript available
 
-- [Dan Martell] "Why I get my haircut at work" — posted 2h ago
-  https://www.youtube.com/watch?v=P9x0GtC0Kig
+- [GaryVee] "How old are you?" — posted just now
+  https://www.youtube.com/watch?v=dJpgBOoUtb4
   No transcript available
 
-- [Dan Martell] "You're either a dictator or a doormat" — posted 20h ago
-  https://www.youtube.com/watch?v=ADnwWYB7qOs
+- [GaryVee] "You need to start surrounding yourself with people who motivate you" — posted 6h ago
+  https://www.youtube.com/watch?v=_kQQzmTtebA
   No transcript available
 
-- [Big Think] "How fast was T. Rex? | Steve Brusatte" — posted 1d ago
-  https://www.youtube.com/watch?v=Ms89FF_Jo3E
+- [GaryVee] "how to build your kids self esteem" — posted 21h ago
+  https://www.youtube.com/watch?v=EIhv1hGynjA
   No transcript available
 
-- [GaryVee] "No demand? Create it." — posted 16h ago
-  https://www.youtube.com/watch?v=7224uADkefI
-  No transcript available
-
-- [GaryVee] "You’re one LinkedIn post away from your dream client" — posted 21h ago
-  https://www.youtube.com/watch?v=LHfVIJ9S0T8
-  No transcript available
-
-- [The Diary Of A CEO] "GET READY FOR THE NEXT EIGHT WEEKS" — posted 21h ago
-  https://www.youtube.com/watch?v=jQvw3PDo1Do
+- [The Diary Of A CEO] "UK GOVERNMENT WARNING..." — posted 22h ago
+  https://www.youtube.com/watch?v=Ox4ZEuKTDJQ
   No transcript available
 
 ## Latest on TikTok
@@ -71,4 +63,4 @@ _No Reddit data collected._
 _No Twitter data collected._
 
 ---
-*Daily Scrape — 2026-11-07T17:04:11.623Z*
+*Daily Scrape — 2026-11-08T17:18:40.727Z*
