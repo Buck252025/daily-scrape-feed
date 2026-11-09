@@ -1,24 +1,29 @@
-# Daily Scrape — November 8, 2026
+# Daily Scrape — November 9, 2026
 
 ## Top Story
-Claude's AI coding agent is leaking secrets at scale — 1,122 public GitHub files have exposed passwords via the "Don't Ask Again" feature — while simultaneously, developers are publicly rejecting LLMs for production coding work. This creates an urgent positioning opportunity for SMBs: the market is splitting between those selling "AI-assisted development" (security liability) and those selling "AI code review and safety gates" (the emerging need).
+Claude's new Fable 5.2 model is dominating Hacker News (720 points, 401 comments) with claims of the highest benchmark scores on Artificial Analysis yet—a direct signal that Anthropic is pulling ahead in the LLM race at a moment when enterprises are actively deciding which AI platform to standardize on. For consultants selling AI adoption, this matters: your clients will ask "which model should we build on," and the answer is shifting visibly in real time.
 
 ## What People Are Saying
-- Boris Cherny (Claude Code lead) is promoting Claude Code's automated PR review feature on Threads as a frictionless admin deployment — "no setup for developers" — yet Hacker News is simultaneously surfacing that the same tool's "Don't Ask Again" toggle is systematically compromising GitHub repositories with exposed credentials, indicating a gap between marketing narrative and production safety.
-- The top-engagement Hacker News thread ("Goodbye Claude, hello Pi" at 551 points, 347 comments) suggests meaningful developer churn away from Claude toward alternative models, while the security breach story (501 points, 363 comments) is nearly tied in engagement — developers care equally about *which* model to use and *whether* it's safe to use.
-- A contrarian post ("Why I will not be using LLMs in my coding," 90 points, 179 comments) generated 179 comments despite lower score, indicating a vocal subcommunity actively debating LLM coding risks — this is the sentiment audit SMBs need to track before selling "AI-powered development" to their clients.
+- Boris Cherny (Claude Code lead) posted on Threads that Anthropic is now shipping Claude Code with automated PR review baked into repos—"reviews run on every new PR, with no setup for developers"—signaling that AI agents are moving from "nice-to-have" to embedded workflow automation that SMBs can adopt without engineering overhead.
+- Greg Isenberg's latest YouTube video title "AI Agents are too good at marketing now" hints at a growing concern in the builder community: AI is becoming so effective at persuasion and content that human marketers are starting to feel the pressure—a theme that will resonate with consultants pitching "AI doesn't replace you, it amplifies you."
+- The ChatGPT Desktop SSH agent forwarding story (196 points, 66 comments on HN) reveals a security tension: as AI tools embed deeper into enterprise infrastructure, they're creating new attack surfaces—consultants need to position security audits and compliance frameworks as part of AI adoption, not an afterthought.
 
 ## Updates
-- Claude Code's automated PR review feature now has admin-controlled deployment (per Boris Cherny on Threads), removing friction for enterprise rollout — but security liability is unresolved.
-- DeepSeek's 284B parameter model can now run on 64GB RAM without a GPU (llama-modchip project on GitHub), radically lowering the cost floor for self-hosted LLM inference and shifting the on-prem vs. API trade-off calculation for SMBs.
-- OpenAI raised $11B at a $1.25T valuation (down from the initially sought $1.4T), signaling market recalibration on AI company valuations mid-funding cycle.
+- Claude Fable 5.2 launched with benchmark scores (65 on Artificial Analysis) that outpace competing models, positioning Anthropic as the performance leader in the current LLM cycle.
+- Claude Code now includes automated PR review capabilities (per Boris Cherny on Threads), turning code review into a deployable AI agent workflow for teams with no setup friction.
+- Google Gemini is routing personal Drive files and emails to human annotators—a privacy/data governance concern that underscores the need for vendor evaluation frameworks when recommending LLMs to SMB clients.
 
 ## Hacker News Today
-- [Goodbye Claude, hello Pi](https://caleb.software/posts/claude-to-pi.html) — 551 pts &middot; [347 comments](https://news.ycombinator.com/item?id=50410107)
-- [Claude Code's "Don't Ask Again" exposes passwords in 1,122 public GitHub files](https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again) — 501 pts &middot; [363 comments](https://news.ycombinator.com/item?id=50407882)
-- [Llama-modchip: 284B DeepSeek on 64GB RAM, no GPU](https://github.com/synchopate/llama-modchip) — 186 pts &middot; [61 comments](https://news.ycombinator.com/item?id=50411961)
-- [OpenAI raises $11B at a $1.25T valuation](https://247wallst.com/investing/2026/11/07/openai-just-raised-11-billion-at-a-1-25-trillion-valuation-below-the-1-4-trillion-it-first-sought/) — 119 pts &middot; [101 comments](https://news.ycombinator.com/item?id=50413822)
-- [Why I will not be using LLMs in my coding](https://www.polso.info/why-i-will-not-be-using-llms-coding) — 90 pts &middot; [179 comments](https://news.ycombinator.com/item?id=50412591)
+- [Claude Fable 5.2 and Mythos 5.2](https://www.anthropic.com/claude-fable-and-mythos-5-2) — 720 pts &middot; [401 comments](https://news.ycombinator.com/item?id=50429906)
+- [ChatGPT Desktop forwards your SSH agent to remote machines](https://news.ycombinator.com/item?id=50422628) — 196 pts &middot; [66 comments](https://news.ycombinator.com/item?id=50422628)
+- [E-means: 10x faster k-means at equal loss](https://e-means.github.io/) — 151 pts &middot; [9 comments](https://news.ycombinator.com/item?id=50429734)
+- [Show HN: Flide: Make Jev-like decision models up to 9.5x faster](https://github.com/OmniJev/Flide) — 114 pts &middot; [27 comments](https://news.ycombinator.com/item?id=50421155)
+- [Google Gemini routes personal Drive files and emails to human annotators](https://github.com/thisisme6598/gemini_files/) — 106 pts &middot; [19 comments](https://news.ycombinator.com/item?id=50429426)
+- [Claude Fable 5.2 Scores 65 on Artificial Analysis, Highest So Far](https://artificialanalysis.ai/models/claude-fable-5-2) — 80 pts &middot; [46 comments](https://news.ycombinator.com/item?id=50431144)
+- [CUI – Native UI components for C](https://yappologistic.github.io/CUI/) — 77 pts &middot; [45 comments](https://news.ycombinator.com/item?id=50430621)
+- [Show HN: DBDelve – Open-Source DB Client Made with Rust and GPUI](https://news.ycombinator.com/item?id=50427934) — 74 pts &middot; [25 comments](https://news.ycombinator.com/item?id=50427934)
+- [6 Hours of YouTube and 85 handtyped pages of notes on LLM Inference – Start here](https://github.com/samir-sarwar/samir-vllm) — 71 pts &middot; [12 comments](https://news.ycombinator.com/item?id=50424199)
+- [Show HN: MeowDisplay Is iPhone Mirroring, but in Reverse](https://meowdisplay.app/) — 53 pts &middot; [19 comments](https://news.ycombinator.com/item?id=50429636)
 
 ## On Threads
 **@boris_cherny** — Oct 16
@@ -28,33 +33,45 @@ Claude's AI coding agent is leaking secrets at scale — 1,122 public GitHub fil
 [View on Threads](https://www.threads.com/@boris_cherny/post/DekKPCvGbnM)
 
 ## New YouTube Videos
-- [Dan Martell] "YOU are what makes your culture different as a leader" — posted 2h ago
-  https://www.youtube.com/watch?v=GSkoG3FvJ7c
+- [Fireship] "OpenAI just found 948 ways to root your Linux box..." — posted 1h ago
+  https://www.youtube.com/watch?v=pf5tXJZM1Rw
   No transcript available
 
-- [Dan Martell] "The way you lead is a trauma response" — posted 20h ago
-  https://www.youtube.com/watch?v=PdD8GSv-N8Y
+- [Greg Isenberg] "AI Agents are too good at marketing now" — posted 3h ago
+  https://www.youtube.com/watch?v=uJuxenfe-NU
   No transcript available
 
-- [GaryVee] "How old are you?" — posted just now
-  https://www.youtube.com/watch?v=dJpgBOoUtb4
+- [Dan Martell] "Use my AI replacement ladder to decide what to automate" — posted 1h ago
+  https://www.youtube.com/watch?v=TasLZOkxh1w
   No transcript available
 
-- [GaryVee] "You need to start surrounding yourself with people who motivate you" — posted 6h ago
-  https://www.youtube.com/watch?v=_kQQzmTtebA
+- [Dan Martell] "Why do people blame their team?" — posted 7h ago
+  https://www.youtube.com/watch?v=W0r8Remco_I
   No transcript available
 
-- [GaryVee] "how to build your kids self esteem" — posted 21h ago
-  https://www.youtube.com/watch?v=EIhv1hGynjA
+- [Big Think] "What is panpsychism? | Jack Symes" — posted 5h ago
+  https://www.youtube.com/watch?v=p4dAIspaKb8
   No transcript available
 
-- [The Diary Of A CEO] "UK GOVERNMENT WARNING..." — posted 22h ago
-  https://www.youtube.com/watch?v=Ox4ZEuKTDJQ
+- [Big Think] "Who you are fluctuates every single second | Lisa Feldman Barrett" — posted 8h ago
+  https://www.youtube.com/watch?v=NEq_CU_weas
+  No transcript available
+
+- [GaryVee] "why alternative sports are about to blow up" — posted 22h ago
+  https://www.youtube.com/watch?v=cZbB13iy24U
+  No transcript available
+
+- [The Diary Of A CEO] "KATT WILLIAMS OPENS UP ABOUT HIS ABUSIVE CHILDHOOD" — posted 1h ago
+  https://www.youtube.com/watch?v=kyNupwRvHOE
+  No transcript available
+
+- [The Diary Of A CEO] "Katt Williams: They Tied Me To A Pole And Beat Me Bloody Every Week!" — posted 14h ago
+  https://www.youtube.com/watch?v=-6PuYw92m1c
   No transcript available
 
 ## Latest on TikTok
-- [@gigaqian] "China’s first-in-human chemogenetic brain therapy study just reported..."
-  https://www.tiktok.com/@gigaqian/video/7705193625239440654
+- [@gigaqian] "Trump’s new import restrictions could have massive consequences for A..."
+  https://www.tiktok.com/@gigaqian/video/7705943513174773006
 
 ## Top Reddit Posts
 _No Reddit data collected._
@@ -63,4 +80,4 @@ _No Reddit data collected._
 _No Twitter data collected._
 
 ---
-*Daily Scrape — 2026-11-08T17:18:40.727Z*
+*Daily Scrape — 2026-11-09T21:41:32.689Z*
