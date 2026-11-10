@@ -1,29 +1,23 @@
-# Daily Scrape — November 9, 2026
+# Daily Scrape — November 10, 2026
 
 ## Top Story
-Claude's new Fable 5.2 model is dominating Hacker News (720 points, 401 comments) with claims of the highest benchmark scores on Artificial Analysis yet—a direct signal that Anthropic is pulling ahead in the LLM race at a moment when enterprises are actively deciding which AI platform to standardize on. For consultants selling AI adoption, this matters: your clients will ask "which model should we build on," and the answer is shifting visibly in real time.
+Claude Fable 5.2 is now the highest-scoring AI model on Artificial Analysis (65 points), sparking widespread debate about model selection for production use. With 364 points and 262 comments on Hacker News, this represents a major capability milestone that's reshaping which LLM consultants and SMB owners should be recommending to clients—and Anthropic's competitive positioning ahead of potential IPO activity (per Fireship's coverage) suggests this matters for vendor lock-in decisions too.
 
 ## What People Are Saying
-- Boris Cherny (Claude Code lead) posted on Threads that Anthropic is now shipping Claude Code with automated PR review baked into repos—"reviews run on every new PR, with no setup for developers"—signaling that AI agents are moving from "nice-to-have" to embedded workflow automation that SMBs can adopt without engineering overhead.
-- Greg Isenberg's latest YouTube video title "AI Agents are too good at marketing now" hints at a growing concern in the builder community: AI is becoming so effective at persuasion and content that human marketers are starting to feel the pressure—a theme that will resonate with consultants pitching "AI doesn't replace you, it amplifies you."
-- The ChatGPT Desktop SSH agent forwarding story (196 points, 66 comments on HN) reveals a security tension: as AI tools embed deeper into enterprise infrastructure, they're creating new attack surfaces—consultants need to position security audits and compliance frameworks as part of AI adoption, not an afterthought.
+- Hacker News is heavily discussing the practical fallout from "100% AI mandate" shops: "A year after the 100% AI mandate nobody understands our code" hit 144 points with 185 comments, signaling real pain around AI-generated codebases becoming unmaintainable—a critical objection for SMB owners pitching internal automation.
+- Greg Isenberg and Matt Wolfe both posted new content specifically about monetizing Fable 5.2 capabilities, indicating the creator economy is already moving to productize this new model tier within hours of benchmarks landing.
+- Boris Cherny (Claude Code lead) posted on Threads that Claude Code now supports automatic PR reviews with zero developer setup required—"Admins turn it on in Claude Code settings and pick repos. From there, reviews run on every new PR"—a direct feature announcement that addresses friction points consultants hear from clients.
 
 ## Updates
-- Claude Fable 5.2 launched with benchmark scores (65 on Artificial Analysis) that outpace competing models, positioning Anthropic as the performance leader in the current LLM cycle.
-- Claude Code now includes automated PR review capabilities (per Boris Cherny on Threads), turning code review into a deployable AI agent workflow for teams with no setup friction.
-- Google Gemini is routing personal Drive files and emails to human annotators—a privacy/data governance concern that underscores the need for vendor evaluation frameworks when recommending LLMs to SMB clients.
+- **Claude Fable 5.2 benchmark release**: Scored 65 on Artificial Analysis, highest recorded so far; immediate uptake in creator content (Greg Isenberg, Matt Wolfe) suggests fast market migration toward this model for consulting pitches.
+- **Claude Code PR review automation**: Boris Cherny announced zero-setup PR review capability in Claude Code settings, lowering friction for enterprise adoption and creating a new selling point for AI integration consultants.
+- **CoreWeave bond yield stress signal**: CoreWeave bonds hit 16% yield amid AI credit stress (189 HN points, 179 comments), flagging potential infrastructure cost/availability headwinds for SMBs planning compute-heavy AI rollouts.
 
 ## Hacker News Today
-- [Claude Fable 5.2 and Mythos 5.2](https://www.anthropic.com/claude-fable-and-mythos-5-2) — 720 pts &middot; [401 comments](https://news.ycombinator.com/item?id=50429906)
-- [ChatGPT Desktop forwards your SSH agent to remote machines](https://news.ycombinator.com/item?id=50422628) — 196 pts &middot; [66 comments](https://news.ycombinator.com/item?id=50422628)
-- [E-means: 10x faster k-means at equal loss](https://e-means.github.io/) — 151 pts &middot; [9 comments](https://news.ycombinator.com/item?id=50429734)
-- [Show HN: Flide: Make Jev-like decision models up to 9.5x faster](https://github.com/OmniJev/Flide) — 114 pts &middot; [27 comments](https://news.ycombinator.com/item?id=50421155)
-- [Google Gemini routes personal Drive files and emails to human annotators](https://github.com/thisisme6598/gemini_files/) — 106 pts &middot; [19 comments](https://news.ycombinator.com/item?id=50429426)
-- [Claude Fable 5.2 Scores 65 on Artificial Analysis, Highest So Far](https://artificialanalysis.ai/models/claude-fable-5-2) — 80 pts &middot; [46 comments](https://news.ycombinator.com/item?id=50431144)
-- [CUI – Native UI components for C](https://yappologistic.github.io/CUI/) — 77 pts &middot; [45 comments](https://news.ycombinator.com/item?id=50430621)
-- [Show HN: DBDelve – Open-Source DB Client Made with Rust and GPUI](https://news.ycombinator.com/item?id=50427934) — 74 pts &middot; [25 comments](https://news.ycombinator.com/item?id=50427934)
-- [6 Hours of YouTube and 85 handtyped pages of notes on LLM Inference – Start here](https://github.com/samir-sarwar/samir-vllm) — 71 pts &middot; [12 comments](https://news.ycombinator.com/item?id=50424199)
-- [Show HN: MeowDisplay Is iPhone Mirroring, but in Reverse](https://meowdisplay.app/) — 53 pts &middot; [19 comments](https://news.ycombinator.com/item?id=50429636)
+- [Claude Fable 5.2 scores 65 on Artificial Analysis, highest so far](https://artificialanalysis.ai/models/claude-fable-5-2) — 364 pts &middot; [262 comments](https://news.ycombinator.com/item?id=50431144)
+- [CoreWeave bond yield tops 16% as AI credit stress rises](https://www.cnbc.com/2026/11/06/coreweave-bond-yield-tops-16percent-as-ai-credit-stress-rises.html) — 189 pts &middot; [179 comments](https://news.ycombinator.com/item?id=50435660)
+- [A year after the 100% AI mandate nobody understands our code](https://www.reddit.com/r/ClaudeCode/comments/1xq2n3t/a_year_after_the_100_ai_mandate_nobody/) — 144 pts &middot; [185 comments](https://news.ycombinator.com/item?id=50433079)
+- [Let over Lambda–50 Years of Lisp (2008)](https://letoverlambda.com/) — 64 pts &middot; [15 comments](https://news.ycombinator.com/item?id=50439448)
 
 ## On Threads
 **@boris_cherny** — Oct 16
@@ -33,45 +27,45 @@ Claude's new Fable 5.2 model is dominating Hacker News (720 points, 401 comments
 [View on Threads](https://www.threads.com/@boris_cherny/post/DekKPCvGbnM)
 
 ## New YouTube Videos
-- [Fireship] "OpenAI just found 948 ways to root your Linux box..." — posted 1h ago
+- [Fireship] "Did Anthropic just save its $1 trillion IPO?" — posted 1h ago
+  https://www.youtube.com/watch?v=1FurWDiK9A4
+  No transcript available
+
+- [Fireship] "OpenAI spent $1.2 million hacking Linux... and it was a bargain" — posted 22h ago
   https://www.youtube.com/watch?v=pf5tXJZM1Rw
   No transcript available
 
-- [Greg Isenberg] "AI Agents are too good at marketing now" — posted 3h ago
-  https://www.youtube.com/watch?v=uJuxenfe-NU
+- [Matt Wolfe] "This Airtaxi is Ready For Primetime!" — posted 14h ago
+  https://www.youtube.com/watch?v=GcFRheDNh5U
   No transcript available
 
-- [Dan Martell] "Use my AI replacement ladder to decide what to automate" — posted 1h ago
+- [Matt Wolfe] "Anthropic's Fable 5.2 is the World’s Best AI Model" — posted 20h ago
+  https://www.youtube.com/watch?v=2TM8W66NI_8
+  No transcript available
+
+- [Greg Isenberg] "Claude Fable 5.2: How I’d Make Money With It" — posted 2h ago
+  https://www.youtube.com/watch?v=G3i2k6DdI0o
+  No transcript available
+
+- [Dan Martell] "Which boss are you?" — posted 4h ago
+  https://www.youtube.com/watch?v=0u2g0smcRRo
+  No transcript available
+
+- [Dan Martell] "Use my AI replacement ladder to decide what to automate" — posted 22h ago
   https://www.youtube.com/watch?v=TasLZOkxh1w
   No transcript available
 
-- [Dan Martell] "Why do people blame their team?" — posted 7h ago
-  https://www.youtube.com/watch?v=W0r8Remco_I
+- [GaryVee] "This investment would have made me rich" — posted 1h ago
+  https://www.youtube.com/watch?v=3848lwp4apA
   No transcript available
 
-- [Big Think] "What is panpsychism? | Jack Symes" — posted 5h ago
-  https://www.youtube.com/watch?v=p4dAIspaKb8
-  No transcript available
-
-- [Big Think] "Who you are fluctuates every single second | Lisa Feldman Barrett" — posted 8h ago
-  https://www.youtube.com/watch?v=NEq_CU_weas
-  No transcript available
-
-- [GaryVee] "why alternative sports are about to blow up" — posted 22h ago
-  https://www.youtube.com/watch?v=cZbB13iy24U
-  No transcript available
-
-- [The Diary Of A CEO] "KATT WILLIAMS OPENS UP ABOUT HIS ABUSIVE CHILDHOOD" — posted 1h ago
+- [The Diary Of A CEO] "KATT WILLIAMS OPENS UP ABOUT HIS ABUSIVE CHILDHOOD" — posted 23h ago
   https://www.youtube.com/watch?v=kyNupwRvHOE
-  No transcript available
-
-- [The Diary Of A CEO] "Katt Williams: They Tied Me To A Pole And Beat Me Bloody Every Week!" — posted 14h ago
-  https://www.youtube.com/watch?v=-6PuYw92m1c
-  No transcript available
+  Transcript available (3000 chars)
 
 ## Latest on TikTok
-- [@gigaqian] "Trump’s new import restrictions could have massive consequences for A..."
-  https://www.tiktok.com/@gigaqian/video/7705943513174773006
+- [@gigaqian] "AI is now making scientific discoveries on its own, and today we gain..."
+  https://www.tiktok.com/@gigaqian/video/7706332718975454477
 
 ## Top Reddit Posts
 _No Reddit data collected._
@@ -80,4 +74,4 @@ _No Reddit data collected._
 _No Twitter data collected._
 
 ---
-*Daily Scrape — 2026-11-09T21:41:32.689Z*
+*Daily Scrape — 2026-11-10T18:58:40.025Z*
