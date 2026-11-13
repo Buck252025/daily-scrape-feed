@@ -1,26 +1,24 @@
-# Daily Scrape — November 12, 2026
+# Daily Scrape — November 13, 2026
 
 ## Top Story
-Google just dropped Gemini 4 Hydrogen (227 HN points, 144 comments), signaling a major consolidation play in the frontier model race. Paired with the Jensen Huang resignation noise dominating HN (1930 points—by far the day's biggest engagement), the market is clearly recalibrating around who controls the AI infrastructure layer. For consultants and SMB tool builders, this means the moat is shifting from model capability to **integration ease and cost efficiency**—not raw power.
+Claude infrastructure experienced significant outages across claude.ai, Claude Code, and platform.claude.com, generating 620+ combined engagement points on Hacker News—the day's most-discussed AI story. For consultants selling Claude-based integrations or SMBs relying on Claude for client work, this signals both a reliability concern and a market moment: competitors are watching, and customers are asking harder questions about uptime guarantees.
 
 ## What People Are Saying
-- Boris Cherny (Claude Code lead) posted on Threads that Claude Code now auto-runs code reviews on every PR with zero developer setup required—just enable it in settings and pick repos. This is a direct answer to the integration friction that blocks SMB adoption of AI tools.
-- The "I'm making LLMs work on small and old devices" GitHub project (149 HN points) is generating real discussion around edge deployment and cost reduction—builders are explicitly moving away from cloud-dependent architectures, a reversal of the 2023-24 trend.
-- GaryVee's content cluster (multiple videos on job search, podcast growth, and "It's Boring But Could Make You Rich in the AI Era") reflects the audience fatigue with hype and pivot toward **actionable, unglamorous AI monetization**—this matches the SMB consultant need for practical ROI, not flashy demos.
+- Boris Cherny (Claude Code lead) posted on Threads that Claude Code now supports automated PR reviews—"Admins turn it on in Claude Code settings and pick repos. From here, reviews run on every new PR, with no setup for developers." This is the feature announcement hiding in infrastructure noise: it's a distribution play that makes Claude Code stickier in engineering workflows without friction.
+- Hacker News commenters are actively debating whether Google's move to cut Search access from "AI-free schools" is a competitive throttle or infrastructure necessity ("Why is Google cutting off Search from AI-free schools?"—90 points, 87 comments). This frames AI adoption as a privilege/access question, not just capability.
+- The Gödel notebooks story (129 points) landed with minimal comment engagement despite AI literally unlocking historical mathematical proofs—suggesting Hacker News readers see this as symbolic/interesting but not immediately actionable, unlike the outage and school access debates.
 
 ## Updates
-- **Gemini 4 Hydrogen launched** — Google's new model release; specifics thin in this window but HN engagement suggests meaningful competitive positioning against Claude/GPT.
-- **Claude Code PR review automation** — Boris Cherny confirms Claude Code now includes native GitHub PR review with zero setup friction; directly reduces integration cost for dev teams adopting Claude.
-- **Rust 1.100.0 released** — Milestone version hit (149 HN points); relevance to your audience: Rust is the language of choice for edge AI and local LLM inference tools (see: smolmaxxing project gaining traction).
+- Claude Code added automated PR review capability with zero developer setup required—Admins configure repo access in settings, reviews run on every new PR. Relevant for consultants selling internal tooling integration.
+- Claude experienced platform-wide outages affecting three main surfaces (claude.ai, Code, platform), generating high-volume incident reporting. No timeline for full restoration shared in available data.
 
 ## Hacker News Today
-- [Jensen Huang resigns](https://apnews.com/article/nvidia-megaspeed-china-singapore-huang-5403f152a601cf82ce939f1d24fffa0f) — 1930 pts &middot; [1969 comments](https://news.ycombinator.com/item?id=50467087)
-- [Gemini 4 Hydrogen](https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/) — 227 pts &middot; [144 comments](https://news.ycombinator.com/item?id=50471431)
-- [I'm making LLMs work on small and old devices](https://github.com/hyperionaidev/smolmaxxing/) — 149 pts &middot; [58 comments](https://news.ycombinator.com/item?id=50468888)
-- [Rust 1.100.0](https://github.com/rust-lang/rust/releases/tag/1.100.0) — 149 pts &middot; [28 comments](https://news.ycombinator.com/item?id=50471793)
-- [Nintendo Takes Down Emulators and Firmware in Massive GitHub DMCA Sweep](https://www.ign.com/articles/nintendo-takes-down-switch-emulators-and-mod-chip-firmware-in-massive-github-dmca-sweep) — 142 pts &middot; [88 comments](https://news.ycombinator.com/item?id=50469994)
-- [Show HN: My $300 embroidery machine needed a subscription, so I built my own app](https://github.com/simpsoka/zigzag) — 49 pts &middot; [6 comments](https://news.ycombinator.com/item?id=50470488)
-- [AWS Lambda Web Functions keep billing memory ~7 minutes after the last request](https://www.easel.sh/blog/lambda-web-functions-idle-memory) — 46 pts &middot; [15 comments](https://news.ycombinator.com/item?id=50470445)
+- [Elevated errors on claude.ai, Claude Code, and platform.claude.com](https://status.claude.com/incidents/nn11wk485zfn) — 456 pts &middot; [364 comments](https://news.ycombinator.com/item?id=50481187)
+- [Claude Is Down](https://status.claude.com/history) — 191 pts &middot; [164 comments](https://news.ycombinator.com/item?id=50481220)
+- [Jonathan Blow – If AI Solved Coding, Why Is My Software Still the Same? [video]](https://www.youtube.com/watch?v=IRK8h67ol7Q) — 130 pts &middot; [98 comments](https://news.ycombinator.com/item?id=50484658)
+- [AI unlocks Gödel's notebooks, said to contain hundreds of proved theorems](https://www.theguardian.com/science/2026/nov/13/kurt-godel-notebooks-ai-helps-unlock-hidden-discoveries-man-who-transformed-maths) — 129 pts &middot; [16 comments](https://news.ycombinator.com/item?id=50486748)
+- [Why is Google cutting off Search from AI-free schools? Here are some theories](https://text.npr.org/nx-s1-6029408) — 90 pts &middot; [87 comments](https://news.ycombinator.com/item?id=50484960)
+- [Distributed Ray Tracer](https://ray.hatchet.run) — 46 pts &middot; [14 comments](https://news.ycombinator.com/item?id=50472505)
 
 ## On Threads
 **@boris_cherny** — Oct 16
@@ -30,53 +28,49 @@ Google just dropped Gemini 4 Hydrogen (227 HN points, 144 comments), signaling a
 [View on Threads](https://www.threads.com/@boris_cherny/post/DekKPCvGbnM)
 
 ## New YouTube Videos
-- [Matt Wolfe] "How to automate your photo library" — posted 2h ago
-  https://www.youtube.com/watch?v=IehCboBcYsA
+- [Fireship] "Jensen Huang just pulled out of Nvidia..." — posted 22h ago
+  https://www.youtube.com/watch?v=SOwUWPtXQ9I
   No transcript available
 
-- [Greg Isenberg] "New ChatGPT, Claude Whiteboards, Google Carbon: LIVE reaction" — posted 22h ago
-  https://www.youtube.com/watch?v=MnW6mm_dHpM
+- [Matt Wolfe] "AI News: Things Will Never Be The Same" — posted 2h ago
+  https://www.youtube.com/watch?v=G_Jrexy_5Bg
   No transcript available
 
-- [Greg Isenberg] "New ChatGPT, Claude Whiteboards, Google Carbon: LIVE reaction" — posted 22h ago
-  https://www.youtube.com/watch?v=6DT8Cy2rnd0
+- [Matt Wolfe] "MASSIVE AI Shake-Up That Changes Everything" — posted 22h ago
+  https://www.youtube.com/watch?v=iTe0IB5Ugf8
   No transcript available
 
-- [Dan Martell] "Whats the worst business advice you've heard?" — posted 4h ago
-  https://www.youtube.com/watch?v=DzRNC73IVLs
+- [Dan Martell] "Managers and Leaders are 2 completely different roles" — posted 21h ago
+  https://www.youtube.com/watch?v=m6839RmQvJs
   No transcript available
 
-- [Dan Martell] "Signs you are NOT leading your team properly" — posted 20h ago
-  https://www.youtube.com/watch?v=n6xoJp-aFjc
+- [Big Think] "Why do whales make milk? | Steve Brusatte" — posted 2h ago
+  https://www.youtube.com/watch?v=huoYKP3hn5U
   No transcript available
 
-- [Big Think] "We keep thinking we’ve found the limit. We keep being wrong. | Matthew Nurse" — posted 4h ago
-  https://www.youtube.com/watch?v=sxXAmPcx9C0
+- [Big Think] "What makes life different from everything else in the universe | Adam Frank: Full Interview" — posted 5h ago
+  https://www.youtube.com/watch?v=nXsSG6tnx_Y
   No transcript available
 
-- [GaryVee] "What are you scared of?" — posted 3h ago
-  https://www.youtube.com/watch?v=7tbbxVICiY0
+- [GaryVee] "Why would you not be happy for other people?" — posted 3h ago
+  https://www.youtube.com/watch?v=mvF_ZYf21j4
   No transcript available
 
-- [GaryVee] "It’s Boring, But It Could Make You Rich in the AI Era" — posted 3h ago
-  https://www.youtube.com/watch?v=zdjXvH3_u-Q
+- [GaryVee] "I passed on Uber twice!" — posted 19h ago
+  https://www.youtube.com/watch?v=BWRuiMwcV8E
   No transcript available
 
-- [GaryVee] "Easiest way to grow your podcast" — posted 18h ago
-  https://www.youtube.com/watch?v=Py3bFEZowkU
+- [GaryVee] "You're allowed to change your mind" — posted 23h ago
+  https://www.youtube.com/watch?v=DpkhjbFR7f4
   No transcript available
 
-- [GaryVee] "If you're desperate for a job, DO THIS" — posted 23h ago
-  https://www.youtube.com/watch?v=73E52pplzzw
-  No transcript available
-
-- [The Diary Of A CEO] "The Brain Doctor That Figured Out The Cause Of Dementia - Dr. David Perlmutter" — posted 11h ago
-  https://www.youtube.com/watch?v=FRoQOzZRcpw
+- [The Diary Of A CEO] "CAN WE PREVENT DEMENTIA?" — posted 5h ago
+  https://www.youtube.com/watch?v=KxKDBjyB_8c
   No transcript available
 
 ## Latest on TikTok
-- [@gigaqian] "Imagine watching me on a livestream, hearing me say something outrage..."
-  https://www.tiktok.com/@gigaqian/video/7707065655614278926
+- [@gigaqian] "Bloomberg uncovered a staggering discrepancy involving roughly 50,000..."
+  https://www.tiktok.com/@gigaqian/video/7707421877651639565
 
 ## Top Reddit Posts
 _No Reddit data collected._
@@ -85,4 +79,4 @@ _No Reddit data collected._
 _No Twitter data collected._
 
 ---
-*Daily Scrape — 2026-11-12T19:15:26.163Z*
+*Daily Scrape — 2026-11-13T18:51:54.117Z*
