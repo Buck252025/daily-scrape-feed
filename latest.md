@@ -1,24 +1,27 @@
-# Daily Scrape — November 13, 2026
+# Daily Scrape — November 14, 2026
 
 ## Top Story
-Claude infrastructure experienced significant outages across claude.ai, Claude Code, and platform.claude.com, generating 620+ combined engagement points on Hacker News—the day's most-discussed AI story. For consultants selling Claude-based integrations or SMBs relying on Claude for client work, this signals both a reliability concern and a market moment: competitors are watching, and customers are asking harder questions about uptime guarantees.
+OpenAI is consolidating robotics into its general models — disbanding its dedicated robotics team because GPT-level foundation models can now control robots directly. This signals a massive shift for AI integrators: specialized vertical AI teams are collapsing into horizontal LLM platforms. For consultants selling AI adoption, this means your clients' competitive advantage isn't in custom models anymore—it's in prompt engineering, system design, and workflow integration around general-purpose models.
 
 ## What People Are Saying
-- Boris Cherny (Claude Code lead) posted on Threads that Claude Code now supports automated PR reviews—"Admins turn it on in Claude Code settings and pick repos. From here, reviews run on every new PR, with no setup for developers." This is the feature announcement hiding in infrastructure noise: it's a distribution play that makes Claude Code stickier in engineering workflows without friction.
-- Hacker News commenters are actively debating whether Google's move to cut Search access from "AI-free schools" is a competitive throttle or infrastructure necessity ("Why is Google cutting off Search from AI-free schools?"—90 points, 87 comments). This frames AI adoption as a privilege/access question, not just capability.
-- The Gödel notebooks story (129 points) landed with minimal comment engagement despite AI literally unlocking historical mathematical proofs—suggesting Hacker News readers see this as symbolic/interesting but not immediately actionable, unlike the outage and school access debates.
+- Hacker News is actively debating "Claude Delusion" (124 pts, 157 comments)—skepticism about Claude's real-world reliability is gaining traction in the builder community, suggesting marketing hype around LLM capabilities is outpacing actual performance in production.
+- Boris Cherny (Claude Code lead) posted on Threads that Claude Code now runs automated PR reviews directly in repos with zero developer setup required—the friction point for AI code tooling just dropped to near-zero, which is a direct competitive move against GitHub Copilot's workflow overhead.
+- Strong signal on skill gaps: a Hacker News "Ask HN" thread asking "What are the most useful, concrete AI skills to independently learn?" hit 65 points and 47 comments, indicating SMB owners and individual consultants are actively hunting for clarity on what AI skills actually ROI.
 
 ## Updates
-- Claude Code added automated PR review capability with zero developer setup required—Admins configure repo access in settings, reviews run on every new PR. Relevant for consultants selling internal tooling integration.
-- Claude experienced platform-wide outages affecting three main surfaces (claude.ai, Code, platform), generating high-volume incident reporting. No timeline for full restoration shared in available data.
+- Anthropic upgraded Claude Code Projects to run parallel AI workers—teams can now spin up multiple Claude agents in a single workspace, expanding use cases beyond single-task automation.
+- Claude Meetings launched as a new product—Anthropic is moving upmarket into synchronous collaboration, directly competing with Slack's AI layer and meeting software integrations.
+- vLLM deployment benchmark published: GLM-5.3 serving 607.8 tokens/second across dual DGX stations—infrastructure cost and latency metrics are becoming table stakes for SMBs evaluating on-premise vs. cloud LLM hosting.
 
 ## Hacker News Today
-- [Elevated errors on claude.ai, Claude Code, and platform.claude.com](https://status.claude.com/incidents/nn11wk485zfn) — 456 pts &middot; [364 comments](https://news.ycombinator.com/item?id=50481187)
-- [Claude Is Down](https://status.claude.com/history) — 191 pts &middot; [164 comments](https://news.ycombinator.com/item?id=50481220)
-- [Jonathan Blow – If AI Solved Coding, Why Is My Software Still the Same? [video]](https://www.youtube.com/watch?v=IRK8h67ol7Q) — 130 pts &middot; [98 comments](https://news.ycombinator.com/item?id=50484658)
-- [AI unlocks Gödel's notebooks, said to contain hundreds of proved theorems](https://www.theguardian.com/science/2026/nov/13/kurt-godel-notebooks-ai-helps-unlock-hidden-discoveries-man-who-transformed-maths) — 129 pts &middot; [16 comments](https://news.ycombinator.com/item?id=50486748)
-- [Why is Google cutting off Search from AI-free schools? Here are some theories](https://text.npr.org/nx-s1-6029408) — 90 pts &middot; [87 comments](https://news.ycombinator.com/item?id=50484960)
-- [Distributed Ray Tracer](https://ray.hatchet.run) — 46 pts &middot; [14 comments](https://news.ycombinator.com/item?id=50472505)
+- [OpenAI disbands its robotics team as its general models start running robots](https://fortune.com/2026/11/13/openai-disbands-robotics-team-as-its-general-models-start-running-robots/) — 174 pts &middot; [72 comments](https://news.ycombinator.com/item?id=50487184)
+- [The Claude Delusion](https://www.netmeister.org/blog/claude-delusion.html) — 124 pts &middot; [157 comments](https://news.ycombinator.com/item?id=50496921)
+- [Claude Meetings](https://claude.com/resources/articles/claude-meetings) — 105 pts &middot; [82 comments](https://news.ycombinator.com/item?id=50491097)
+- [Anthropic upgrades Claude Code Projects to run parallel AI workers](https://claude.com/resources/articles/projects-redesigned) — 94 pts &middot; [89 comments](https://news.ycombinator.com/item?id=50492141)
+- [Serving GLM-5.3 at 607.8 tok/s across two Nvidia DGX stations with vLLM](https://developer.nvidia.com/blog/when-one-gpu-isnt-enough-serving-glm-5-3-across-two-nvidia-dgx-stations-with-vllm/) — 75 pts &middot; [36 comments](https://news.ycombinator.com/item?id=50497155)
+- [Show HN: A terminal-native idle factory game, written in Rust with ratatui](https://gitlab.com/snipedbywifi/terminactory) — 70 pts &middot; [11 comments](https://news.ycombinator.com/item?id=50497132)
+- [Ask HN: What are the most useful, concrete AI skills to independently learn?](https://news.ycombinator.com/item?id=50494696) — 65 pts &middot; [47 comments](https://news.ycombinator.com/item?id=50494696)
+- [Show HN: Agweb – a browser for agents that stays out of your way](https://github.com/paul-nameless/agweb) — 43 pts &middot; [9 comments](https://news.ycombinator.com/item?id=50497147)
 
 ## On Threads
 **@boris_cherny** — Oct 16
@@ -28,49 +31,29 @@ Claude infrastructure experienced significant outages across claude.ai, Claude C
 [View on Threads](https://www.threads.com/@boris_cherny/post/DekKPCvGbnM)
 
 ## New YouTube Videos
-- [Fireship] "Jensen Huang just pulled out of Nvidia..." — posted 22h ago
-  https://www.youtube.com/watch?v=SOwUWPtXQ9I
+- [Dan Martell] "You can't be rich and not help people" — posted 2h ago
+  https://www.youtube.com/watch?v=hyYX3g7pwag
   No transcript available
 
-- [Matt Wolfe] "AI News: Things Will Never Be The Same" — posted 2h ago
-  https://www.youtube.com/watch?v=G_Jrexy_5Bg
+- [Dan Martell] "LET GO of your $20 tasks." — posted 22h ago
+  https://www.youtube.com/watch?v=TJ2GD_w-bAY
   No transcript available
 
-- [Matt Wolfe] "MASSIVE AI Shake-Up That Changes Everything" — posted 22h ago
-  https://www.youtube.com/watch?v=iTe0IB5Ugf8
+- [GaryVee] "What to do after your kids mess up" — posted 18h ago
+  https://www.youtube.com/watch?v=0qjeI_bd8rc
   No transcript available
 
-- [Dan Martell] "Managers and Leaders are 2 completely different roles" — posted 21h ago
-  https://www.youtube.com/watch?v=m6839RmQvJs
+- [GaryVee] "How to Fix YourF% eD Up Algorithm" — posted 22h ago
+  https://www.youtube.com/watch?v=mNGM2EqYDrI
   No transcript available
 
-- [Big Think] "Why do whales make milk? | Steve Brusatte" — posted 2h ago
-  https://www.youtube.com/watch?v=huoYKP3hn5U
-  No transcript available
-
-- [Big Think] "What makes life different from everything else in the universe | Adam Frank: Full Interview" — posted 5h ago
-  https://www.youtube.com/watch?v=nXsSG6tnx_Y
-  No transcript available
-
-- [GaryVee] "Why would you not be happy for other people?" — posted 3h ago
-  https://www.youtube.com/watch?v=mvF_ZYf21j4
-  No transcript available
-
-- [GaryVee] "I passed on Uber twice!" — posted 19h ago
-  https://www.youtube.com/watch?v=BWRuiMwcV8E
-  No transcript available
-
-- [GaryVee] "You're allowed to change your mind" — posted 23h ago
-  https://www.youtube.com/watch?v=DpkhjbFR7f4
-  No transcript available
-
-- [The Diary Of A CEO] "CAN WE PREVENT DEMENTIA?" — posted 5h ago
-  https://www.youtube.com/watch?v=KxKDBjyB_8c
+- [The Diary Of A CEO] "WHAT ALZHEIMER'S IS REALLY LIKE 💔" — posted 3h ago
+  https://www.youtube.com/watch?v=Aop2MN2s-7w
   No transcript available
 
 ## Latest on TikTok
-- [@gigaqian] "Bloomberg uncovered a staggering discrepancy involving roughly 50,000..."
-  https://www.tiktok.com/@gigaqian/video/7707421877651639565
+- [@gigaqian] "Researchers have connected living human neurons to a humanoid robot, ..."
+  https://www.tiktok.com/@gigaqian/video/7707811483358432525
 
 ## Top Reddit Posts
 _No Reddit data collected._
@@ -79,4 +62,4 @@ _No Reddit data collected._
 _No Twitter data collected._
 
 ---
-*Daily Scrape — 2026-11-13T18:51:54.117Z*
+*Daily Scrape — 2026-11-14T17:25:51.080Z*
