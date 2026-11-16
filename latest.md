@@ -1,21 +1,24 @@
-# Daily Scrape — November 15, 2026
+# Daily Scrape — November 16, 2026
 
 ## Top Story
-Claude Code just shipped automated PR reviews directly in the IDE—Boris Cherny (Claude Code lead) posted on Threads that admins can now enable it in settings, pick repos, and reviews run on every new PR with zero developer setup required. This is the first major move toward embedding AI code review as a baseline developer workflow, not a bolt-on tool, which matters because it removes friction for SMBs adopting AI-assisted development at scale.
+Claude Code's PR review automation—now live in Claude settings—represents a shift in how AI agents integrate into developer workflows without friction. Boris Cherny (Claude Code lead) posted on Threads that admins can enable the feature, point it at repos, and get automated reviews on every PR with zero developer setup required. For consultants selling AI-to-dev teams, this is a template: the best adoption happens when the tool disappears into existing processes.
 
 ## What People Are Saying
-- The open-source licensing debate around AI-generated code is heating up: 548 HN points on a post arguing "All AI-generated code should be Open Source"—the comment ratio (319 comments) suggests real disagreement on whether output ownership should follow input licensing, a critical question for consultants advising clients on IP risk.
-- Positional embeddings in LLMs remain a knowledge gap: Sebastian Raschka's deep dive on understanding positional embeddings got 124 HN points but only 3 comments, indicating this is a topic many want to learn but few feel confident discussing—opportunity for explainer content targeting practitioners.
-- Single-point-of-failure infrastructure stories (the Southern Arkansas router outage grounding flights) are resonating across platforms (79 HN points, 47 comments), signaling that reliability and risk are top-of-mind for builders right now.
+- Hacker News is debating the ethics and mechanics of AI agents writing their own tools—Coral (open-source gateway) sparked 23 comments around agent autonomy and safety, while "How to make almost anything" (800 points) suggests the bar for building custom tooling is collapsing.
+- OpenAI's child safety announcement (108 comments on HN) is getting pushback; commenters are questioning whether the initiative addresses the core problem or is primarily optics—a signal that AI policy moves face immediate skepticism from the builder community.
+- ChatGPT Wallet (43 points, 79 comments) is being discussed as a monetization play, but HN threads reveal builders are more interested in *how* wallet mechanics enable new use cases than the product itself.
 
 ## Updates
-- Claude Code PR review automation now live: Boris Cherny's Threads post confirms the feature is available in Claude Code settings—enables hands-off code review at every PR without developer configuration.
-- @gigaqian on TikTok covered China's ChangXin Memory Technologies (CXMT) showcasing LPDDR6 memory tech, a signal of accelerating chip competition that indirectly affects AI inference costs and hardware availability for SMB deployments.
+- OpenAI launched ChatGPT Wallet, a feature for managing payments and subscriptions within ChatGPT—relevant to consultants selling multi-tier AI services to SMBs.
+- OpenAI announced strengthened child safety measures in partnership with NCMEC—compliance and trust positioning for enterprise deals.
+- Coral (open-source agent gateway) launched on GitHub—gives SMBs an alternative to proprietary agent frameworks for custom tool integration.
 
 ## Hacker News Today
-- [All AI-generated code should be Open Source](https://jakub.jankiewicz.org/blog/ai-code-open-source/) — 548 pts &middot; [319 comments](https://news.ycombinator.com/item?id=50507303)
-- [Understanding Positional Embeddings in Modern LLMs](https://magazine.sebastianraschka.com/p/understanding-positional-embeddings) — 124 pts &middot; [3 comments](https://news.ycombinator.com/item?id=50506376)
-- [The Single Router in Southern Arkansas That Ground Air Travel to a Halt](https://www.wsj.com/business/airlines/the-single-router-in-southern-arkansas-that-ground-air-travel-to-a-halt-eedc326c) — 79 pts &middot; [47 comments](https://news.ycombinator.com/item?id=50503588)
+- [How to make almost anything](https://pub.cba.mit.edu/863.26/site/) — 800 pts &middot; [134 comments](https://news.ycombinator.com/item?id=50514470)
+- [Tell HN: HN is being scraped for emails to scam](https://news.ycombinator.com/item?id=50513451) — 120 pts &middot; [41 comments](https://news.ycombinator.com/item?id=50513451)
+- [OpenAI: Strengthening the fight against online child sexual abuse](https://openai.com/index/strengthening-online-child-safety/) — 60 pts &middot; [108 comments](https://news.ycombinator.com/item?id=50520804)
+- [Show HN: Coral – Open-source gateway where agents write their own tools](https://github.com/withcoral/coral) — 50 pts &middot; [23 comments](https://news.ycombinator.com/item?id=50517803)
+- [ChatGPT Wallet](https://openai.com/index/introducing-chatgpt-wallet/) — 43 pts &middot; [79 comments](https://news.ycombinator.com/item?id=50518501)
 
 ## On Threads
 **@boris_cherny** — Oct 16
@@ -25,40 +28,36 @@ Claude Code just shipped automated PR reviews directly in the IDE—Boris Cherny
 [View on Threads](https://www.threads.com/@boris_cherny/post/DekKPCvGbnM)
 
 ## New YouTube Videos
-- [Matt Wolfe] "The Self-Driving Car With Balls" — posted 11h ago
-  https://www.youtube.com/watch?v=X3r-mZtPfP8
+- [Fireship] "The $7 billion bug hiding inside Microsoft’s network..." — posted 1h ago
+  https://www.youtube.com/watch?v=ytmawkPTP24
   No transcript available
 
-- [Dan Martell] "How do you prioritize the relationships in your life?" — posted 3h ago
-  https://www.youtube.com/watch?v=oIc8fqjCJy8
+- [Matt Wolfe] "3D Printing Entire Buildings is So Wild To Me" — posted 16h ago
+  https://www.youtube.com/watch?v=ETw45WHQ6Z4
   No transcript available
 
-- [Dan Martell] "27 years of leadership in less than 60s" — posted 23h ago
-  https://www.youtube.com/watch?v=IFT7V5EEJYw
+- [Dan Martell] "I have so much fun everyday working with this group of people 😂😂😂" — posted 2h ago
+  https://www.youtube.com/watch?v=Pted79EG1BM
   No transcript available
 
-- [GaryVee] "If only people realized this..." — posted 1h ago
-  https://www.youtube.com/watch?v=8UCRDVOR3rw
+- [Dan Martell] "Be the problem SOLVER not the SEEKER" — posted 6h ago
+  https://www.youtube.com/watch?v=sHjdHVuSlG0
   No transcript available
 
-- [GaryVee] "This is so real" — posted 16h ago
-  https://www.youtube.com/watch?v=4C1D4tgbUK0
+- [Big Think] "How narcissistic are you? | Ramani Durvasula" — posted 4h ago
+  https://www.youtube.com/watch?v=zHVlBtlQ56Q
   No transcript available
 
-- [GaryVee] "Everything takes longer than you think" — posted 19h ago
-  https://www.youtube.com/watch?v=v927d5r1t1w
+- [GaryVee] "The last phrase is gold…" — posted 2h ago
+  https://www.youtube.com/watch?v=I7CGIlUVB4U
   No transcript available
 
-- [GaryVee] "Blaming them wont change your life" — posted 22h ago
-  https://www.youtube.com/watch?v=KVPta50edrE
+- [The Diary Of A CEO] "HOW DID A SPY GET INTO NVIDIA?" — posted 3h ago
+  https://www.youtube.com/watch?v=49gIAR6Pzj8
   No transcript available
 
-- [GaryVee] "Keep going!" — posted 23h ago
-  https://www.youtube.com/watch?v=UHwXwoF3Rbw
-  No transcript available
-
-- [The Diary Of A CEO] "WHAT ALZHEIMER'S IS REALLY LIKE 💔" — posted 1d ago
-  https://www.youtube.com/watch?v=Aop2MN2s-7w
+- [The Diary Of A CEO] "Russian Sex Spy: I Was Trained To Control A Man's Mind With Sex! | John Kiriakou & Aliia Roza" — posted 13h ago
+  https://www.youtube.com/watch?v=1mDHHi398ig
   No transcript available
 
 ## Latest on TikTok
@@ -72,4 +71,4 @@ _No Reddit data collected._
 _No Twitter data collected._
 
 ---
-*Daily Scrape — 2026-11-15T18:05:10.292Z*
+*Daily Scrape — 2026-11-16T21:20:31.650Z*
