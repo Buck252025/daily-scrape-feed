@@ -1,24 +1,24 @@
-# Daily Scrape — November 16, 2026
+# Daily Scrape — November 17, 2026
 
 ## Top Story
-Claude Code's PR review automation—now live in Claude settings—represents a shift in how AI agents integrate into developer workflows without friction. Boris Cherny (Claude Code lead) posted on Threads that admins can enable the feature, point it at repos, and get automated reviews on every PR with zero developer setup required. For consultants selling AI-to-dev teams, this is a template: the best adoption happens when the tool disappears into existing processes.
+GPT-6.2 Astra and Sol just landed with massive community engagement (680 points, 404 comments on Hacker News), signaling OpenAI's next-generation capability jump. For consultants and integration shops, this means your client conversations about "which model to standardize on" are about to shift again—and the window to position GPT-6.2 adoption before it becomes table-stakes is closing fast.
 
 ## What People Are Saying
-- Hacker News is debating the ethics and mechanics of AI agents writing their own tools—Coral (open-source gateway) sparked 23 comments around agent autonomy and safety, while "How to make almost anything" (800 points) suggests the bar for building custom tooling is collapsing.
-- OpenAI's child safety announcement (108 comments on HN) is getting pushback; commenters are questioning whether the initiative addresses the core problem or is primarily optics—a signal that AI policy moves face immediate skepticism from the builder community.
-- ChatGPT Wallet (43 points, 79 comments) is being discussed as a monetization play, but HN threads reveal builders are more interested in *how* wallet mechanics enable new use cases than the product itself.
+- Boris Cherny (Claude Code lead) posted on Threads that Claude Code now auto-reviews PRs with zero developer setup required—just enable it in settings and pick repos. This is a direct signal that AI code tooling is moving from "optional enhancement" to "baked-in workflow," raising the bar for what clients will expect from your AI integration offers.
+- Claude Mythos cut AMD GPU onboarding from up to 12 months down to three days by writing almost 100% of kernels autonomously (Tom's Hardware via Hacker News, 52 points). This matters: it's proof that AI is now eating the "AI infrastructure specialization" moat—you won't need 12 months of expert engineers to adopt new hardware, which accelerates competition and forces consultants to shift value upstream (strategy, not plumbing).
+- @gigaqian on TikTok flagged that Chinese AI companies may have exposed access to restricted NVIDIA tech, hinting at supply-chain tensions and potential regulatory volatility around model access and hardware—a risk factor consultants should be baking into client infrastructure roadmaps right now.
 
 ## Updates
-- OpenAI launched ChatGPT Wallet, a feature for managing payments and subscriptions within ChatGPT—relevant to consultants selling multi-tier AI services to SMBs.
-- OpenAI announced strengthened child safety measures in partnership with NCMEC—compliance and trust positioning for enterprise deals.
-- Coral (open-source agent gateway) launched on GitHub—gives SMBs an alternative to proprietary agent frameworks for custom tool integration.
+- GPT-6.2 Astra and Sol launched (OpenAI)—new flagship models with significant engagement indicating material capability improvements; likely to reshape model selection conversations with clients.
+- Claude Code now ships PR review automation built-in (Anthropic)—zero-setup code review on every PR, raising baseline expectations for AI coding assistants in enterprise workflows.
+- Claude Mythos achieved 3-day AMD GPU onboarding vs. 12-month manual process (Anthropic)—demonstrates AI-driven infrastructure democratization and reduces specialization moats.
 
 ## Hacker News Today
-- [How to make almost anything](https://pub.cba.mit.edu/863.26/site/) — 800 pts &middot; [134 comments](https://news.ycombinator.com/item?id=50514470)
-- [Tell HN: HN is being scraped for emails to scam](https://news.ycombinator.com/item?id=50513451) — 120 pts &middot; [41 comments](https://news.ycombinator.com/item?id=50513451)
-- [OpenAI: Strengthening the fight against online child sexual abuse](https://openai.com/index/strengthening-online-child-safety/) — 60 pts &middot; [108 comments](https://news.ycombinator.com/item?id=50520804)
-- [Show HN: Coral – Open-source gateway where agents write their own tools](https://github.com/withcoral/coral) — 50 pts &middot; [23 comments](https://news.ycombinator.com/item?id=50517803)
-- [ChatGPT Wallet](https://openai.com/index/introducing-chatgpt-wallet/) — 43 pts &middot; [79 comments](https://news.ycombinator.com/item?id=50518501)
+- [GPT‑6.2 Astra and Sol](https://openai.com/index/introducing-gpt-6-2-astra-sol/) — 680 pts &middot; [404 comments](https://news.ycombinator.com/item?id=50535230)
+- [How the Claude Code team thinks about verification](https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/) — 209 pts &middot; [162 comments](https://news.ycombinator.com/item?id=50529612)
+- [MAI Code 2 and Code 2 Flash](https://microsoft.ai/news/introducing-mai-code-2-and-mai-code-2-flash/) — 120 pts &middot; [48 comments](https://news.ycombinator.com/item?id=50535885)
+- [Optimizely hack infected CNN, Fox News, BBC, Salesforce sites with malware](https://www.bleepingcomputer.com/news/security/optimizely-supply-chain-attack-delivers-malware-to-cnn-fox-news-bbc-salesforce-sites/) — 71 pts &middot; [14 comments](https://news.ycombinator.com/item?id=50534664)
+- [Claude Mythos slashed software work to onboard AMD GPUs to around three days](https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropic-says-claude-mythos-slashed-software-work-to-onboard-amd-gpus-from-up-to-12-months-to-around-three-days-writing-almost-100-percent-of-kernels-autonomously-chips-away-at-nvidias-cuda-moat) — 52 pts &middot; [20 comments](https://news.ycombinator.com/item?id=50526264)
 
 ## On Threads
 **@boris_cherny** — Oct 16
@@ -28,41 +28,37 @@ Claude Code's PR review automation—now live in Claude settings—represents a 
 [View on Threads](https://www.threads.com/@boris_cherny/post/DekKPCvGbnM)
 
 ## New YouTube Videos
-- [Fireship] "The $7 billion bug hiding inside Microsoft’s network..." — posted 1h ago
+- [Fireship] "Why Microsoft couldn’t fix its own servers for 36 hours..." — posted 1d ago
   https://www.youtube.com/watch?v=ytmawkPTP24
   No transcript available
 
-- [Matt Wolfe] "3D Printing Entire Buildings is So Wild To Me" — posted 16h ago
-  https://www.youtube.com/watch?v=ETw45WHQ6Z4
+- [Matt Wolfe] "This had never been done before!" — posted 22h ago
+  https://www.youtube.com/watch?v=btjS7OaffpM
   No transcript available
 
-- [Dan Martell] "I have so much fun everyday working with this group of people 😂😂😂" — posted 2h ago
-  https://www.youtube.com/watch?v=Pted79EG1BM
+- [Dan Martell] "This one word has completely changed my perspective on life" — posted 1h ago
+  https://www.youtube.com/watch?v=ty_mkAGcjlA
   No transcript available
 
-- [Dan Martell] "Be the problem SOLVER not the SEEKER" — posted 6h ago
-  https://www.youtube.com/watch?v=sHjdHVuSlG0
+- [Dan Martell] "Whats one thing you stopped doing that made you more money?" — posted 5h ago
+  https://www.youtube.com/watch?v=-rs6rzsV_1E
   No transcript available
 
-- [Big Think] "How narcissistic are you? | Ramani Durvasula" — posted 4h ago
-  https://www.youtube.com/watch?v=zHVlBtlQ56Q
+- [Dan Martell] "Ask yourself this before using AI" — posted 22h ago
+  https://www.youtube.com/watch?v=ghfz6g-SUDg
   No transcript available
 
-- [GaryVee] "The last phrase is gold…" — posted 2h ago
-  https://www.youtube.com/watch?v=I7CGIlUVB4U
+- [GaryVee] "I wish more people realized this" — posted 3h ago
+  https://www.youtube.com/watch?v=HFzjU_Mua7Y
   No transcript available
 
-- [The Diary Of A CEO] "HOW DID A SPY GET INTO NVIDIA?" — posted 3h ago
-  https://www.youtube.com/watch?v=49gIAR6Pzj8
-  No transcript available
-
-- [The Diary Of A CEO] "Russian Sex Spy: I Was Trained To Control A Man's Mind With Sex! | John Kiriakou & Aliia Roza" — posted 13h ago
-  https://www.youtube.com/watch?v=1mDHHi398ig
+- [The Diary Of A CEO] "$5 BILLION NVIDIA SPY OPERATION" — posted 2h ago
+  https://www.youtube.com/watch?v=Cz-sbWva2fA
   No transcript available
 
 ## Latest on TikTok
-- [@gigaqian] "China’s ChangXin Memory Technologies (CXMT) showcased its new LPDDR6 ..."
-  https://www.tiktok.com/@gigaqian/video/7708161069193104653
+- [@gigaqian] "Chinese AI companies may have exposed their access to restricted NVID..."
+  https://www.tiktok.com/@gigaqian/video/7708924828434320671
 
 ## Top Reddit Posts
 _No Reddit data collected._
@@ -71,4 +67,4 @@ _No Reddit data collected._
 _No Twitter data collected._
 
 ---
-*Daily Scrape — 2026-11-16T21:20:31.650Z*
+*Daily Scrape — 2026-11-17T20:08:24.230Z*
