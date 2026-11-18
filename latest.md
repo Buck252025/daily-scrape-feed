@@ -1,24 +1,22 @@
-# Daily Scrape — November 17, 2026
+# Daily Scrape — November 18, 2026
 
 ## Top Story
-GPT-6.2 Astra and Sol just landed with massive community engagement (680 points, 404 comments on Hacker News), signaling OpenAI's next-generation capability jump. For consultants and integration shops, this means your client conversations about "which model to standardize on" are about to shift again—and the window to position GPT-6.2 adoption before it becomes table-stakes is closing fast.
+OpenAI's GPT-6.2 Astra is generating immediate polarization among AI influencers—Matt Wolfe's trilogy of videos ("It's Not What You Think," "A Mess") signals that expectations vs. reality are sharply misaligned, which matters to SMB consultants considering Astra as a client deliverable or upsell. The simultaneous release of competing models (Google's Genie 4, OpenAI's chip-design capabilities) shows the market is fragmenting by use case, not consolidating around one "best" LLM.
 
 ## What People Are Saying
-- Boris Cherny (Claude Code lead) posted on Threads that Claude Code now auto-reviews PRs with zero developer setup required—just enable it in settings and pick repos. This is a direct signal that AI code tooling is moving from "optional enhancement" to "baked-in workflow," raising the bar for what clients will expect from your AI integration offers.
-- Claude Mythos cut AMD GPU onboarding from up to 12 months down to three days by writing almost 100% of kernels autonomously (Tom's Hardware via Hacker News, 52 points). This matters: it's proof that AI is now eating the "AI infrastructure specialization" moat—you won't need 12 months of expert engineers to adopt new hardware, which accelerates competition and forces consultants to shift value upstream (strategy, not plumbing).
-- @gigaqian on TikTok flagged that Chinese AI companies may have exposed access to restricted NVIDIA tech, hinting at supply-chain tensions and potential regulatory volatility around model access and hardware—a risk factor consultants should be baking into client infrastructure roadmaps right now.
+- Matt Wolfe's reaction videos suggest Astra hype preceded substance—he released three separate takes questioning the model's value, signaling that early adopters and AI consultants need to pressure-test vendor claims before packaging Astra into client workflows.
+- Boris Cherny (Claude Code lead) posted on Threads that Claude's PR review automation is now live in settings, with zero developer setup required—a concrete example of LLM-as-middleware solving real workflow friction, which is the actual adoption pattern SMBs care about.
+- @gigaqian on TikTok framed GPT-6.2 Astra and Sol as "newest models," but Hacker News data shows protein-sequence Claude training (155 points) and chip-design OpenAI work (47 points) got more engaged discussion—specialty vertical models are outperforming general-purpose announcements.
 
 ## Updates
-- GPT-6.2 Astra and Sol launched (OpenAI)—new flagship models with significant engagement indicating material capability improvements; likely to reshape model selection conversations with clients.
-- Claude Code now ships PR review automation built-in (Anthropic)—zero-setup code review on every PR, raising baseline expectations for AI coding assistants in enterprise workflows.
-- Claude Mythos achieved 3-day AMD GPU onboarding vs. 12-month manual process (Anthropic)—demonstrates AI-driven infrastructure democratization and reduces specialization moats.
+- Claude Code PR review automation is now available in settings (Boris Cherny/Threads)—developers can enable it without setup and it runs on every PR, reducing friction for SMB dev teams using Claude as an internal agent.
+- Genie 4 is live (Google DeepMind)—new generative AI model for spatial/visual reasoning now available; relevant for consultants selling AI to design, product, or spatial-analysis use cases.
+- OpenAI released chip-design capabilities built on their models (OpenAI blog)—signals enterprise/hard-tech verticalization, showing LLM vendors moving beyond chat toward domain-specific outputs.
 
 ## Hacker News Today
-- [GPT‑6.2 Astra and Sol](https://openai.com/index/introducing-gpt-6-2-astra-sol/) — 680 pts &middot; [404 comments](https://news.ycombinator.com/item?id=50535230)
-- [How the Claude Code team thinks about verification](https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/) — 209 pts &middot; [162 comments](https://news.ycombinator.com/item?id=50529612)
-- [MAI Code 2 and Code 2 Flash](https://microsoft.ai/news/introducing-mai-code-2-and-mai-code-2-flash/) — 120 pts &middot; [48 comments](https://news.ycombinator.com/item?id=50535885)
-- [Optimizely hack infected CNN, Fox News, BBC, Salesforce sites with malware](https://www.bleepingcomputer.com/news/security/optimizely-supply-chain-attack-delivers-malware-to-cnn-fox-news-bbc-salesforce-sites/) — 71 pts &middot; [14 comments](https://news.ycombinator.com/item?id=50534664)
-- [Claude Mythos slashed software work to onboard AMD GPUs to around three days](https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropic-says-claude-mythos-slashed-software-work-to-onboard-amd-gpus-from-up-to-12-months-to-around-three-days-writing-almost-100-percent-of-kernels-autonomously-chips-away-at-nvidias-cuda-moat) — 52 pts &middot; [20 comments](https://news.ycombinator.com/item?id=50526264)
+- [Claude was trained on protein sequences at scale](http://xinmingtu.cn/blog/2026/claude-opus-5-5-protein-sequences/) — 155 pts &middot; [67 comments](https://news.ycombinator.com/item?id=50541619)
+- [Genie 4 is now available](https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie/) — 51 pts &middot; [21 comments](https://news.ycombinator.com/item?id=50550415)
+- [Advancing chip design with OpenAI models](https://openai.com/index/advancing-chip-design-with-our-models/) — 47 pts &middot; [14 comments](https://news.ycombinator.com/item?id=50549493)
 
 ## On Threads
 **@boris_cherny** — Oct 16
@@ -28,37 +26,61 @@ GPT-6.2 Astra and Sol just landed with massive community engagement (680 points,
 [View on Threads](https://www.threads.com/@boris_cherny/post/DekKPCvGbnM)
 
 ## New YouTube Videos
-- [Fireship] "Why Microsoft couldn’t fix its own servers for 36 hours..." — posted 1d ago
-  https://www.youtube.com/watch?v=ytmawkPTP24
+- [Matt Wolfe] "The Reason No One Can Catch NVIDIA" — posted 1h ago
+  https://www.youtube.com/watch?v=hT0qW_DRFLw
   No transcript available
 
-- [Matt Wolfe] "This had never been done before!" — posted 22h ago
-  https://www.youtube.com/watch?v=btjS7OaffpM
+- [Matt Wolfe] "OpenAI GPT-6.2 Astra is Here - It's Not What You Think" — posted 18h ago
+  https://www.youtube.com/watch?v=JVHkb8PTMvc
   No transcript available
 
-- [Dan Martell] "This one word has completely changed my perspective on life" — posted 1h ago
-  https://www.youtube.com/watch?v=ty_mkAGcjlA
+- [Matt Wolfe] "ChatGPT 6.2 Astra is "A Mess"" — posted 20h ago
+  https://www.youtube.com/watch?v=LxKNPrXBuyU
   No transcript available
 
-- [Dan Martell] "Whats one thing you stopped doing that made you more money?" — posted 5h ago
-  https://www.youtube.com/watch?v=-rs6rzsV_1E
+- [Dan Martell] "Stop babysitting your new hires" — posted 5h ago
+  https://www.youtube.com/watch?v=sD4tYFxblLs
   No transcript available
 
-- [Dan Martell] "Ask yourself this before using AI" — posted 22h ago
-  https://www.youtube.com/watch?v=ghfz6g-SUDg
+- [Dan Martell] "How to Build a 1-Person Business with AI Agents" — posted 6h ago
+  https://www.youtube.com/watch?v=YD8uRumP8cM
   No transcript available
 
-- [GaryVee] "I wish more people realized this" — posted 3h ago
-  https://www.youtube.com/watch?v=HFzjU_Mua7Y
+- [Dan Martell] "Build a vision big enough for everyone on your team to fit inside" — posted 23h ago
+  https://www.youtube.com/watch?v=XdTRtDENf6w
   No transcript available
 
-- [The Diary Of A CEO] "$5 BILLION NVIDIA SPY OPERATION" — posted 2h ago
+- [Big Think] "Is demonic possession common? | Jack Symes" — posted 3h ago
+  https://www.youtube.com/watch?v=s8wSNKbcMKE
+  No transcript available
+
+- [GaryVee] "Going VIRAL is luck?" — posted 2h ago
+  https://www.youtube.com/watch?v=YGvyvADfUF8
+  No transcript available
+
+- [GaryVee] "Leaders need to understand this" — posted 3h ago
+  https://www.youtube.com/watch?v=DqaAdCZuGIw
+  No transcript available
+
+- [GaryVee] "How do you eliminate that outside noise" — posted 9h ago
+  https://www.youtube.com/watch?v=Pzfmwn7ZqI4
+  No transcript available
+
+- [GaryVee] "The number one mistake parents can make...." — posted 21h ago
+  https://www.youtube.com/watch?v=JBEHQKhG1xw
+  No transcript available
+
+- [GaryVee] "The art of not giving a fck" — posted 23h ago
+  https://www.youtube.com/watch?v=gLrN8g1CUsE
+  No transcript available
+
+- [The Diary Of A CEO] "$5 BILLION NVIDIA SPY OPERATION" — posted 1d ago
   https://www.youtube.com/watch?v=Cz-sbWva2fA
   No transcript available
 
 ## Latest on TikTok
-- [@gigaqian] "Chinese AI companies may have exposed their access to restricted NVID..."
-  https://www.tiktok.com/@gigaqian/video/7708924828434320671
+- [@gigaqian] "OpenAI just released GPT-6.2 Astra and Sol, its newest models on Chat..."
+  https://www.tiktok.com/@gigaqian/video/7709301679237106975
 
 ## Top Reddit Posts
 _No Reddit data collected._
@@ -67,4 +89,4 @@ _No Reddit data collected._
 _No Twitter data collected._
 
 ---
-*Daily Scrape — 2026-11-17T20:08:24.230Z*
+*Daily Scrape — 2026-11-18T19:41:02.257Z*
