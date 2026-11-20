@@ -1,28 +1,21 @@
-# Daily Scrape — November 19, 2026
+# Daily Scrape — November 20, 2026
 
 ## Top Story
-Anthropic's $2T Nasdaq debut (406 HN points, 602 comments) signals AI infrastructure has crossed into mainstream capital markets—but the real story for consultants and SMB integrators is that Claude's capability ceiling just got higher: Claude is now solving open problems in black hole physics (170 HN points), while simultaneously Boris Cherny announced Claude Code can now auto-review PRs directly in repos with zero developer setup. The market is betting on Claude; your clients should be positioning around it now.
+Claude Code is now auto-reviewing pull requests without developer setup—Boris Cherny (Claude Code lead) posted on Threads that admins simply enable it in settings, pick repos, and reviews run on every new PR. This is the kind of frictionless AI integration that turns a tool from "nice to have" into operational default, and it matters because it's the exact use case SMB tech teams and consultants can sell to clients right now: measurable dev velocity gains with zero onboarding friction.
 
 ## What People Are Saying
-- **Claude's technical moat is widening**: The black hole physics solve (170 points) paired with Claude Code's PR review automation (Boris Cherny on Threads) shows Claude moving from chatbot to embedded research and dev tool—consultants selling "AI for your workflow" need to know Claude is becoming infrastructure, not just an API call.
-- **AI job displacement is real but the narrative is shifting**: HN's "AI isn't replacing your job. It's turning it into low-paid gig work" (48 points, 27 comments) got engagement because it hits the anxiety point—but the counter-signal is everywhere: Greg Isenberg's "Build a 1 Person Media Machine With Grok Bot" and GaryVee's "Stop dwelling - do the next fucking thing" are reframing AI adoption as *acceleration*, not disruption. SMBs are caught between fear and FOMO.
-- **Developer tooling is the quiet battleground**: LLM-assisted reverse engineering (293 points, 74 comments) and Onlook (48 points, 42 comments—a YC W25 designer-to-dev tool) show builders care less about raw LLM power and more about *integration into existing workflows*. This is where consultants make money: not selling Claude, but selling the glue.
+- Matt Wolfe flagged this as a "make or break week" for AI and explicitly framed it as a test of whether the sector is a bubble—suggesting market consolidation or a legitimacy inflection point is imminent, which affects positioning for consultants currently selling AI adoption.
+- @gigaqian on TikTok covered Google's expansion of Genie 4, an AI that generates entire interfaces—a signal that generative UI/UX is moving from research to production, which opens a new sales angle for integration consultants pitching interface automation to SMBs.
+- Google Workers Union filed a petition (reported on Hacker News, 98 points, 38 comments) opposing the company punishing schools that reject AI—a rare moment of internal dissent that undercuts the "AI is inevitable" narrative and may dampen SMB adoption momentum in education and institutional verticals.
 
 ## Updates
-- **Anthropic hits $2T valuation on Nasdaq debut** — Major capital market validation; signals institutional confidence in Claude-based ecosystems and likely increases enterprise buying cycles for integration work.
-- **Claude Code gets zero-setup PR review automation** — Boris Cherny announced the feature; developers can now enable in Claude Code settings and point to repos for automatic PR reviews, lowering friction for teams adopting Claude into CI/CD pipelines.
-- **Claude solves two open problems in black hole physics** — Anthropic published research showing Claude's reasoning capability on unsolved physics problems; raises the bar for what clients expect from "AI problem-solving" consultants pitch.
+- Anthropic IPO is in motion per AI Explained's latest video title—no concrete date in this data window, but the signal matters: a major LLM vendor going public will reshape competitive dynamics and investor appetite for AI integration startups in Q1 2027.
+- Google expanded access to Genie 4 (generative interface tool) according to @gigaqian—this moves interface generation from closed beta toward broader availability and creates a new technical surface for consultants to integrate into existing SMB workflows.
+- Claude Code now ships with native PR review automation per Boris Cherny—no manual setup required, admins just enable and assign repos, lowering the barrier to AI-assisted development workflows for tech teams.
 
 ## Hacker News Today
-- [Anthropic hits $2T in Nasdaq debut](https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/) — 406 pts &middot; [602 comments](https://news.ycombinator.com/item?id=50562754)
-- [LLM assisted reverse engineering](https://www.slowchronicle.com/posts/llm-assisted-reverse-engineering) — 293 pts &middot; [74 comments](https://news.ycombinator.com/item?id=50553225)
-- [Claude solves two open problems in the physics of black holes](https://www.anthropic.com/research/claude-black-hole-physics) — 170 pts &middot; [44 comments](https://news.ycombinator.com/item?id=50563148)
-- [OpenAI still has a WebRTC Problem](https://moq.dev/blog/webrtc-is-still-the-problem/) — 83 pts &middot; [25 comments](https://news.ycombinator.com/item?id=50560461)
-- [Chrome AI features wasting much bandwidth](https://perishablepress.com/chrome-ai-wasting-much-bandwidth/) — 81 pts &middot; [25 comments](https://news.ycombinator.com/item?id=50562636)
-- [Fable: Written, painted and directed by Claude Fable 5.2](https://claudia.gallery/fable/) — 61 pts &middot; [62 comments](https://news.ycombinator.com/item?id=50554269)
-- [AI isn't replacing your job. It's turning it into low-paid gig work](https://restofworld.org/2026/ai-jobs-skills-gig-work/) — 48 pts &middot; [27 comments](https://news.ycombinator.com/item?id=50562500)
-- [Launch HN: Onlook (YC W25) – An open-source developer tool for designers](https://github.com/onlook-dev/onlook/) — 48 pts &middot; [42 comments](https://news.ycombinator.com/item?id=50562320)
-- [Previous-Token Prediction Based LLM Inversion for Prompt Reconstruction](https://arxiv.org/abs/2607.29378) — 46 pts &middot; [9 comments](https://news.ycombinator.com/item?id=50554908)
+- [Finite-time blow-up for the Navier–Stokes equations](https://github.com/tristanbuckmaster/navier-stokes/) — 162 pts &middot; [48 comments](https://news.ycombinator.com/item?id=50576232)
+- [Google Workers Tell Their Employer Not to Punish Schools That Don't Want AI](https://www.motherjones.com/politics/2026/11/google-alphabet-union-school-ai-protest-gemini-workers-petition/) — 98 pts &middot; [38 comments](https://news.ycombinator.com/item?id=50577901)
 
 ## On Threads
 **@boris_cherny** — Oct 16
@@ -32,53 +25,57 @@ Anthropic's $2T Nasdaq debut (406 HN points, 602 comments) signals AI infrastruc
 [View on Threads](https://www.threads.com/@boris_cherny/post/DekKPCvGbnM)
 
 ## New YouTube Videos
-- [Fireship] "The only software that didn’t break this week..." — posted 2h ago
-  https://www.youtube.com/watch?v=Qxor6jpfSiU
+- [Matt Wolfe] "AI News: This Is The Make or Break Week!!" — posted just now
+  https://www.youtube.com/watch?v=wqNIzUmNt9M
   No transcript available
 
-- [Matt Wolfe] "Insane AI Breakthroughs Nobody Is Talking About" — posted 22h ago
-  https://www.youtube.com/watch?v=-oA6oLxWpJg
+- [Matt Wolfe] "This will test if AI truly is a bubble" — posted 22h ago
+  https://www.youtube.com/watch?v=YbZDDCHDSnE
   No transcript available
 
-- [Lex Fridman] "GTA 6 and the Biggest Jewelry Thief in US History | Lex Fridman Podcast #505" — posted 16h ago
-  https://www.youtube.com/watch?v=v1X9Fqs5a14
+- [AI Explained] "Anthropic IPOs, GPT 6.2 Astra Arrives, But There’s a Bigger Story" — posted 23h ago
+  https://www.youtube.com/watch?v=KGA7B_c_S4s
   No transcript available
 
-- [Greg Isenberg] "Build a 1 Person Media Machine With Grok Bot" — posted 22h ago
-  https://www.youtube.com/watch?v=vKobP6DkC1E
+- [Dan Martell] "How to start AI automation with Grok Bot" — posted 4h ago
+  https://www.youtube.com/watch?v=LmjbN4Ip8eQ
   No transcript available
 
-- [Dan Martell] "6 ways to make your team love you as a leader. Which one are you missing?" — posted 1h ago
-  https://www.youtube.com/watch?v=p4qIf-wm2CE
+- [Big Think] "Could we bring dinosaurs back to life? | Steve Brusatte" — posted 2h ago
+  https://www.youtube.com/watch?v=bEVtKdCXHp4
   No transcript available
 
-- [Dan Martell] "Confidence isn't built where you think." — posted 5h ago
-  https://www.youtube.com/watch?v=tmy12Psf-RU
+- [Big Think] "The universe is stranger than you can imagine | Michelle Thaller: Full Interview" — posted 5h ago
+  https://www.youtube.com/watch?v=xXROVLqhchg
   No transcript available
 
-- [Dan Martell] "Default to action!" — posted 22h ago
-  https://www.youtube.com/watch?v=HxBCyL6AVpE
+- [Tim Ferriss] "Timeless Principles for Fast-Changing Times — Asymmetric Bets, Identity Diversification, and More" — posted 2h ago
+  https://www.youtube.com/watch?v=URwlV0URyH0
   No transcript available
 
-- [GaryVee] "Stop dwelling - do the next fucking thing" — posted 2h ago
-  https://www.youtube.com/watch?v=fs4QEUw8RDw
+- [GaryVee] "Why DO YOU CURSE" — posted 2h ago
+  https://www.youtube.com/watch?v=EtYcGz_WRTg
   No transcript available
 
-- [GaryVee] "I never think about going viral...." — posted 23h ago
-  https://www.youtube.com/watch?v=mChuO4IwvX4
+- [GaryVee] "Hate Being on Camera? This Is Your Biggest Opportunity in 2027" — posted 2h ago
+  https://www.youtube.com/watch?v=hk9wTQAWhFY
   No transcript available
 
-- [The Diary Of A CEO] "Senator Bernie Sanders: Iran Wasn't Trump's Idea. Someone Else Pushed Him Into It!" — posted 12h ago
-  https://www.youtube.com/watch?v=eocM1C3HfQg
+- [GaryVee] "Being a batter person is more important than having money!" — posted 20h ago
+  https://www.youtube.com/watch?v=m34rQHDNhqQ
   No transcript available
 
-- [The Diary Of A CEO] "HOW SPIES ARE TRAINED TO HONEYTRAP" — posted 23h ago
-  https://www.youtube.com/watch?v=M-FACdo_bfY
+- [GaryVee] "Best advice for 18 yo" — posted 23h ago
+  https://www.youtube.com/watch?v=W5plGx6vVsU
+  No transcript available
+
+- [The Diary Of A CEO] ""I WORRY ABOUT WHAT'S COMING..."" — posted 1h ago
+  https://www.youtube.com/watch?v=u2YxtyIKff0
   No transcript available
 
 ## Latest on TikTok
-- [@gigaqian] "Nvidia is facing a 10-day countdown from a ransomware gang threatenin..."
-  https://www.tiktok.com/@gigaqian/video/7709669762925645070
+- [@gigaqian] "Google just expanded access to Genie 4, an AI that generates entire i..."
+  https://www.tiktok.com/@gigaqian/video/7710040802944093454
 
 ## Top Reddit Posts
 _No Reddit data collected._
@@ -87,4 +84,4 @@ _No Reddit data collected._
 _No Twitter data collected._
 
 ---
-*Daily Scrape — 2026-11-19T19:41:32.227Z*
+*Daily Scrape — 2026-11-20T19:19:43.248Z*
