@@ -1,66 +1,62 @@
-# Daily Scrape — November 21, 2026
+# Daily Scrape — November 22, 2026
 
 ## Top Story
-Claude Code's PR review automation is shipping with zero developer setup friction — Boris Cherny (Claude Code lead) posted on Threads that admins simply enable it in settings, pick repos, and reviews run automatically on every PR. This signals a critical shift: AI integration tools are moving from "powerful but requires engineering work" to "plug-and-play governance," which directly addresses the SMB buyer's biggest friction point (implementation overhead).
+Agent architecture is becoming the dominant design pattern for AI builders. Greg Isenberg's focus on "agent harness" design and the viral Hacker News hit "I built a game where you are an LLM's subagent" (163 points, 41 comments) signal that the conversation has shifted from "how do we use LLMs?" to "how do we orchestrate LLM behavior as autonomous systems?" This matters for your audience because consultants selling AI services are moving from tool integration into systems design—a higher-value, stickier consulting engagement.
 
 ## What People Are Saying
-- A 462-point Hacker News thread on long-term unemployment ("I have been unemployed for 2y. 15 years of experience") with 501 comments suggests acute anxiety in the developer job market — potential opening for AI integration consultants positioning reskilling and automation tools as career insurance, not job replacement.
-- Greg Isenberg's video positioning "Gemini 4 Neon: the most underrated model of the year" hints at a consolidation conversation — teams are still hunting for the right model/tool fit, meaning positioning clarity and ROI messaging remains a live differentiator.
-- Fireship's cryptic "If you've deployed anything since 2015, I have bad news..." (no transcript) is generating curiosity but no context — watch for follow-up clarification; likely touches legacy tech debt that AI tooling can remediate.
+- Hacker News is debating LLM bias and safety at scale: "Harsher on Male? Evaluating LLMs on Gender-Asymmetric Moral Framing in Conflicts" (86 points, 76 comments) shows builders and researchers are stress-testing whether LLMs exhibit gendered bias in reasoning—critical for consultants auditing AI systems for enterprise clients.
+- The Perplexity vs. OpenAI narrative continues to drive engagement: "Perplexity and Intelligence" (146 points, 90 comments) reveals ongoing tension about which LLM provider offers superior reasoning, suggesting your audience still views provider choice as a key differentiator when pitching AI adoption.
+- Climate cost of AI is surfacing as a business risk: "AI is becoming a disaster for the climate" (61 points, 22 comments) shows early-stage concern about AI's operational footprint—consultants should prepare messaging around "efficient AI deployment" and ROI-per-compute as selling points to ESG-conscious SMBs.
 
 ## Updates
-- Boris Cherny announced Claude Code PR review automation now runs in production settings with zero developer onboarding required — this is a meaningful UX/adoption barrier removal in the AI code tool space.
-- No major product launches or feature announcements with concrete details in this window; most YouTube activity is commentary/positioning rather than release news.
+No major product launches or feature announcements in this window.
 
 ## Hacker News Today
-- [Ask HN: I have been unemployed for 2y. 15 years of experience, US. What to do?](https://news.ycombinator.com/item?id=50583761) — 462 pts &middot; [501 comments](https://news.ycombinator.com/item?id=50583761)
-- [Lean verification of the Riemann Hypothesis](https://leanprover-community.github.io/blog/posts/riemann-hypothesis/) — 448 pts &middot; [355 comments](https://news.ycombinator.com/item?id=50589618)
-- [Show HN: Zero C#, Power of C# without any GC](https://onurgumus.github.io/zero-csharp/index.html) — 53 pts &middot; [38 comments](https://news.ycombinator.com/item?id=50590279)
-- [The Hungry Butler Effect: Concealed Commercial Incentives in LLMs](https://www.researchgate.net/publication/418143113_The_Hungry_Butler_Effect_Concealed_Commercial_Incentives_and_the_Erosion_of_Epistemic_Rigour_in_Large_Language_Models) — 48 pts &middot; [18 comments](https://news.ycombinator.com/item?id=50583117)
+- [Show HN: I built a game where you are an LLM's subagent](https://github.com/gulivan/worker755) — 163 pts &middot; [41 comments](https://news.ycombinator.com/item?id=50599762)
+- [Perplexity and Intelligence](https://openai.com/index/perplexity-and-intelligence/) — 146 pts &middot; [90 comments](https://news.ycombinator.com/item?id=50601525)
+- [Europe weakens chemical rules as science links them to 'lifestyle diseases'](https://www.lemonde.fr/en/opinion/article/2026/11/22/as-science-increasingly-shows-the-role-chemical-substances-play-in-lifestyle-diseases-europe-weakens-its-regulations_6786595_23.html) — 98 pts &middot; [78 comments](https://news.ycombinator.com/item?id=50600677)
+- [Harsher on Male? Evaluating LLMs on Gender-Asymmetric Moral Framing in Conflicts](https://arxiv.org/abs/2606.14068) — 86 pts &middot; [76 comments](https://news.ycombinator.com/item?id=50597743)
+- [AI is becoming a disaster for the climate](https://www.bloodinthemachine.com/p/ai-is-becoming-a-disaster-for-the) — 61 pts &middot; [22 comments](https://news.ycombinator.com/item?id=50598961)
 
 ## On Threads
-**@boris_cherny** — Oct 16
-
-> Admins turn it on in Claude Code settings and pick repos. From there, reviews run on every new PR, with no setup for developers.
-
-[View on Threads](https://www.threads.com/@boris_cherny/post/DekKPCvGbnM)
+_No new post pulled today._
 
 ## New YouTube Videos
-- [Fireship] "If you’ve deployed anything since 2015, I have bad news..." — posted 23h ago
-  https://www.youtube.com/watch?v=rMaMe32qQkA
+- [Matt Wolfe] "They built cyborg cockroaches with built-in AI..." — posted 21h ago
+  https://www.youtube.com/watch?v=GFxHjrYwoFk
   No transcript available
 
-- [Matt Wolfe] "What else could you use this for?" — posted 15h ago
-  https://www.youtube.com/watch?v=7_pMINxEEPU
+- [Greg Isenberg] "How to design an agent harness" — posted 1h ago
+  https://www.youtube.com/watch?v=LrJ4RYRQSpk
   No transcript available
 
-- [Matt Wolfe] "AI News: This Is The Make or Break Week!!" — posted 23h ago
-  https://www.youtube.com/watch?v=wqNIzUmNt9M
+- [Dan Martell] "CL-622-09 Most leaders ar" — posted 4h ago
+  https://www.youtube.com/watch?v=TwVArohaGOs
   No transcript available
 
-- [Greg Isenberg] "Gemini 4 Neon: the most underrated model of the year" — posted 19h ago
-  https://www.youtube.com/watch?v=tCY7zMknCJQ
+- [Dan Martell] "This isn't just another AI tool." — posted 1d ago
+  https://www.youtube.com/watch?v=8LzHH3XfyW4
   No transcript available
 
-- [Dan Martell] "Boss, manager, or leader. Which are you?" — posted 3h ago
-  https://www.youtube.com/watch?v=kS7n6hsQpBg
+- [GaryVee] "Bro really said that in 2008..." — posted 2h ago
+  https://www.youtube.com/watch?v=lC-OZT57E94
   No transcript available
 
-- [Dan Martell] "GTA 6 is a massive success for this one reason" — posted 21h ago
-  https://www.youtube.com/watch?v=sluENNu90IE
+- [GaryVee] "He tried warning us in 2008" — posted 8h ago
+  https://www.youtube.com/watch?v=qLNZMnJa_Sc
   No transcript available
 
-- [GaryVee] "BREAK UP WITH HER!?" — posted 19h ago
-  https://www.youtube.com/watch?v=119xAu_0y9Q
+- [GaryVee] "Live shopping is HUGE" — posted 23h ago
+  https://www.youtube.com/watch?v=3dA1aNmTe_c
   No transcript available
 
-- [The Diary Of A CEO] ""I WORRY ABOUT WHAT'S COMING..."" — posted 1d ago
+- [The Diary Of A CEO] ""I WORRY ABOUT WHAT'S COMING..."" — posted 2d ago
   https://www.youtube.com/watch?v=u2YxtyIKff0
   No transcript available
 
 ## Latest on TikTok
-- [@gigaqian] "Scientists just demonstrated a way to verify physical location using ..."
-  https://www.tiktok.com/@gigaqian/video/7710422701000625438
+- [@gigaqian] "A 167-year-old mathematical mystery may have finally been solved, and..."
+  https://www.tiktok.com/@gigaqian/video/7710782752903236878
 
 ## Top Reddit Posts
 _No Reddit data collected._
@@ -69,4 +65,4 @@ _No Reddit data collected._
 _No Twitter data collected._
 
 ---
-*Daily Scrape — 2026-11-21T18:22:07.929Z*
+*Daily Scrape — 2026-11-22T18:45:48.959Z*
