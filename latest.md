@@ -1,62 +1,80 @@
-# Daily Scrape — November 22, 2026
+# Daily Scrape — November 23, 2026
 
 ## Top Story
-Agent architecture is becoming the dominant design pattern for AI builders. Greg Isenberg's focus on "agent harness" design and the viral Hacker News hit "I built a game where you are an LLM's subagent" (163 points, 41 comments) signal that the conversation has shifted from "how do we use LLMs?" to "how do we orchestrate LLM behavior as autonomous systems?" This matters for your audience because consultants selling AI services are moving from tool integration into systems design—a higher-value, stickier consulting engagement.
+Claude Code is shipping automated PR reviews without developer setup — Boris Cherny (Claude Code lead) posted on Threads that admins can now enable the feature in settings, pick repos, and reviews run automatically on every new PR. This signals a major shift in how AI integration moves from "tools developers opt into" to "infrastructure that works in the background," directly reducing friction for SMB tech teams adopting Claude-powered workflows.
 
 ## What People Are Saying
-- Hacker News is debating LLM bias and safety at scale: "Harsher on Male? Evaluating LLMs on Gender-Asymmetric Moral Framing in Conflicts" (86 points, 76 comments) shows builders and researchers are stress-testing whether LLMs exhibit gendered bias in reasoning—critical for consultants auditing AI systems for enterprise clients.
-- The Perplexity vs. OpenAI narrative continues to drive engagement: "Perplexity and Intelligence" (146 points, 90 comments) reveals ongoing tension about which LLM provider offers superior reasoning, suggesting your audience still views provider choice as a key differentiator when pitching AI adoption.
-- Climate cost of AI is surfacing as a business risk: "AI is becoming a disaster for the climate" (61 points, 22 comments) shows early-stage concern about AI's operational footprint—consultants should prepare messaging around "efficient AI deployment" and ROI-per-compute as selling points to ESG-conscious SMBs.
+- Open-source model compression is hitting practical limits: NariQ compressed Qwen 3.8-27B to 10GB (BF16-level performance), generating real traction on HN (100 points), suggesting cost-sensitive deployments and edge inference are now table stakes for builders shipping AI products.
+- Greg Isenberg's framing ("robots are the new apps") hints at a narrative shift in founder circles—away from standalone AI tools toward embedded, autonomous agents as the next business-building primitive.
+- Fireship's cryptic "Opus just lost to the last company you'd expect" teases a capability or benchmark surprise, likely in the LLM rankings, but without transcript data we're seeing anticipation rather than clarity—watch for follow-up signal.
 
 ## Updates
-No major product launches or feature announcements in this window.
+- GLM-5.4 launched with "loop transformer" architecture and hit 1,006 points on HN with 329 comments, signaling serious developer interest in an alternative reasoning model family competing with Opus/o1 class models.
+- Claude Code now auto-runs PR reviews on every commit when enabled—no per-developer setup required, reducing adoption friction for teams integrating AI code review into CI/CD pipelines.
+- NariQ released a production-ready quantized Qwen model (10GB GGUF format), enabling local or cost-optimized inference for consultants and agencies needing to run models without cloud licensing.
 
 ## Hacker News Today
-- [Show HN: I built a game where you are an LLM's subagent](https://github.com/gulivan/worker755) — 163 pts &middot; [41 comments](https://news.ycombinator.com/item?id=50599762)
-- [Perplexity and Intelligence](https://openai.com/index/perplexity-and-intelligence/) — 146 pts &middot; [90 comments](https://news.ycombinator.com/item?id=50601525)
-- [Europe weakens chemical rules as science links them to 'lifestyle diseases'](https://www.lemonde.fr/en/opinion/article/2026/11/22/as-science-increasingly-shows-the-role-chemical-substances-play-in-lifestyle-diseases-europe-weakens-its-regulations_6786595_23.html) — 98 pts &middot; [78 comments](https://news.ycombinator.com/item?id=50600677)
-- [Harsher on Male? Evaluating LLMs on Gender-Asymmetric Moral Framing in Conflicts](https://arxiv.org/abs/2606.14068) — 86 pts &middot; [76 comments](https://news.ycombinator.com/item?id=50597743)
-- [AI is becoming a disaster for the climate](https://www.bloodinthemachine.com/p/ai-is-becoming-a-disaster-for-the) — 61 pts &middot; [22 comments](https://news.ycombinator.com/item?id=50598961)
+- [GLM-5.4: Toward generalized coding with our first loop transformer](https://z.ai/blog/glm-5.4) — 1006 pts &middot; [329 comments](https://news.ycombinator.com/item?id=50609685)
+- [Progress map for the Lean formalization of Alessandro Masullo's manuscript](https://claude.ai/artifact/CtQyX8qfYAF822bgHJHHE3) — 256 pts &middot; [193 comments](https://news.ycombinator.com/item?id=50605045)
+- [NariQ: BF16-level Qwen3.8-27B in a 10 GB file](https://huggingface.co/nari-labs/Qwen3.8-27B-NariQ-GGUF) — 100 pts &middot; [15 comments](https://news.ycombinator.com/item?id=50611402)
+- [VP ≠ VNP over Every Field](https://github.com/anthropics/formal-math/tree/main/vp-vnp) — 77 pts &middot; [42 comments](https://news.ycombinator.com/item?id=50620102)
+- [GLM 5.4](https://twitter.com/Zai_org/status/2124719658074825004) — 58 pts &middot; [11 comments](https://news.ycombinator.com/item?id=50608662)
 
 ## On Threads
-_No new post pulled today._
+**@boris_cherny** — Oct 16
+
+> Admins turn it on in Claude Code settings and pick repos. From there, reviews run on every new PR, with no setup for developers.
+
+[View on Threads](https://www.threads.com/@boris_cherny/post/DekKPCvGbnM)
 
 ## New YouTube Videos
-- [Matt Wolfe] "They built cyborg cockroaches with built-in AI..." — posted 21h ago
-  https://www.youtube.com/watch?v=GFxHjrYwoFk
+- [Fireship] "Opus just lost to the last company you'd expect..." — posted 4h ago
+  https://www.youtube.com/watch?v=jP9yjEDlc4k
   No transcript available
 
-- [Greg Isenberg] "How to design an agent harness" — posted 1h ago
-  https://www.youtube.com/watch?v=LrJ4RYRQSpk
+- [Matt Wolfe] "Believe it or not, this ISN’T AI" — posted 2h ago
+  https://www.youtube.com/watch?v=u1ozwejEwBo
   No transcript available
 
-- [Dan Martell] "CL-622-09 Most leaders ar" — posted 4h ago
-  https://www.youtube.com/watch?v=TwVArohaGOs
+- [Greg Isenberg] "$1.1B founder: robots are the new apps" — posted 4h ago
+  https://www.youtube.com/watch?v=TXzJ4pGW59o
   No transcript available
 
-- [Dan Martell] "This isn't just another AI tool." — posted 1d ago
-  https://www.youtube.com/watch?v=8LzHH3XfyW4
+- [Dan Martell] "What's the best AI tool?" — posted 2h ago
+  https://www.youtube.com/watch?v=og7V1jYWQB0
   No transcript available
 
-- [GaryVee] "Bro really said that in 2008..." — posted 2h ago
-  https://www.youtube.com/watch?v=lC-OZT57E94
+- [Dan Martell] "All great leaders have these three traits" — posted 8h ago
+  https://www.youtube.com/watch?v=MgxGUSUMsLM
   No transcript available
 
-- [GaryVee] "He tried warning us in 2008" — posted 8h ago
-  https://www.youtube.com/watch?v=qLNZMnJa_Sc
+- [Big Think] "Every discovery about the body leads to new questions | Matthew Nurse" — posted 3h ago
+  https://www.youtube.com/watch?v=Wk1PWv6re3o
   No transcript available
 
-- [GaryVee] "Live shopping is HUGE" — posted 23h ago
-  https://www.youtube.com/watch?v=3dA1aNmTe_c
+- [Big Think] "Why "codependent" may be the wrong label | Ramani Durvasula" — posted 6h ago
+  https://www.youtube.com/watch?v=35fnOp8DXg0
   No transcript available
 
-- [The Diary Of A CEO] ""I WORRY ABOUT WHAT'S COMING..."" — posted 2d ago
-  https://www.youtube.com/watch?v=u2YxtyIKff0
+- [GaryVee] "What Gary would post on Facebook" — posted 5h ago
+  https://www.youtube.com/watch?v=B1YWN8Q4OuA
+  No transcript available
+
+- [GaryVee] "Do followers still matter?" — posted 6h ago
+  https://www.youtube.com/watch?v=el1pQNmyHSk
+  No transcript available
+
+- [The Diary Of A CEO] "A RECESSION IS COMING!" — posted 4h ago
+  https://www.youtube.com/watch?v=pEIWY6lXw8I
+  No transcript available
+
+- [The Diary Of A CEO] "The Man Who Predicted The Last Crash WARNS A Recession Starts If These 2 Fail! | Steve Eisman" — posted 15h ago
+  https://www.youtube.com/watch?v=4Unch--PmW0
   No transcript available
 
 ## Latest on TikTok
-- [@gigaqian] "A 167-year-old mathematical mystery may have finally been solved, and..."
-  https://www.tiktok.com/@gigaqian/video/7710782752903236878
+- [@gigaqian] "The AI still had the same name. For 53 hours, some customers were get..."
+  https://www.tiktok.com/@gigaqian/video/7711161973286702349
 
 ## Top Reddit Posts
 _No Reddit data collected._
@@ -65,4 +83,4 @@ _No Reddit data collected._
 _No Twitter data collected._
 
 ---
-*Daily Scrape — 2026-11-22T18:45:48.959Z*
+*Daily Scrape — 2026-11-23T22:59:10.166Z*
